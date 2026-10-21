@@ -1,0 +1,213 @@
+{
+  "phase": "Phase24C-R1",
+  "status": "PASS_ARCH_CONSTRAINED_MULTIBUDGET_COMPLETE",
+  "low_candidates": [
+    [
+      128,
+      512
+    ],
+    [
+      256,
+      256
+    ]
+  ],
+  "mid_candidates": [
+    [
+      96,
+      1536
+    ],
+    [
+      128,
+      1152
+    ],
+    [
+      192,
+      768
+    ],
+    [
+      256,
+      576
+    ],
+    [
+      288,
+      512
+    ],
+    [
+      384,
+      384
+    ]
+  ],
+  "low_feasibility": [
+    {
+      "geometry": [
+        128,
+        512
+      ],
+      "feasible": false,
+      "failure_stage": "AE"
+    },
+    {
+      "geometry": [
+        256,
+        256
+      ],
+      "feasible": true,
+      "failure_stage": null
+    }
+  ],
+  "mid_feasibility": [
+    {
+      "geometry": [
+        96,
+        1536
+      ],
+      "feasible": false,
+      "failure_stage": "AE"
+    },
+    {
+      "geometry": [
+        128,
+        1152
+      ],
+      "feasible": false,
+      "failure_stage": "AE"
+    },
+    {
+      "geometry": [
+        192,
+        768
+      ],
+      "feasible": false,
+      "failure_stage": "AE"
+    },
+    {
+      "geometry": [
+        256,
+        576
+      ],
+      "feasible": true,
+      "failure_stage": null
+    },
+    {
+      "geometry": [
+        288,
+        512
+      ],
+      "feasible": true,
+      "failure_stage": null
+    },
+    {
+      "geometry": [
+        384,
+        384
+      ],
+      "feasible": true,
+      "failure_stage": null
+    }
+  ],
+  "low_exact_pixel_nonsquare_feasible": false,
+  "low_selected_geometry": null,
+  "mid_exact_pixel_nonsquare_feasible": true,
+  "mid_selected_geometry": [
+    256,
+    576
+  ],
+  "mid_selection_score": 0.5753641449035618,
+  "mid_training_elapsed_sec": 24618.38531539985,
+  "mid_checkpoint_sha256": "419abf66cf60501aa8d70d82d768792b93d60bdfbc686fb04a6bf3929f9af246",
+  "mid_metrics": {
+    "image_auroc": 0.6949074074074074,
+    "pixel_auroc": 0.8286492124180941,
+    "exact_aupro005": 0.13489315080326458,
+    "exact_aupro030": 0.37765485913717445
+  },
+  "mid_delta_pp": {
+    "image_auroc": 12.638888888888893,
+    "pixel_auroc": 1.5110398562891731,
+    "exact_aupro005": 8.218907678865252,
+    "exact_aupro030": 12.905387635424194
+  },
+  "high_frozen_result": {
+    "budget": "HIGH",
+    "pixels": 262144,
+    "square_geometry": "512x512",
+    "rect_geometry": "256x1024",
+    "rect_status": "FROZEN_REFERENCE",
+    "square_image_auroc_percent": 61.01851851851852,
+    "rect_image_auroc_percent": 87.91666666666667,
+    "delta_image_auroc_pp": 26.898148148148152,
+    "square_pixel_auroc_percent": 83.75377242439666,
+    "rect_pixel_auroc_percent": 84.09314808755626,
+    "delta_pixel_auroc_pp": 0.33937566315960055,
+    "square_exact_aupro005_percent": 5.31919071671678,
+    "rect_exact_aupro005_percent": 19.65215114171837,
+    "delta_exact_aupro005_pp": 14.332960425001591,
+    "square_exact_aupro030_percent": 28.729813153469614,
+    "rect_exact_aupro030_percent": 44.80723426914776,
+    "delta_exact_aupro030_pp": 16.07742111567815
+  },
+  "multibudget_rows": [
+    {
+      "budget": "LOW",
+      "pixels": 65536,
+      "square_geometry": "256x256",
+      "rect_geometry": "N/A",
+      "rect_status": "NO_FEASIBLE_NONSQUARE",
+      "square_image_auroc_percent": 61.57407407407407,
+      "rect_image_auroc_percent": "N/A",
+      "delta_image_auroc_pp": "N/A",
+      "square_pixel_auroc_percent": 79.54308858628968,
+      "rect_pixel_auroc_percent": "N/A",
+      "delta_pixel_auroc_pp": "N/A",
+      "square_exact_aupro005_percent": 6.405739440859998,
+      "rect_exact_aupro005_percent": "N/A",
+      "delta_exact_aupro005_pp": "N/A",
+      "square_exact_aupro030_percent": 22.32777445949409,
+      "rect_exact_aupro030_percent": "N/A",
+      "delta_exact_aupro030_pp": "N/A"
+    },
+    {
+      "budget": "MID",
+      "pixels": 147456,
+      "square_geometry": "384x384",
+      "rect_geometry": "256x576",
+      "rect_status": "FORMAL_COMPLETE",
+      "square_image_auroc_percent": 56.851851851851855,
+      "rect_image_auroc_percent": 69.49074074074075,
+      "delta_image_auroc_pp": 12.638888888888893,
+      "square_pixel_auroc_percent": 81.35388138552024,
+      "rect_pixel_auroc_percent": 82.86492124180941,
+      "delta_pixel_auroc_pp": 1.5110398562891731,
+      "square_exact_aupro005_percent": 5.270407401461206,
+      "rect_exact_aupro005_percent": 13.489315080326458,
+      "delta_exact_aupro005_pp": 8.218907678865252,
+      "square_exact_aupro030_percent": 24.860098278293247,
+      "rect_exact_aupro030_percent": 37.76548591371744,
+      "delta_exact_aupro030_pp": 12.905387635424194
+    },
+    {
+      "budget": "HIGH",
+      "pixels": 262144,
+      "square_geometry": "512x512",
+      "rect_geometry": "256x1024",
+      "rect_status": "FROZEN_REFERENCE",
+      "square_image_auroc_percent": 61.01851851851852,
+      "rect_image_auroc_percent": 87.91666666666667,
+      "delta_image_auroc_pp": 26.898148148148152,
+      "square_pixel_auroc_percent": 83.75377242439666,
+      "rect_pixel_auroc_percent": 84.09314808755626,
+      "delta_pixel_auroc_pp": 0.33937566315960055,
+      "square_exact_aupro005_percent": 5.31919071671678,
+      "rect_exact_aupro005_percent": 19.65215114171837,
+      "delta_exact_aupro005_pp": 14.332960425001591,
+      "square_exact_aupro030_percent": 28.729813153469614,
+      "rect_exact_aupro030_percent": 44.80723426914776,
+      "delta_exact_aupro030_pp": 16.07742111567815
+    }
+  ],
+  "test_access_during_geometry_selection": 0,
+  "test_access_during_training": 0,
+  "protocol_violation_count": 0,
+  "total_elapsed_since_training_start_sec": 27252.554827928543,
+  "candidate_audit_elapsed_sec": 9.41620109998621
+}

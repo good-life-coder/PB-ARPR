@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "budget": 262144,
+  "source": ".\\experiments\\phase24c_multibudget_geometry_sensitivity\\completion_verification.json",
+  "square_geometry": "512x512",
+  "rect_geometry": "256x1024",
+  "square_checkpoint_sha256": "0e060a3b60741bda339850666050bf90bd7b348309ca4395cbc7b065f6356cb5",
+  "rect_checkpoint_sha256": "35bc0bb101b97a2cda9e8ab4a97f358c0a8a0447445db640735a1029112415ee",
+  "metrics": {
+    "budget": "HIGH",
+    "pixels": 262144,
+    "square_geometry": "512x512",
+    "rect_geometry": "256x1024",
+    "rect_status": "FROZEN_REFERENCE",
+    "square_image_auroc_percent": 61.01851851851852,
+    "rect_image_auroc_percent": 87.91666666666667,
+    "delta_image_auroc_pp": 26.898148148148152,
+    "square_pixel_auroc_percent": 83.75377242439666,
+    "rect_pixel_auroc_percent": 84.09314808755626,
+    "delta_pixel_auroc_pp": 0.33937566315960055,
+    "square_exact_aupro005_percent": 5.31919071671678,
+    "rect_exact_aupro005_percent": 19.65215114171837,
+    "delta_exact_aupro005_pp": 14.332960425001591,
+    "square_exact_aupro030_percent": 28.729813153469614,
+    "rect_exact_aupro030_percent": 44.80723426914776,
+    "delta_exact_aupro030_pp": 16.07742111567815
+  }
+}

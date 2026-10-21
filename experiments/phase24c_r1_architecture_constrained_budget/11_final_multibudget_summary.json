@@ -1,0 +1,11 @@
+{
+  "title": "Architecture-Constrained Equal-Pixel Geometry Sensitivity",
+  "status": "PASS",
+  "delta_definition": "Rect minus Square, percentage points",
+  "low_reason": "No architecture-feasible non-square geometry under strict equal-pixel constraint on the frozen legal grid",
+  "mid_selection_geometry": [
+    256,
+    576
+  ],
+  "mid_selection_used_test_metrics": false
+}

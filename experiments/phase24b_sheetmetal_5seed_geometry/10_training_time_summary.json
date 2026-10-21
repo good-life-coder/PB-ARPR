@@ -1,0 +1,13 @@
+{
+  "per_new_run_seconds": {
+    "square512_seed43": 43542.42607980012,
+    "pb_arpr_seed43": 39845.85191269987,
+    "square512_seed44": 43257.212922200095,
+    "pb_arpr_seed44": 39956.52593480004,
+    "square512_seed45": 43240.47738449997,
+    "pb_arpr_seed45": 39744.99518340011,
+    "square512_seed46": 43225.28110729996,
+    "pb_arpr_seed46": 39892.58465909981
+  },
+  "total_new_training_seconds": 332705.3551838
+}

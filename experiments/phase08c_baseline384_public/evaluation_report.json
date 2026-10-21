@@ -1,0 +1,346 @@
+{
+  "status": "PASS",
+  "timestamp": "2026-09-13T09:32:16.016273+08:00",
+  "checkpoint_path": ".\\experiments\\phase08b_baseline384_seed42\\checkpoints\\final.ckpt",
+  "expected_checkpoint_sha256": "d8d2c8fb961c5d61dc936156286b16ce9c097ac28350c66b3cabae58c5134cec",
+  "checkpoint_sha256": "d8d2c8fb961c5d61dc936156286b16ce9c097ac28350c66b3cabae58c5134cec",
+  "dataset": "MVTec AD 2",
+  "category": "sheet_metal",
+  "test_split": "test_public",
+  "model": "EfficientAD-S",
+  "model_size": "small",
+  "input_size": [
+    384,
+    384
+  ],
+  "seed": 42,
+  "resize_policy": "Default EfficientAD preprocessing; native map resize bilinear, align_corners=False",
+  "native_gt_shape": [
+    1056,
+    4224
+  ],
+  "native_shape_order": "height,width (PIL width,height is 4224,1056)",
+  "model_output_shape": [
+    384,
+    384
+  ],
+  "interpolation_method": "bilinear; align_corners=False",
+  "image_score_policy": "max of saved continuous model-output map, before native interpolation; identical to B0",
+  "approximation": false,
+  "postprocessing": "Disabled in frozen Phase 08B checkpoint; kept disabled",
+  "aupro_fpr_limits": [
+    0.05,
+    0.3
+  ],
+  "metrics": {
+    "image_auroc": 0.5685185185185185,
+    "pixel_auroc": 0.8135388138552024,
+    "aupro_0.05": 0.05270407401461206,
+    "aupro_0.30": 0.24860098278293247,
+    "test_count": 114,
+    "normal_count": 24,
+    "anomaly_count": 90,
+    "percent": {
+      "image_auroc": 56.851851851851855,
+      "pixel_auroc": 81.35388138552024,
+      "aupro_0.05": 5.270407401461206,
+      "aupro_0.30": 24.860098278293247
+    }
+  },
+  "predictions_saved": 114,
+  "visualizations_saved": 15,
+  "inference_timing": {
+    "model_only": {
+      "count": 104,
+      "mean_ms": 74.66787211510214,
+      "median_ms": 74.44284999655792,
+      "std_ms": 2.318483045078127,
+      "fps": 13.392640926722517
+    },
+    "end_to_end": {
+      "count": 104,
+      "mean_ms": 186.16443461598044,
+      "median_ms": 186.45945000025677,
+      "std_ms": 10.72868948570695,
+      "fps": 5.371595289201172
+    }
+  },
+  "peak_inference_allocated_mib": 899.193359375,
+  "peak_inference_reserved_mib": 1082.0,
+  "warnings": [],
+  "error_message": null,
+  "traceback": null,
+  "metric_memory_policy": "Native-resolution CPU Pixel AUROC; shared R1 exact rank AU-PRO with background memmap sorting.",
+  "timing_policy": "First 10 samples excluded. Forward hooks time model.model only with CUDA synchronization. End-to-end starts before dataset read and ends after prediction, before CSV/NPY/PNG writes.",
+  "python_version": "3.10.21",
+  "torch_version": "2.9.1+cu126",
+  "torchvision_version": "0.24.1+cu126",
+  "cuda_runtime": "12.6",
+  "anomalib_version": "2.6.1",
+  "aupro_signature": "(fields: collections.abc.Sequence[str] | None = None, prefix: str = '', strict: bool = True, **kwargs) -> None",
+  "aupro_implementation_signature": "(dist_sync_on_step: bool = False, process_group: Optional[Any] = None, dist_sync_fn: collections.abc.Callable | None = None, fpr_limit: float = 0.3) -> None",
+  "predict_batch_fields": [
+    "image",
+    "gt_label",
+    "gt_mask",
+    "mask_path",
+    "anomaly_map",
+    "pred_score",
+    "pred_mask",
+    "pred_label",
+    "explanation",
+    "image_path"
+  ],
+  "gpu_name": "Quadro RTX 4000",
+  "gpu_total_memory_mib": 8191.6875,
+  "nvidia_driver_info": "index, name, driver_version\n0, Quadro RTX 4000, 596.71",
+  "train_count": 137,
+  "validation_count": 19,
+  "test_count": 114,
+  "normal_count": 24,
+  "anomaly_count": 90,
+  "b0_mapping_check": "PASS",
+  "preprocessor": {
+    "api": "EfficientAd.configure_pre_processor(image_size=(resolution, resolution))",
+    "signature": "(image_size: tuple[int, int] | None = None) -> anomalib.pre_processing.pre_processor.PreProcessor",
+    "source": "    @classmethod\n    def configure_pre_processor(cls, image_size: tuple[int, int] | None = None) -> PreProcessor:\n        \"\"\"Configure default pre-processor for EfficientAd.\n\n        Note that ImageNet normalization is applied in the forward pass, not here.\n\n        Args:\n            image_size (tuple[int, int] | None, optional): Target image size.\n                Defaults to ``(256, 256)``.\n\n        Returns:\n            PreProcessor: Configured pre-processor with resize transform.\n        \"\"\"\n        image_size = image_size or (256, 256)\n        transform = Compose([Resize(image_size, antialias=True)])\n        return PreProcessor(transform=transform)\n",
+    "default_transform": "Compose(    Resize(size=[256, 256], interpolation=InterpolationMode.BILINEAR, antialias=True))",
+    "selected_transform": "Compose(    Resize(size=[384, 384], interpolation=InterpolationMode.BILINEAR, antialias=True))",
+    "non_size_attributes": {
+      "training": "True",
+      "_parameters": "{}",
+      "_buffers": "{}",
+      "_non_persistent_buffers_set": "set()",
+      "_backward_pre_hooks": "OrderedDict()",
+      "_backward_hooks": "OrderedDict()",
+      "_is_full_backward_hook": "None",
+      "_forward_hooks": "OrderedDict()",
+      "_forward_hooks_with_kwargs": "OrderedDict()",
+      "_forward_hooks_always_called": "OrderedDict()",
+      "_forward_pre_hooks": "OrderedDict()",
+      "_forward_pre_hooks_with_kwargs": "OrderedDict()",
+      "_state_dict_hooks": "OrderedDict()",
+      "_state_dict_pre_hooks": "OrderedDict()",
+      "_load_state_dict_pre_hooks": "OrderedDict()",
+      "_load_state_dict_post_hooks": "OrderedDict()",
+      "_modules": "{}",
+      "interpolation": "<InterpolationMode.BILINEAR: 'bilinear'>",
+      "max_size": "None",
+      "antialias": "True"
+    },
+    "only_resize_changed": true
+  },
+  "max_score_absolute_difference": 0,
+  "ram_checks": {
+    "Pixel AUROC": {
+      "estimated_required_bytes": 22487564288,
+      "available_bytes": 45280161792
+    }
+  },
+  "exact_aupro": {
+    "background_pixels": 506180190,
+    "positive_pixels": 2321826,
+    "connected_regions": 450,
+    "weight_sum": 1.0000000000000007,
+    "sorting_elapsed_seconds": 19.725082400007523,
+    "background_min": -0.11610527336597443,
+    "background_max": 1.994972825050354,
+    "sort_verified": "full chunked monotonicity",
+    "aupro_0.05": 0.05270407401461206,
+    "aupro_0.05_percent": 5.270407401461206,
+    "aupro_0.30": 0.24860098278293247,
+    "aupro_0.30_percent": 24.860098278293247
+  },
+  "size_groups": [
+    {
+      "group": "A",
+      "range": "<0.05%",
+      "n": 12,
+      "mean_aupro005": 0.0569146638721465,
+      "median_aupro005": 0.0,
+      "std_aupro005": 0.1279591930270839
+    },
+    {
+      "group": "B",
+      "range": "0.05-0.1%",
+      "n": 18,
+      "mean_aupro005": 0.10788456130361247,
+      "median_aupro005": 0.0003652026555868517,
+      "std_aupro005": 0.22378574274618737
+    },
+    {
+      "group": "C",
+      "range": "0.1-0.5%",
+      "n": 42,
+      "mean_aupro005": 0.09160280921250857,
+      "median_aupro005": 0.006537960504211308,
+      "std_aupro005": 0.15176377097003615
+    },
+    {
+      "group": "D",
+      "range": "0.5-1%",
+      "n": 6,
+      "mean_aupro005": 0.23183775633490433,
+      "median_aupro005": 0.18202345938175857,
+      "std_aupro005": 0.17282040186700695
+    },
+    {
+      "group": "E",
+      "range": ">=1%",
+      "n": 12,
+      "mean_aupro005": 0.27890073906016055,
+      "median_aupro005": 0.18957454932873236,
+      "std_aupro005": 0.16811496310693078
+    }
+  ],
+  "fixed_gallery_selection": {
+    "worst_10": [
+      "018_003_overexposed",
+      "019_003_regular",
+      "020_003_shift_1",
+      "021_003_shift_2",
+      "022_003_shift_3",
+      "023_003_underexposed",
+      "030_005_overexposed",
+      "031_005_regular",
+      "032_005_shift_1",
+      "033_005_shift_2"
+    ],
+    "smallest_10": [
+      "072_012_overexposed",
+      "073_012_regular",
+      "074_012_shift_1",
+      "075_012_shift_2",
+      "076_012_shift_3",
+      "077_012_underexposed",
+      "066_011_overexposed",
+      "067_011_regular",
+      "068_011_shift_1",
+      "069_011_shift_2"
+    ],
+    "highest_normal_response_10": [
+      "099_001_shift_2",
+      "111_003_shift_2",
+      "093_000_shift_2",
+      "105_002_shift_2",
+      "096_001_overexposed",
+      "098_001_shift_1",
+      "102_002_overexposed",
+      "112_003_shift_3",
+      "108_003_overexposed",
+      "106_002_shift_3"
+    ]
+  },
+  "comparison": [
+    {
+      "Metric": "Image AUROC",
+      "B0_256": 61.57,
+      "B1_384": 56.851851851851855,
+      "Absolute_Gain": "-4.718148 pp",
+      "Relative_Change": -0.07663063420737608
+    },
+    {
+      "Metric": "Pixel AUROC",
+      "B0_256": 79.54,
+      "B1_384": 81.35388138552024,
+      "Absolute_Gain": "+1.813881 pp",
+      "Relative_Change": 0.022804644022130158
+    },
+    {
+      "Metric": "AU-PRO@0.05",
+      "B0_256": 6.41,
+      "B1_384": 5.270407401461206,
+      "Absolute_Gain": "-1.139593 pp",
+      "Relative_Change": -0.17778355671432045
+    },
+    {
+      "Metric": "AU-PRO@0.30",
+      "B0_256": 22.33,
+      "B1_384": 24.860098278293247,
+      "Absolute_Gain": "+2.530098 pp",
+      "Relative_Change": 0.11330489378832283
+    },
+    {
+      "Metric": "<0.05% mean AU-PRO@0.05",
+      "B0_256": 0.0,
+      "B1_384": 5.69146638721465,
+      "Absolute_Gain": "+5.691466 pp",
+      "Relative_Change": null
+    },
+    {
+      "Metric": "0.05-0.1% mean AU-PRO@0.05",
+      "B0_256": 7.23,
+      "B1_384": 10.788456130361247,
+      "Absolute_Gain": "+3.558456 pp",
+      "Relative_Change": 0.4921792711426344
+    },
+    {
+      "Metric": "0.1-0.5% mean AU-PRO@0.05",
+      "B0_256": 10.11,
+      "B1_384": 9.160280921250857,
+      "Absolute_Gain": "-0.949719 pp",
+      "Relative_Change": -0.09393858345688846
+    },
+    {
+      "Metric": "0.5-1% mean AU-PRO@0.05",
+      "B0_256": 45.57,
+      "B1_384": 23.183775633490434,
+      "Absolute_Gain": "-22.386224 pp",
+      "Relative_Change": -0.49124916318871115
+    },
+    {
+      "Metric": ">=1% mean AU-PRO@0.05",
+      "B0_256": 29.49,
+      "B1_384": 27.890073906016056,
+      "Absolute_Gain": "-1.599926 pp",
+      "Relative_Change": -0.054253173753270344
+    },
+    {
+      "Metric": "Model-only inference ms",
+      "B0_256": 43.1369,
+      "B1_384": 74.66787211510214,
+      "Absolute_Gain": 31.530972115102145,
+      "Relative_Change": 0.7309512764037783
+    },
+    {
+      "Metric": "FPS",
+      "B0_256": 23.182,
+      "B1_384": 13.392640926722517,
+      "Absolute_Gain": -9.789359073277481,
+      "Relative_Change": -0.42228276564910194
+    },
+    {
+      "Metric": "Training time hours",
+      "B0_256": 4.2807,
+      "B1_384": 8.046,
+      "Absolute_Gain": 3.765299999999999,
+      "Relative_Change": 0.87959913098325
+    },
+    {
+      "Metric": "Training peak VRAM MiB",
+      "B0_256": 1185.2217,
+      "B1_384": 1550.752,
+      "Absolute_Gain": 365.5302999999999,
+      "Relative_Change": 0.3084066888076719
+    },
+    {
+      "Metric": "Inference peak VRAM MiB",
+      "B0_256": 873.2402,
+      "B1_384": 899.193359375,
+      "Absolute_Gain": 25.95315937500004,
+      "Relative_Change": 0.029720527496329238
+    }
+  ],
+  "comparison_units": "Score metrics in percent; gains in percentage points. Relative_Change is a fraction; undefined for zero B0.",
+  "decision_facts": {
+    "overall_aupro005_gain_pp": -1.139592598538794,
+    "tiny_group_gain_pp": 5.69146638721465,
+    "groupB_gain_pp": 3.5584561303612467,
+    "groupC_gain_pp": -0.9497190787491423,
+    "training_time_ratio": 1.87959913098325,
+    "inference_time_ratio": 1.7309512764037784,
+    "training_vram_ratio": 1.308406688807672
+  },
+  "comparison_visualizations_saved": 30,
+  "elapsed_seconds": 324.6024258000107
+}

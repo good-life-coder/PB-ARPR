@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "metrics": {
+    "image_auroc": 0.7069444444444445,
+    "pixel_auroc": 0.8102055347207068,
+    "aupro005": 0.10956522417595485,
+    "aupro030": 0.38866832287446584
+  },
+  "approximation": false,
+  "no_gt_exclusion": true,
+  "full_native_map": true,
+  "memory_gate": {
+    "ram_checks": {
+      "Pixel AUROC": {
+        "estimated_required_bytes": 22487564288,
+        "available_bytes": 48264069120
+      }
+    }
+  }
+}

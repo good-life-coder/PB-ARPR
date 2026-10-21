@@ -1,0 +1,76 @@
+{
+  "STD": {
+    "status": "PASS",
+    "method": "STD",
+    "unique_samples": 6514,
+    "missing": 0,
+    "duplicate": 0,
+    "manifest_sha256": "af0baa46fb5321ef6f6e35925bc05d5ec828cefabbfbcb9ac9b12b8a336ede09",
+    "state_before": "a32ace54ba9c203a9b15f94cd2fa7b37e1fb5cf152a35af323bae4f1f33fe034",
+    "state_after": "a32ace54ba9c203a9b15f94cd2fa7b37e1fb5cf152a35af323bae4f1f33fe034",
+    "state_unchanged": true,
+    "input_hw": [
+      256,
+      256
+    ],
+    "total_inference_wall_seconds_this_session": 705.7790423000697,
+    "fresh_forwards_this_session": 6514,
+    "resumed_samples": 0,
+    "peak_allocated_mib": 873.17724609375,
+    "peak_reserved_mib": 964.0,
+    "model_only": {
+      "mean_ms": 41.130107737680035,
+      "median_ms": 42.49925003387034,
+      "std_ms": 8.641965139404046,
+      "p95_ms": 46.940719994017854,
+      "FPS": 24.313089729251594,
+      "n": 6514
+    },
+    "end_to_end": {
+      "mean_ms": 48.694858475127035,
+      "median_ms": 49.77559996768832,
+      "std_ms": 8.880109896203601,
+      "p95_ms": 55.74892504955642,
+      "FPS": 20.53604900629894,
+      "n": 6514
+    },
+    "timing_scope": "one pass without extra warmup; synchronized; end-to-end excludes prediction disk saving and metrics"
+  },
+  "RECT": {
+    "status": "PASS",
+    "method": "RECT",
+    "unique_samples": 6514,
+    "missing": 0,
+    "duplicate": 0,
+    "manifest_sha256": "7732de11aa158ec68704264a0ef6d2c87729a4e60adb68d24b2267e3b6e6b961",
+    "state_before": "6eef0b6df4f7bc624dea154dddc49efc845eec484748ba6b10e15c6817006004",
+    "state_after": "6eef0b6df4f7bc624dea154dddc49efc845eec484748ba6b10e15c6817006004",
+    "state_unchanged": true,
+    "input_hw": [
+      256,
+      1152
+    ],
+    "total_inference_wall_seconds_this_session": 1152.1207936999854,
+    "fresh_forwards_this_session": 6514,
+    "resumed_samples": 0,
+    "peak_allocated_mib": 943.83349609375,
+    "peak_reserved_mib": 1310.0,
+    "model_only": {
+      "mean_ms": 107.54292652754445,
+      "median_ms": 107.49384999508038,
+      "std_ms": 4.273796985486209,
+      "p95_ms": 109.04977508471347,
+      "FPS": 9.298612491672102,
+      "n": 6514
+    },
+    "end_to_end": {
+      "mean_ms": 114.97061222082958,
+      "median_ms": 114.75274997064844,
+      "std_ms": 4.501818361472465,
+      "p95_ms": 117.51168502378277,
+      "FPS": 8.697874880228104,
+      "n": 6514
+    },
+    "timing_scope": "one pass without extra warmup; synchronized; end-to-end excludes prediction disk saving and metrics"
+  }
+}

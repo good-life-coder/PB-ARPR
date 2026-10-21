@@ -1,0 +1,11 @@
+{
+  "model_only_mean_ms": 114.54437788611708,
+  "model_only_fps": 8.73024078924437,
+  "end_to_end_mean_ms": 232.46569134174095,
+  "inference_wall_time_sec": 29.867007300024852,
+  "inference_wall_time_definition": "wall time of all 114 predictions including Engine setup, checkpoint restore and prediction saving; model-only/e2e individual timers unchanged from Phase08C, exclude saving; native restoration remains in frozen metric stage",
+  "evaluation_pipeline_wall_time_sec": 311.28655950003304,
+  "peak_cuda_allocated_mib": 936.552734375,
+  "peak_cuda_reserved_mib": 1342.0,
+  "timing_policy": "First 10 samples excluded. Forward hooks time model.model only with CUDA synchronization. End-to-end starts before dataset read and ends after prediction, before CSV/NPY/PNG writes."
+}

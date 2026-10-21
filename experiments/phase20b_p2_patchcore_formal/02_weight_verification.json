@@ -1,0 +1,11 @@
+{
+  "pretrained_weight_available": true,
+  "pretrained_weight_source": "official timm Hugging Face repository",
+  "pretrained_weight_identifier": "timm/wide_resnet50_2.racm_in1k",
+  "pretrained_weight_cache_or_path": ".\\experiments\\phase20b_p1_r2_patchcore_direct_weight\\model.safetensors",
+  "pretrained_weight_sha256": "03b71d65fb2c73bb0de079a1781009f27a782ec481d2f64ab3bde9b1cdec3000",
+  "repository_revision": "30f73aceaaa1911830a9795b83ab1908dba18719",
+  "loaded_backbone_tensor_count": 258,
+  "all_loaded_backbone_tensors_exact_match": true,
+  "random_backbone_fallback": false
+}

@@ -1,0 +1,34 @@
+{
+  "image_auroc": {
+    "observed_delta_pp": 11.898148148148147,
+    "bootstrap_mean_delta_pp": 11.640462962962964,
+    "bootstrap_std_pp": 4.309320746151286,
+    "ci95_low_pp": 3.471064814814814,
+    "ci95_high_pp": 20.695601851851844,
+    "ci_crosses_zero": false
+  },
+  "pixel_auroc": {
+    "observed_delta_pp": 5.173331832622274,
+    "bootstrap_mean_delta_pp": 5.538355228908516,
+    "bootstrap_std_pp": 3.2507843439298894,
+    "ci95_low_pp": 0.19415924900002252,
+    "ci95_high_pp": 13.081109144684698,
+    "ci_crosses_zero": false
+  },
+  "aupro005": {
+    "observed_delta_pp": 13.793284973455187,
+    "bootstrap_mean_delta_pp": 13.769326433857012,
+    "bootstrap_std_pp": 1.1332718023182804,
+    "ci95_low_pp": 11.611917546054098,
+    "ci95_high_pp": 15.889229518754046,
+    "ci_crosses_zero": false
+  },
+  "aupro030": {
+    "observed_delta_pp": 25.879678434691026,
+    "bootstrap_mean_delta_pp": 25.907192968449127,
+    "bootstrap_std_pp": 1.372016727174624,
+    "ci95_low_pp": 23.125457041882807,
+    "ci95_high_pp": 28.54913470694794,
+    "ci_crosses_zero": false
+  }
+}

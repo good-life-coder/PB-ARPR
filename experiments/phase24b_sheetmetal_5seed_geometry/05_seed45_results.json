@@ -1,0 +1,46 @@
+{
+  "seed": 45,
+  "square512": {
+    "seed": 45,
+    "geometry": "square512",
+    "training_steps": 70000,
+    "batch_size": 1,
+    "training_wall_time_sec": 43240.47738449997,
+    "checkpoint_path": ".\\experiments\\phase24b_sheetmetal_5seed_geometry\\seed45\\square512\\checkpoints\\final.ckpt",
+    "checkpoint_sha256": "177c2a01a7854144cf2f6606de526e8c34392036071b43d271203f09a3bbfd93",
+    "peak_cuda_allocated_mib": 2062.1455078125,
+    "peak_cuda_reserved_mib": 2210.0,
+    "nan_count": 0,
+    "inf_count": 0,
+    "protocol_violation_count": 0,
+    "image_auroc": 0.6375,
+    "pixel_auroc": 0.8379228133314234,
+    "exact_aupro005": 0.058008000840437474,
+    "exact_aupro030": 0.2908665961362576
+  },
+  "pb_arpr": {
+    "seed": 45,
+    "geometry": "pb_arpr",
+    "training_steps": 70000,
+    "batch_size": 1,
+    "training_wall_time_sec": 39744.99518340011,
+    "checkpoint_path": ".\\experiments\\phase24b_sheetmetal_5seed_geometry\\seed45\\pb_arpr\\checkpoints\\final.ckpt",
+    "checkpoint_sha256": "c99b3cd163cb22104975f8ab669b0005c96e24528c4097de24aef1a996f67152",
+    "peak_cuda_allocated_mib": 2044.5126953125,
+    "peak_cuda_reserved_mib": 2210.0,
+    "nan_count": 0,
+    "inf_count": 0,
+    "protocol_violation_count": 0,
+    "image_auroc": 0.8046296296296297,
+    "pixel_auroc": 0.8362686005124813,
+    "exact_aupro005": 0.20303260788868743,
+    "exact_aupro030": 0.4347577988867801
+  },
+  "paired_delta": {
+    "seed": 45,
+    "delta_image_auroc_pp": 16.712962962962973,
+    "delta_pixel_auroc_pp": -0.1654212818942069,
+    "delta_exact_aupro005_pp": 14.502460704824996,
+    "delta_exact_aupro030_pp": 14.389120275052253
+  }
+}

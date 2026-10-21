@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "timestamp_start": "2026-10-01T00:12:13.132402+08:00",
+  "timestamp_end": "2026-10-01T07:02:37.505728+08:00",
+  "target_steps": 70000,
+  "completed_steps": 70000,
+  "global_step": 70000,
+  "geometry": [
+    256,
+    576
+  ],
+  "seed": 42,
+  "training_elapsed_seconds": 24618.38531539985,
+  "training_elapsed_hours": 6.8384403653888475,
+  "estimated_remaining_hours": 0.0,
+  "peak_cuda_allocated_mib": 1553.01123046875,
+  "peak_cuda_reserved_mib": 1944.0,
+  "loss_nan_detected": false,
+  "loss_inf_detected": false,
+  "final_validation_batches": 19,
+  "final_validation_completed": true,
+  "final_quantiles": {
+    "qa_ae": 0.05335639417171478,
+    "qa_st": 0.143174946308136,
+    "qb_ae": 0.14281690120697021,
+    "qb_st": 0.2305556833744049
+  },
+  "checkpoint_path": ".\\experiments\\phase24c_r1_architecture_constrained_budget\\08_mid_training\\checkpoints\\final.ckpt",
+  "checkpoint_sha256": "419abf66cf60501aa8d70d82d768792b93d60bdfbc686fb04a6bf3929f9af246",
+  "log_paths": [
+    ".\\experiments\\phase24c_r1_architecture_constrained_budget\\08_mid_training\\logs\\baseline\\version_3\\metrics.csv"
+  ],
+  "resume": false,
+  "test_public_files_accessed": 0,
+  "test_mask_files_accessed": 0,
+  "protocol_violation_count": 0,
+  "last_loss": 1.8763090372085571,
+  "progress_timestamp": "2026-10-01T07:02:31.180727+08:00",
+  "loss_fields_present": {
+    "train_loss": true,
+    "train_st": true,
+    "train_ae": true,
+    "train_stae": true
+  },
+  "loss_health_checked": true,
+  "checkpoint_size_bytes": 77074529
+}

@@ -1,0 +1,44 @@
+{
+  "phase": "Phase24B",
+  "detector": "EfficientAD-S",
+  "geometry": {
+    "square512": [
+      512,
+      512
+    ],
+    "pb_arpr": [
+      256,
+      1024
+    ]
+  },
+  "equal_pixels": 262144,
+  "train_normal": 137,
+  "validation_normal": 19,
+  "test_public": 114,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "training_steps": 70000,
+  "batch_size": 1,
+  "precision": "32-true",
+  "order": [
+    "square512_seed43",
+    "pb_arpr_seed43",
+    "square512_seed44",
+    "pb_arpr_seed44",
+    "square512_seed45",
+    "pb_arpr_seed45",
+    "square512_seed46",
+    "pb_arpr_seed46"
+  ],
+  "exact_source_sha256": "3e6ebc80d400419cf3aaf00950e954ea165df2419c6ea895f4296013c67e11a1",
+  "scripts_sha256": {
+    "phase24b_train_square.py": "3a18f31717cb5c278851f8db1aac994deebd766893e0269851f37c1d7da6e302",
+    "phase24b_train_rect.py": "3edf9897b577ffa60738b095f35945a80588c2bf769f7d502abdd3ab43f6d353",
+    "phase24b_evaluate.py": "ac975534529678e55b87012d20cdc8d0dedc3f7e566f0c9edebf72b6c789c4c3"
+  }
+}

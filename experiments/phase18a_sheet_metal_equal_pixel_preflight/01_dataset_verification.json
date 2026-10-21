@@ -1,0 +1,1823 @@
+{
+  "status": "PASS",
+  "dataset": "MVTec AD 2",
+  "class_name": "sheet_metal",
+  "dataset_root": ".\\datasets\\MVTec_AD_2",
+  "train_count": 137,
+  "validation_count": 19,
+  "test_public_count": 114,
+  "test_public_normal": 24,
+  "test_public_anomaly": 90,
+  "mask_count": 90,
+  "native_height": 1056,
+  "native_width": 4224,
+  "native_aspect_ratio": 4.0,
+  "aspect_ratio_convention": "width/height",
+  "native_height_width_ratio": 0.25,
+  "dimension_distribution": {
+    "(1056, 4224)": 270
+  },
+  "file_manifest": [
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\000_regular.png",
+      "size_bytes": 3053244
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\001_regular.png",
+      "size_bytes": 3068326
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\002_regular.png",
+      "size_bytes": 3005787
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\003_regular.png",
+      "size_bytes": 3035979
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\004_regular.png",
+      "size_bytes": 3101865
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\005_regular.png",
+      "size_bytes": 3023570
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\006_regular.png",
+      "size_bytes": 2995368
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\007_regular.png",
+      "size_bytes": 2978875
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\008_regular.png",
+      "size_bytes": 3052220
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\009_regular.png",
+      "size_bytes": 3073224
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\010_regular.png",
+      "size_bytes": 3118717
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\011_regular.png",
+      "size_bytes": 3011525
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\012_regular.png",
+      "size_bytes": 3076594
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\013_regular.png",
+      "size_bytes": 3026860
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\014_regular.png",
+      "size_bytes": 3027390
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\015_regular.png",
+      "size_bytes": 3008070
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\016_regular.png",
+      "size_bytes": 2989088
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\017_regular.png",
+      "size_bytes": 3095243
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\018_regular.png",
+      "size_bytes": 3002154
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\019_regular.png",
+      "size_bytes": 2981006
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\020_regular.png",
+      "size_bytes": 3091562
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\021_regular.png",
+      "size_bytes": 3019265
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\022_regular.png",
+      "size_bytes": 2990506
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\023_regular.png",
+      "size_bytes": 3010707
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\024_regular.png",
+      "size_bytes": 3000556
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\025_regular.png",
+      "size_bytes": 2967120
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\026_regular.png",
+      "size_bytes": 3026653
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\027_regular.png",
+      "size_bytes": 2967785
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\028_regular.png",
+      "size_bytes": 2923148
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\029_regular.png",
+      "size_bytes": 3088334
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\030_regular.png",
+      "size_bytes": 3077652
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\031_regular.png",
+      "size_bytes": 2995617
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\032_regular.png",
+      "size_bytes": 3087161
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\033_regular.png",
+      "size_bytes": 3048922
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\034_regular.png",
+      "size_bytes": 3069597
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\035_regular.png",
+      "size_bytes": 3009600
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\036_regular.png",
+      "size_bytes": 3079639
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\037_regular.png",
+      "size_bytes": 3148389
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\038_regular.png",
+      "size_bytes": 3035358
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\039_regular.png",
+      "size_bytes": 3023755
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\040_regular.png",
+      "size_bytes": 3042979
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\041_regular.png",
+      "size_bytes": 2990137
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\042_regular.png",
+      "size_bytes": 3024379
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\043_regular.png",
+      "size_bytes": 3116851
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\044_regular.png",
+      "size_bytes": 3020472
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\045_regular.png",
+      "size_bytes": 3097438
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\046_regular.png",
+      "size_bytes": 2972065
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\047_regular.png",
+      "size_bytes": 3060744
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\048_regular.png",
+      "size_bytes": 3008211
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\049_regular.png",
+      "size_bytes": 3074171
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\050_regular.png",
+      "size_bytes": 3099989
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\051_regular.png",
+      "size_bytes": 3155015
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\052_regular.png",
+      "size_bytes": 3067779
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\053_regular.png",
+      "size_bytes": 3129361
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\054_regular.png",
+      "size_bytes": 2988707
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\055_regular.png",
+      "size_bytes": 3034926
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\056_regular.png",
+      "size_bytes": 3026652
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\057_regular.png",
+      "size_bytes": 2992924
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\058_regular.png",
+      "size_bytes": 3057057
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\059_regular.png",
+      "size_bytes": 3129438
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\060_regular.png",
+      "size_bytes": 2971839
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\061_regular.png",
+      "size_bytes": 3005321
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\062_regular.png",
+      "size_bytes": 3048301
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\063_regular.png",
+      "size_bytes": 3081230
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\064_regular.png",
+      "size_bytes": 3063086
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\065_regular.png",
+      "size_bytes": 2948734
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\066_regular.png",
+      "size_bytes": 3032712
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\067_regular.png",
+      "size_bytes": 3001533
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\068_regular.png",
+      "size_bytes": 3028311
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\069_regular.png",
+      "size_bytes": 2983573
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\070_regular.png",
+      "size_bytes": 3127233
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\071_regular.png",
+      "size_bytes": 2996175
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\072_regular.png",
+      "size_bytes": 3015828
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\073_regular.png",
+      "size_bytes": 2985678
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\074_regular.png",
+      "size_bytes": 2971090
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\075_regular.png",
+      "size_bytes": 3056705
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\076_regular.png",
+      "size_bytes": 3040075
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\077_regular.png",
+      "size_bytes": 3041299
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\078_regular.png",
+      "size_bytes": 3003873
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\079_regular.png",
+      "size_bytes": 3020672
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\080_regular.png",
+      "size_bytes": 3071025
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\081_regular.png",
+      "size_bytes": 3032747
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\082_regular.png",
+      "size_bytes": 2992876
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\083_regular.png",
+      "size_bytes": 2925599
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\084_regular.png",
+      "size_bytes": 3014901
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\085_regular.png",
+      "size_bytes": 2954158
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\086_regular.png",
+      "size_bytes": 3087845
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\087_regular.png",
+      "size_bytes": 3230925
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\088_regular.png",
+      "size_bytes": 3046540
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\089_regular.png",
+      "size_bytes": 3054416
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\090_regular.png",
+      "size_bytes": 3012229
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\091_regular.png",
+      "size_bytes": 3046073
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\092_regular.png",
+      "size_bytes": 3073130
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\093_regular.png",
+      "size_bytes": 3057996
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\094_regular.png",
+      "size_bytes": 2984831
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\095_regular.png",
+      "size_bytes": 3095118
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\096_regular.png",
+      "size_bytes": 3138083
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\097_regular.png",
+      "size_bytes": 3005955
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\098_regular.png",
+      "size_bytes": 3107214
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\099_regular.png",
+      "size_bytes": 3016886
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\100_regular.png",
+      "size_bytes": 2995315
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\101_regular.png",
+      "size_bytes": 3067225
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\102_regular.png",
+      "size_bytes": 3029038
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\103_regular.png",
+      "size_bytes": 3037495
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\104_regular.png",
+      "size_bytes": 3061875
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\105_regular.png",
+      "size_bytes": 3081194
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\106_regular.png",
+      "size_bytes": 3013087
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\107_regular.png",
+      "size_bytes": 3066895
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\108_regular.png",
+      "size_bytes": 3012038
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\109_regular.png",
+      "size_bytes": 2995430
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\110_regular.png",
+      "size_bytes": 3068293
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\111_regular.png",
+      "size_bytes": 3011240
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\112_regular.png",
+      "size_bytes": 3015772
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\113_regular.png",
+      "size_bytes": 3021176
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\114_regular.png",
+      "size_bytes": 3105199
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\115_regular.png",
+      "size_bytes": 3015110
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\116_regular.png",
+      "size_bytes": 2951981
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\117_regular.png",
+      "size_bytes": 3045560
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\118_regular.png",
+      "size_bytes": 3117638
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\119_regular.png",
+      "size_bytes": 2979502
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\120_regular.png",
+      "size_bytes": 3177718
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\121_regular.png",
+      "size_bytes": 3099130
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\122_regular.png",
+      "size_bytes": 3050232
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\123_regular.png",
+      "size_bytes": 3046248
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\124_regular.png",
+      "size_bytes": 3028928
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\125_regular.png",
+      "size_bytes": 3056407
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\126_regular.png",
+      "size_bytes": 3018809
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\127_regular.png",
+      "size_bytes": 3048263
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\128_regular.png",
+      "size_bytes": 3064369
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\129_regular.png",
+      "size_bytes": 3028086
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\130_regular.png",
+      "size_bytes": 3154395
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\131_regular.png",
+      "size_bytes": 2963526
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\132_regular.png",
+      "size_bytes": 3018102
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\133_regular.png",
+      "size_bytes": 3075547
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\134_regular.png",
+      "size_bytes": 3045969
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\135_regular.png",
+      "size_bytes": 3078940
+    },
+    {
+      "role": "train",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\136_regular.png",
+      "size_bytes": 3016252
+    },
+    {
+      "role": "validation",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\validation\\good\\000_regular.png",
+      "size_bytes": 3213233
+    },
+    {
+      "role": "validation",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\validation\\good\\001_regular.png",
+      "size_bytes": 3106989
+    },
+    {
+      "role": "validation",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\validation\\good\\002_regular.png",
+      "size_bytes": 3218049
+    },
+    {
+      "role": "validation",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\validation\\good\\003_regular.png",
+      "size_bytes": 3141003
+    },
+    {
+      "role": "validation",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\validation\\good\\004_regular.png",
+      "size_bytes": 3066540
+    },
+    {
+      "role": "validation",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\validation\\good\\005_regular.png",
+      "size_bytes": 3027094
+    },
+    {
+      "role": "validation",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\validation\\good\\006_regular.png",
+      "size_bytes": 3127026
+    },
+    {
+      "role": "validation",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\validation\\good\\007_regular.png",
+      "size_bytes": 3035304
+    },
+    {
+      "role": "validation",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\validation\\good\\008_regular.png",
+      "size_bytes": 3052172
+    },
+    {
+      "role": "validation",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\validation\\good\\009_regular.png",
+      "size_bytes": 3025129
+    },
+    {
+      "role": "validation",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\validation\\good\\010_regular.png",
+      "size_bytes": 3020623
+    },
+    {
+      "role": "validation",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\validation\\good\\011_regular.png",
+      "size_bytes": 2997849
+    },
+    {
+      "role": "validation",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\validation\\good\\012_regular.png",
+      "size_bytes": 2997635
+    },
+    {
+      "role": "validation",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\validation\\good\\013_regular.png",
+      "size_bytes": 3022357
+    },
+    {
+      "role": "validation",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\validation\\good\\014_regular.png",
+      "size_bytes": 3045703
+    },
+    {
+      "role": "validation",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\validation\\good\\015_regular.png",
+      "size_bytes": 3141478
+    },
+    {
+      "role": "validation",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\validation\\good\\016_regular.png",
+      "size_bytes": 3058189
+    },
+    {
+      "role": "validation",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\validation\\good\\017_regular.png",
+      "size_bytes": 3061439
+    },
+    {
+      "role": "validation",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\validation\\good\\018_regular.png",
+      "size_bytes": 3090169
+    },
+    {
+      "role": "normal",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\good\\000_overexposed.png",
+      "size_bytes": 3136294
+    },
+    {
+      "role": "normal",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\good\\000_regular.png",
+      "size_bytes": 3035883
+    },
+    {
+      "role": "normal",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\good\\000_shift_1.png",
+      "size_bytes": 2834635
+    },
+    {
+      "role": "normal",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\good\\000_shift_2.png",
+      "size_bytes": 2917764
+    },
+    {
+      "role": "normal",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\good\\000_shift_3.png",
+      "size_bytes": 2733532
+    },
+    {
+      "role": "normal",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\good\\000_underexposed.png",
+      "size_bytes": 2907324
+    },
+    {
+      "role": "normal",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\good\\001_overexposed.png",
+      "size_bytes": 3132320
+    },
+    {
+      "role": "normal",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\good\\001_regular.png",
+      "size_bytes": 3033987
+    },
+    {
+      "role": "normal",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\good\\001_shift_1.png",
+      "size_bytes": 2787428
+    },
+    {
+      "role": "normal",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\good\\001_shift_2.png",
+      "size_bytes": 2873378
+    },
+    {
+      "role": "normal",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\good\\001_shift_3.png",
+      "size_bytes": 2684695
+    },
+    {
+      "role": "normal",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\good\\001_underexposed.png",
+      "size_bytes": 2905131
+    },
+    {
+      "role": "normal",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\good\\002_overexposed.png",
+      "size_bytes": 3141240
+    },
+    {
+      "role": "normal",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\good\\002_regular.png",
+      "size_bytes": 3031635
+    },
+    {
+      "role": "normal",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\good\\002_shift_1.png",
+      "size_bytes": 2810160
+    },
+    {
+      "role": "normal",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\good\\002_shift_2.png",
+      "size_bytes": 2900225
+    },
+    {
+      "role": "normal",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\good\\002_shift_3.png",
+      "size_bytes": 2703438
+    },
+    {
+      "role": "normal",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\good\\002_underexposed.png",
+      "size_bytes": 2897787
+    },
+    {
+      "role": "normal",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\good\\003_overexposed.png",
+      "size_bytes": 3077971
+    },
+    {
+      "role": "normal",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\good\\003_regular.png",
+      "size_bytes": 2974200
+    },
+    {
+      "role": "normal",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\good\\003_shift_1.png",
+      "size_bytes": 2811887
+    },
+    {
+      "role": "normal",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\good\\003_shift_2.png",
+      "size_bytes": 2896903
+    },
+    {
+      "role": "normal",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\good\\003_shift_3.png",
+      "size_bytes": 2710797
+    },
+    {
+      "role": "normal",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\good\\003_underexposed.png",
+      "size_bytes": 2833029
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\000_overexposed.png",
+      "size_bytes": 3228704
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\000_regular.png",
+      "size_bytes": 3130896
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\000_shift_1.png",
+      "size_bytes": 2895106
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\000_shift_2.png",
+      "size_bytes": 2978979
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\000_shift_3.png",
+      "size_bytes": 2796391
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\000_underexposed.png",
+      "size_bytes": 3007083
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\001_overexposed.png",
+      "size_bytes": 3113825
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\001_regular.png",
+      "size_bytes": 3016213
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\001_shift_1.png",
+      "size_bytes": 2733021
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\001_shift_2.png",
+      "size_bytes": 2820565
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\001_shift_3.png",
+      "size_bytes": 2629506
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\001_underexposed.png",
+      "size_bytes": 2889400
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\002_overexposed.png",
+      "size_bytes": 3059838
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\002_regular.png",
+      "size_bytes": 2954772
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\002_shift_1.png",
+      "size_bytes": 2770444
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\002_shift_2.png",
+      "size_bytes": 2855873
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\002_shift_3.png",
+      "size_bytes": 2667549
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\002_underexposed.png",
+      "size_bytes": 2784197
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\003_overexposed.png",
+      "size_bytes": 3183912
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\003_regular.png",
+      "size_bytes": 3073816
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\003_shift_1.png",
+      "size_bytes": 2818270
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\003_shift_2.png",
+      "size_bytes": 2909092
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\003_shift_3.png",
+      "size_bytes": 2711636
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\003_underexposed.png",
+      "size_bytes": 2936094
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\004_overexposed.png",
+      "size_bytes": 3090637
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\004_regular.png",
+      "size_bytes": 2999233
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\004_shift_1.png",
+      "size_bytes": 2800703
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\004_shift_2.png",
+      "size_bytes": 2884599
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\004_shift_3.png",
+      "size_bytes": 2705416
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\004_underexposed.png",
+      "size_bytes": 2891614
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\005_overexposed.png",
+      "size_bytes": 3088455
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\005_regular.png",
+      "size_bytes": 2986002
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\005_shift_1.png",
+      "size_bytes": 2784207
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\005_shift_2.png",
+      "size_bytes": 2868700
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\005_shift_3.png",
+      "size_bytes": 2682882
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\005_underexposed.png",
+      "size_bytes": 2860277
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\006_overexposed.png",
+      "size_bytes": 3139166
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\006_regular.png",
+      "size_bytes": 3040010
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\006_shift_1.png",
+      "size_bytes": 2782657
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\006_shift_2.png",
+      "size_bytes": 2870060
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\006_shift_3.png",
+      "size_bytes": 2679151
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\006_underexposed.png",
+      "size_bytes": 2913712
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\007_overexposed.png",
+      "size_bytes": 3146412
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\007_regular.png",
+      "size_bytes": 3034224
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\007_shift_1.png",
+      "size_bytes": 2806670
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\007_shift_2.png",
+      "size_bytes": 2896865
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\007_shift_3.png",
+      "size_bytes": 2700525
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\007_underexposed.png",
+      "size_bytes": 2899858
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\008_overexposed.png",
+      "size_bytes": 3138983
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\008_regular.png",
+      "size_bytes": 3034787
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\008_shift_1.png",
+      "size_bytes": 2772805
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\008_shift_2.png",
+      "size_bytes": 2862236
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\008_shift_3.png",
+      "size_bytes": 2668406
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\008_underexposed.png",
+      "size_bytes": 2907037
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\009_overexposed.png",
+      "size_bytes": 3127676
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\009_regular.png",
+      "size_bytes": 3017884
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\009_shift_1.png",
+      "size_bytes": 2794094
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\009_shift_2.png",
+      "size_bytes": 2882430
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\009_shift_3.png",
+      "size_bytes": 2689711
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\009_underexposed.png",
+      "size_bytes": 2883766
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\010_overexposed.png",
+      "size_bytes": 3098354
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\010_regular.png",
+      "size_bytes": 2995536
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\010_shift_1.png",
+      "size_bytes": 2766661
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\010_shift_2.png",
+      "size_bytes": 2854356
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\010_shift_3.png",
+      "size_bytes": 2663775
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\010_underexposed.png",
+      "size_bytes": 2865826
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\011_overexposed.png",
+      "size_bytes": 3110616
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\011_regular.png",
+      "size_bytes": 3010214
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\011_shift_1.png",
+      "size_bytes": 2783093
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\011_shift_2.png",
+      "size_bytes": 2867278
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\011_shift_3.png",
+      "size_bytes": 2682539
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\011_underexposed.png",
+      "size_bytes": 2871191
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\012_overexposed.png",
+      "size_bytes": 3124444
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\012_regular.png",
+      "size_bytes": 3014967
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\012_shift_1.png",
+      "size_bytes": 2816226
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\012_shift_2.png",
+      "size_bytes": 2904108
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\012_shift_3.png",
+      "size_bytes": 2710697
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\012_underexposed.png",
+      "size_bytes": 2876077
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\013_overexposed.png",
+      "size_bytes": 3121493
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\013_regular.png",
+      "size_bytes": 3018288
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\013_shift_1.png",
+      "size_bytes": 2726213
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\013_shift_2.png",
+      "size_bytes": 2815256
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\013_shift_3.png",
+      "size_bytes": 2618906
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\013_underexposed.png",
+      "size_bytes": 2891867
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\014_overexposed.png",
+      "size_bytes": 3126940
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\014_regular.png",
+      "size_bytes": 3025699
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\014_shift_1.png",
+      "size_bytes": 2782550
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\014_shift_2.png",
+      "size_bytes": 2865305
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\014_shift_3.png",
+      "size_bytes": 2682823
+    },
+    {
+      "role": "anomaly",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\bad\\014_underexposed.png",
+      "size_bytes": 2893280
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\000_overexposed_mask.png",
+      "size_bytes": 8039
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\000_regular_mask.png",
+      "size_bytes": 8039
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\000_shift_1_mask.png",
+      "size_bytes": 8039
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\000_shift_2_mask.png",
+      "size_bytes": 8039
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\000_shift_3_mask.png",
+      "size_bytes": 8039
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\000_underexposed_mask.png",
+      "size_bytes": 8039
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\001_overexposed_mask.png",
+      "size_bytes": 8319
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\001_regular_mask.png",
+      "size_bytes": 8319
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\001_shift_1_mask.png",
+      "size_bytes": 8319
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\001_shift_2_mask.png",
+      "size_bytes": 8319
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\001_shift_3_mask.png",
+      "size_bytes": 8319
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\001_underexposed_mask.png",
+      "size_bytes": 8319
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\002_overexposed_mask.png",
+      "size_bytes": 8292
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\002_regular_mask.png",
+      "size_bytes": 8292
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\002_shift_1_mask.png",
+      "size_bytes": 8292
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\002_shift_2_mask.png",
+      "size_bytes": 8292
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\002_shift_3_mask.png",
+      "size_bytes": 8292
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\002_underexposed_mask.png",
+      "size_bytes": 8292
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\003_overexposed_mask.png",
+      "size_bytes": 9733
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\003_regular_mask.png",
+      "size_bytes": 9733
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\003_shift_1_mask.png",
+      "size_bytes": 9685
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\003_shift_2_mask.png",
+      "size_bytes": 9685
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\003_shift_3_mask.png",
+      "size_bytes": 9685
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\003_underexposed_mask.png",
+      "size_bytes": 9733
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\004_overexposed_mask.png",
+      "size_bytes": 10979
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\004_regular_mask.png",
+      "size_bytes": 10979
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\004_shift_1_mask.png",
+      "size_bytes": 10979
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\004_shift_2_mask.png",
+      "size_bytes": 10979
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\004_shift_3_mask.png",
+      "size_bytes": 10979
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\004_underexposed_mask.png",
+      "size_bytes": 10979
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\005_overexposed_mask.png",
+      "size_bytes": 9078
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\005_regular_mask.png",
+      "size_bytes": 9078
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\005_shift_1_mask.png",
+      "size_bytes": 9078
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\005_shift_2_mask.png",
+      "size_bytes": 9078
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\005_shift_3_mask.png",
+      "size_bytes": 9078
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\005_underexposed_mask.png",
+      "size_bytes": 9078
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\006_overexposed_mask.png",
+      "size_bytes": 6557
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\006_regular_mask.png",
+      "size_bytes": 6557
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\006_shift_1_mask.png",
+      "size_bytes": 6557
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\006_shift_2_mask.png",
+      "size_bytes": 6557
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\006_shift_3_mask.png",
+      "size_bytes": 6557
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\006_underexposed_mask.png",
+      "size_bytes": 6557
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\007_overexposed_mask.png",
+      "size_bytes": 7092
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\007_regular_mask.png",
+      "size_bytes": 7092
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\007_shift_1_mask.png",
+      "size_bytes": 7092
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\007_shift_2_mask.png",
+      "size_bytes": 7092
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\007_shift_3_mask.png",
+      "size_bytes": 7092
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\007_underexposed_mask.png",
+      "size_bytes": 7092
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\008_overexposed_mask.png",
+      "size_bytes": 7973
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\008_regular_mask.png",
+      "size_bytes": 7973
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\008_shift_1_mask.png",
+      "size_bytes": 7973
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\008_shift_2_mask.png",
+      "size_bytes": 7973
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\008_shift_3_mask.png",
+      "size_bytes": 7973
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\008_underexposed_mask.png",
+      "size_bytes": 7973
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\009_overexposed_mask.png",
+      "size_bytes": 10433
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\009_regular_mask.png",
+      "size_bytes": 10433
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\009_shift_1_mask.png",
+      "size_bytes": 10433
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\009_shift_2_mask.png",
+      "size_bytes": 10433
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\009_shift_3_mask.png",
+      "size_bytes": 10433
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\009_underexposed_mask.png",
+      "size_bytes": 10433
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\010_overexposed_mask.png",
+      "size_bytes": 9108
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\010_regular_mask.png",
+      "size_bytes": 9108
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\010_shift_1_mask.png",
+      "size_bytes": 9086
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\010_shift_2_mask.png",
+      "size_bytes": 9086
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\010_shift_3_mask.png",
+      "size_bytes": 9086
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\010_underexposed_mask.png",
+      "size_bytes": 9108
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\011_overexposed_mask.png",
+      "size_bytes": 4572
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\011_regular_mask.png",
+      "size_bytes": 4572
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\011_shift_1_mask.png",
+      "size_bytes": 4572
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\011_shift_2_mask.png",
+      "size_bytes": 4572
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\011_shift_3_mask.png",
+      "size_bytes": 4572
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\011_underexposed_mask.png",
+      "size_bytes": 4572
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\012_overexposed_mask.png",
+      "size_bytes": 4558
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\012_regular_mask.png",
+      "size_bytes": 4558
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\012_shift_1_mask.png",
+      "size_bytes": 4558
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\012_shift_2_mask.png",
+      "size_bytes": 4558
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\012_shift_3_mask.png",
+      "size_bytes": 4558
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\012_underexposed_mask.png",
+      "size_bytes": 4558
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\013_overexposed_mask.png",
+      "size_bytes": 9127
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\013_regular_mask.png",
+      "size_bytes": 9127
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\013_shift_1_mask.png",
+      "size_bytes": 9127
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\013_shift_2_mask.png",
+      "size_bytes": 9127
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\013_shift_3_mask.png",
+      "size_bytes": 9127
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\013_underexposed_mask.png",
+      "size_bytes": 9127
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\014_overexposed_mask.png",
+      "size_bytes": 5338
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\014_regular_mask.png",
+      "size_bytes": 5338
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\014_shift_1_mask.png",
+      "size_bytes": 5320
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\014_shift_2_mask.png",
+      "size_bytes": 5320
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\014_shift_3_mask.png",
+      "size_bytes": 5320
+    },
+    {
+      "role": "mask",
+      "path": "datasets\\MVTec_AD_2\\sheet_metal\\test_public\\ground_truth\\bad\\014_underexposed_mask.png",
+      "size_bytes": 5338
+    }
+  ],
+  "new_model_forward_count": 0
+}

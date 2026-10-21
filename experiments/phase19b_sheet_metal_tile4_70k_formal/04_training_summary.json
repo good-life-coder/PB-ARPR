@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "timestamp_start": "2026-09-24T09:39:20.412189+08:00",
+  "timestamp_end": "2026-09-24T12:48:08.108004+08:00",
+  "target_steps": 70000,
+  "completed_steps": 70000,
+  "global_step": 70000,
+  "final_epoch": 128,
+  "training_elapsed_seconds": 11316.116466699983,
+  "training_elapsed_minutes": 188.60194111166638,
+  "training_elapsed_hours": 3.1433656851944396,
+  "session_training_elapsed_seconds": 11316.116466699983,
+  "total_session_elapsed_seconds": 11327.695594399935,
+  "seconds_per_step": 0.1616588066671426,
+  "validation_elapsed_seconds": 7.2627165000885725,
+  "final_validation_completed": true,
+  "final_validation_batches": 76,
+  "final_quantiles": {
+    "qa_ae": 0.023989588022232056,
+    "qa_st": 0.1412184238433838,
+    "qb_ae": 0.07045142352581024,
+    "qb_st": 0.2252754122018814
+  },
+  "peak_gpu_allocated_mib": 1190.8857421875,
+  "peak_gpu_reserved_mib": 1832.0,
+  "gpu_name": "Quadro RTX 4000",
+  "gpu_total_memory_mib": 8191.6875,
+  "checkpoint_path": ".\\experiments\\phase19b_sheet_metal_tile4_70k_formal\\checkpoints\\final.ckpt",
+  "checkpoint_size_mb": 77.252129,
+  "checkpoint_sha256": "dfa47eb340c23e049d8f817685e018eca83ed8f77b740683ffa303037d2a7b57",
+  "training_time_ratio_vs_b0": 0.7343111372426097,
+  "training_vram_ratio_vs_b0": 1.0047788883611395,
+  "loss_nan_detected": false,
+  "loss_inf_detected": false,
+  "loss_fields_present": {
+    "train_loss": true,
+    "train_st": true,
+    "train_ae": true,
+    "train_stae": true
+  },
+  "loss_health_checked": true,
+  "resume": false,
+  "resume_checkpoint": null,
+  "resume_start_step": 0,
+  "log_paths": [
+    ".\\experiments\\phase19b_sheet_metal_tile4_70k_formal\\logs\\baseline\\version_0\\metrics.csv"
+  ],
+  "failure_stage": null,
+  "error_message": null,
+  "traceback": null,
+  "warnings": [],
+  "timing_note": "Training time includes engine.fit setup/statistics. On resume it sums saved fit time and current fit time; discarded work after last.ckpt is excluded. VRAM peaks describe this process. No public test metrics are computed.",
+  "python_version": "3.10.21",
+  "torch_version": "2.9.1+cu126",
+  "torchvision_version": "0.24.1+cu126",
+  "cuda_runtime": "12.6",
+  "anomalib_version": "2.6.1",
+  "lightning_version": "2.6.6",
+  "cudnn_deterministic": false,
+  "cudnn_benchmark": false,
+  "cuda_available": true,
+  "b0_consistency_check": {
+    "status": "PASS",
+    "protocol_differences": {
+      "train_count": {
+        "b0": 137,
+        "b1": 548
+      },
+      "validation_count": {
+        "b0": 19,
+        "b1": 76
+      },
+      "test_public_count": {
+        "b0": 114,
+        "b1": 456
+      },
+      "pre_processor": {
+        "b0": "EfficientAD default 256x256; no custom PreProcessor",
+        "b1": "Official EfficientAD configure_pre_processor(image_size=(256, 256))"
+      }
+    },
+    "framework_versions_match": true,
+    "gpu_match": true,
+    "nvidia_driver_version": "596.71",
+    "nvidia_driver_match": true,
+    "b0_config_sha256": "387a6d0e00ed94784b48277ae569689915d609902f6d76f04f63af3f8fa49222"
+  },
+  "train_count": 548,
+  "validation_count": 76,
+  "test_public_count": 456,
+  "preprocessor_configuration": {
+    "api": "EfficientAd.configure_pre_processor(image_size=(resolution, resolution))",
+    "signature": "(image_size: tuple[int, int] | None = None) -> anomalib.pre_processing.pre_processor.PreProcessor",
+    "source": "    @classmethod\n    def configure_pre_processor(cls, image_size: tuple[int, int] | None = None) -> PreProcessor:\n        \"\"\"Configure default pre-processor for EfficientAd.\n\n        Note that ImageNet normalization is applied in the forward pass, not here.\n\n        Args:\n            image_size (tuple[int, int] | None, optional): Target image size.\n                Defaults to ``(256, 256)``.\n\n        Returns:\n            PreProcessor: Configured pre-processor with resize transform.\n        \"\"\"\n        image_size = image_size or (256, 256)\n        transform = Compose([Resize(image_size, antialias=True)])\n        return PreProcessor(transform=transform)\n",
+    "default_transform": "Compose(    Resize(size=[256, 256], interpolation=InterpolationMode.BILINEAR, antialias=True))",
+    "selected_transform": "Compose(    Resize(size=[256, 256], interpolation=InterpolationMode.BILINEAR, antialias=True))",
+    "non_size_attributes": {
+      "training": "True",
+      "_parameters": "{}",
+      "_buffers": "{}",
+      "_non_persistent_buffers_set": "set()",
+      "_backward_pre_hooks": "OrderedDict()",
+      "_backward_hooks": "OrderedDict()",
+      "_is_full_backward_hook": "None",
+      "_forward_hooks": "OrderedDict()",
+      "_forward_hooks_with_kwargs": "OrderedDict()",
+      "_forward_hooks_always_called": "OrderedDict()",
+      "_forward_pre_hooks": "OrderedDict()",
+      "_forward_pre_hooks_with_kwargs": "OrderedDict()",
+      "_state_dict_hooks": "OrderedDict()",
+      "_state_dict_pre_hooks": "OrderedDict()",
+      "_load_state_dict_pre_hooks": "OrderedDict()",
+      "_load_state_dict_post_hooks": "OrderedDict()",
+      "_modules": "{}",
+      "interpolation": "<InterpolationMode.BILINEAR: 'bilinear'>",
+      "max_size": "None",
+      "antialias": "True"
+    },
+    "only_resize_changed": true
+  },
+  "steady_seconds_per_step": 0.16141207345675482
+}

@@ -1,0 +1,35 @@
+{
+  "phase": "Phase24A-P2",
+  "square_geometry": [
+    512,
+    512
+  ],
+  "rect_geometry": [
+    256,
+    1024
+  ],
+  "input_pixels": 262144,
+  "backbone": "wide_resnet50_2.racm_in1k",
+  "layers": [
+    "layer2",
+    "layer3"
+  ],
+  "coreset_ratio": 0.1,
+  "num_neighbors": 9,
+  "precision": "FP32",
+  "image_score_definition": "OFFICIAL_PATCHCORE_WEIGHTED_NN_SCORE",
+  "native_restore": [
+    1056,
+    4224
+  ],
+  "metric_source_sha256": "3e6ebc80d400419cf3aaf00950e954ea165df2419c6ea895f4296013c67e11a1",
+  "core_comparison": "Rect minus Square",
+  "success_threshold": null,
+  "bootstrap": false,
+  "low_budget_reference": [
+    71.759259,
+    83.579292,
+    6.609418,
+    21.420678
+  ]
+}

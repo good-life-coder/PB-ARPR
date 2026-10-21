@@ -1,0 +1,26 @@
+{
+  "STD": {
+    "mean_ms": 28.26041000080295,
+    "median_ms": 28.269300004467368,
+    "p95_ms": 28.49987000809051,
+    "FPS": 35.385190801251206,
+    "peak_allocated_mib": 873.17724609375,
+    "peak_reserved_mib": 964.0,
+    "warmup": 20,
+    "runs": 100,
+    "cuda_synchronize": true,
+    "source_role": "validation_normal"
+  },
+  "RECT": {
+    "mean_ms": 106.54420700040646,
+    "median_ms": 106.51634994428605,
+    "p95_ms": 107.32744507840835,
+    "FPS": 9.385775427435346,
+    "peak_allocated_mib": 943.83349609375,
+    "peak_reserved_mib": 1310.0,
+    "warmup": 20,
+    "runs": 100,
+    "cuda_synchronize": true,
+    "source_role": "validation_normal"
+  }
+}

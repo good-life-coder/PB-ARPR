@@ -1,0 +1,33 @@
+{
+  "phase": "13B",
+  "tdd": {
+    "new_tests_red": 14,
+    "initial_all_tests_green": 47,
+    "completed_step_resume_regression_red": 1,
+    "completed_step_resume_regression_green": true,
+    "all_tests_green": 48,
+    "final_pytest_result": "48 passed, 17 warnings in 12.20s"
+  },
+  "py_compile": "PASS",
+  "precheck": "PRECHECK_PASS",
+  "training_status_file": "experiments\\phase13b_rectangular_256x1024_seed42\\training_report.json",
+  "final_status": "PASS",
+  "completed_steps": 70000,
+  "csv_loss_step_count": 70000,
+  "csv_step_range_zero_based": [
+    0,
+    69999
+  ],
+  "validation_images": 19,
+  "final_quantiles_finite": true,
+  "strict_reload": "PASS",
+  "reloaded_shape_gate": "PASS",
+  "reload_probe_parameter_hash_unchanged": true,
+  "last_checkpoint_loadable_at_step": 70000,
+  "checkpoint_sha256_recomputed": "35bc0bb101b97a2cda9e8ab4a97f358c0a8a0447445db640735a1029112415ee",
+  "checkpoint_size_bytes": 77169121,
+  "code_review": "Completed-step resume logging issue fixed and regression tested; no change to active fresh-training protocol.",
+  "prior_phase13a_failure_reports_unchanged": true,
+  "no_test_public_evaluation": true,
+  "no_phase13c_started": true
+}

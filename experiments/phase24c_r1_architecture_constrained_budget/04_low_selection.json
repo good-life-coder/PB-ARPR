@@ -1,0 +1,10 @@
+{
+  "budget": "low",
+  "pixels": 65536,
+  "exact_pixel_nonsquare_feasible": false,
+  "selected_geometry": null,
+  "selected_score": null,
+  "selection_used_test_metrics": false,
+  "selection_reason": "No architecture-feasible non-square geometry under strict equal-pixel constraint on the frozen legal grid",
+  "training_skipped": true
+}

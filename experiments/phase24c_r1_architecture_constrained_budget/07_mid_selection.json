@@ -1,0 +1,13 @@
+{
+  "budget": "mid",
+  "pixels": 147456,
+  "exact_pixel_nonsquare_feasible": true,
+  "selected_geometry": [
+    256,
+    576
+  ],
+  "selected_score": 0.5753641449035618,
+  "selection_used_test_metrics": false,
+  "selection_reason": "minimum log aspect-ratio deviation from 0.25 among feasible non-square candidates",
+  "training_skipped": false
+}

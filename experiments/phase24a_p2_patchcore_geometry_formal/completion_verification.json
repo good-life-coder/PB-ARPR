@@ -1,0 +1,73 @@
+{
+  "phase": "Phase24A-P2",
+  "status": "PASS_PATCHCORE_GEOMETRY_FORMAL_COMPLETE",
+  "square_bank_sha_match": true,
+  "rect_bank_sha_match": true,
+  "square_geometry": [
+    512,
+    512
+  ],
+  "rect_geometry": [
+    256,
+    1024
+  ],
+  "square_pixels": 262144,
+  "rect_pixels": 262144,
+  "equal_input_pixel_budget": true,
+  "backbone": "wide_resnet50_2.racm_in1k",
+  "pretrained_tag": "racm_in1k",
+  "pretrained_weight_sha256": "03b71d65fb2c73bb0de079a1781009f27a782ec481d2f64ab3bde9b1cdec3000",
+  "layers": [
+    "layer2",
+    "layer3"
+  ],
+  "coreset_ratio": 0.1,
+  "num_neighbors": 9,
+  "square_bank_shape": [
+    56115,
+    1536
+  ],
+  "rect_bank_shape": [
+    56115,
+    1536
+  ],
+  "test_public_count": 114,
+  "test_normal_count": 24,
+  "test_anomaly_count": 90,
+  "gt_region_count": 450,
+  "square_prediction_count": 114,
+  "rect_prediction_count": 114,
+  "prediction_alignment_pass": true,
+  "test_private_files_accessed": 0,
+  "test_private_mixed_files_accessed": 0,
+  "protocol_violation_count": 0,
+  "square_image_score_definition": "OFFICIAL_PATCHCORE_WEIGHTED_NN_SCORE",
+  "rect_image_score_definition": "OFFICIAL_PATCHCORE_WEIGHTED_NN_SCORE",
+  "image_score_pipeline_identical": true,
+  "square_image_auroc": 0.6342592592592593,
+  "square_pixel_auroc": 0.862060804513104,
+  "square_exact_aupro005": 0.13495946701792313,
+  "square_exact_aupro030": 0.32461139853027215,
+  "square_model_latency_mean_ms": 199.72967456247417,
+  "square_model_latency_std_ms": 4.589204414269094,
+  "square_model_fps": 5.0067672827815395,
+  "square_e2e_latency_mean_ms": 308.7329698879032,
+  "square_e2e_latency_std_ms": 96.51038182053782,
+  "square_e2e_fps": 3.2390450568434157,
+  "square_peak_allocated_mib": 821.01904296875,
+  "rect_image_auroc": 0.7532407407407408,
+  "rect_pixel_auroc": 0.9137941228393267,
+  "rect_exact_aupro005": 0.272892316752475,
+  "rect_exact_aupro030": 0.5834081828771824,
+  "rect_model_latency_mean_ms": 199.79038362306875,
+  "rect_model_latency_std_ms": 6.47641768002963,
+  "rect_model_fps": 5.0052459075639675,
+  "rect_e2e_latency_mean_ms": 277.3038660855528,
+  "rect_e2e_latency_std_ms": 9.47713842701748,
+  "rect_e2e_fps": 3.6061523920170795,
+  "rect_peak_allocated_mib": 819.76904296875,
+  "delta_image_auroc_pp": 11.898148148148147,
+  "delta_pixel_auroc_pp": 5.173331832622274,
+  "delta_exact_aupro005_pp": 13.793284973455187,
+  "delta_exact_aupro030_pp": 25.879678434691026
+}

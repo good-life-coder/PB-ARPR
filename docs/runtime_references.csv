@@ -1,0 +1,219 @@
+file,reference,included,classification
+code/experiments_new/pbarpr_submission_audit_r1/finalize_audit.py,experiments/phase13c_rectangular_256x1024_public/precheck_report.json,False,historical artifact; may be directory or dynamic path
+code/experiments_new/pbarpr_submission_audit_r1/finalize_audit.py,experiments/phase13c_rectangular_256x1024_public/predictions.csv,False,historical artifact; may be directory or dynamic path
+code/experiments_new/pbarpr_submission_audit_r1/finalize_audit.py,experiments/phase18b_sheet_metal_square512_70k_formal/evaluation/predictions.csv,False,historical artifact; may be directory or dynamic path
+code/experiments_new/pbarpr_submission_audit_r1/finalize_audit.py,experiments/phase24b_sheetmetal_5seed_geometry/07_square512_5seed_summary.json,True,historical artifact; may be directory or dynamic path
+code/experiments_new/pbarpr_submission_audit_r1/finalize_audit.py,experiments/phase24b_sheetmetal_5seed_geometry/08_pb_arpr_5seed_summary.json,True,historical artifact; may be directory or dynamic path
+code/experiments_new/pbarpr_submission_audit_r1/finalize_audit.py,experiments/phase24b_sheetmetal_5seed_geometry/seed,False,historical artifact; may be directory or dynamic path
+code/experiments_new/pbarpr_submission_audit_r1/geometry_audit.py,experiments/phase16a_r1_severstal_geometry_revision/,True,historical artifact; may be directory or dynamic path
+code/experiments_new/pbarpr_submission_audit_r1/geometry_audit.py,experiments/phase16a_severstal_audit/geometry_protocol.json,False,historical artifact; may be directory or dynamic path
+code/experiments_new/pbarpr_submission_audit_r1/geometry_audit.py,experiments/phase16a_severstal_audit/split_protocol.json,True,historical artifact; may be directory or dynamic path
+code/experiments_new/pbarpr_submission_audit_r1/geometry_audit.py,experiments/phase16a_severstal_audit/split_manifest.csv,False,historical artifact; may be directory or dynamic path
+code/experiments_new/pbarpr_submission_audit_r1/geometry_audit.py,experiments/phase15a_ksdd2_audit/split_manifest.csv,False,historical artifact; may be directory or dynamic path
+code/experiments_new/pbarpr_submission_audit_r1/geometry_audit.py,experiments/phase15a_ksdd2_audit/external_protocol.json,False,historical artifact; may be directory or dynamic path
+code/experiments_new/pbarpr_submission_audit_r1/geometry_audit.py,experiments/phase15a_ksdd2_audit/dataset_audit.json,False,historical artifact; may be directory or dynamic path
+code/experiments_new/pbarpr_submission_audit_r1/geometry_audit.py,experiments/phase16a_severstal_audit/dataset_audit.json,False,historical artifact; may be directory or dynamic path
+code/experiments_new/pbarpr_submission_audit_r1/geometry_audit.py,experiments/phase16a_r1_severstal_geometry_revision/regression_report.json,False,historical artifact; may be directory or dynamic path
+code/experiments_new/pbarpr_submission_audit_r1/geometry_audit.py,experiments/phase15a_ksdd2_audit/split_manifest.csv,False,historical artifact; may be directory or dynamic path
+code/experiments_new/pbarpr_submission_audit_r1/geometry_audit.py,experiments/phase16a_severstal_audit/split_manifest.csv,False,historical artifact; may be directory or dynamic path
+code/experiments_new/pbarpr_submission_audit_r1/geometry_audit.py,experiments/phase16a_severstal_audit/split_manifest.csv,False,historical artifact; may be directory or dynamic path
+code/experiments_new/pbarpr_submission_audit_r1/geometry_audit.py,experiments/phase16c_severstal_70k_formal_dev/,True,historical artifact; may be directory or dynamic path
+code/experiments_new/pbarpr_submission_audit_r1/geometry_audit.py,experiments/phase15c_ksdd2_70k_formal_dev/,True,historical artifact; may be directory or dynamic path
+code/experiments_new/pbarpr_submission_audit_r1/geometry_audit.py,experiments/phase15d_ksdd2_5seed_repeats/seed,False,historical artifact; may be directory or dynamic path
+code/experiments_new/pbarpr_submission_audit_r1/geometry_audit.py,datasets/MVTec_AD_2/sheet_metal/train/good,False,external dataset/weight prerequisite
+code/experiments_new/pbarpr_submission_audit_r1/run_audit.py,datasets/MVTec_AD_2/sheet_metal/test_public,False,external dataset/weight prerequisite
+code/experiments_new/pbarpr_submission_audit_r1/run_audit.py,experiments/phase24b_sheetmetal_5seed_geometry/seed,False,historical artifact; may be directory or dynamic path
+code/experiments_new/pbarpr_submission_audit_r1/run_audit.py,experiments/phase24b_sheetmetal_5seed_geometry/01_protocol_freeze.json,True,historical artifact; may be directory or dynamic path
+code/experiments_new/pbarpr_submission_audit_r1/run_audit.py,experiments/phase18b_sheet_metal_square512_70k_formal,True,historical artifact; may be directory or dynamic path
+code/experiments_new/pbarpr_submission_audit_r1/run_audit.py,experiments/phase13b_rectangular_256x1024_seed42,True,historical artifact; may be directory or dynamic path
+code/experiments_new/pbarpr_submission_audit_r1/run_audit.py,experiments/phase13c_rectangular_256x1024_public/precheck_report.json,False,historical artifact; may be directory or dynamic path
+code/experiments_new/pbarpr_submission_audit_r1/run_audit.py,experiments/phase13c_rectangular_256x1024_public/predictions.csv,False,historical artifact; may be directory or dynamic path
+code/scripts/analyze_b0_failures.py,experiments/phase07d_b0_failure_analysis,False,historical artifact; may be directory or dynamic path
+code/scripts/analyze_b0_failures.py,experiments/phase07c_r1_aupro_exact,True,historical artifact; may be directory or dynamic path
+code/scripts/analyze_resolution_tradeoff.py,experiments/phase08d_resolution_tradeoff,False,historical artifact; may be directory or dynamic path
+code/scripts/analyze_resolution_tradeoff.py,experiments/phase07c_baseline256_public,True,historical artifact; may be directory or dynamic path
+code/scripts/analyze_resolution_tradeoff.py,experiments/phase08c_baseline384_public,True,historical artifact; may be directory or dynamic path
+code/scripts/analyze_resolution_tradeoff.py,experiments/phase07c_r1_aupro_exact,True,historical artifact; may be directory or dynamic path
+code/scripts/analyze_resolution_tradeoff.py,datasets/MVTec_AD_2/sheet_metal/test_public,False,external dataset/weight prerequisite
+code/scripts/audit_efficientad_tile_seam.py,experiments/phase09c_tile_seam_audit,False,historical artifact; may be directory or dynamic path
+code/scripts/audit_efficientad_tile_seam.py,experiments/phase07c_baseline256_public/predictions.csv,False,historical artifact; may be directory or dynamic path
+code/scripts/audit_efficientad_tile_seam.py,experiments/phase09b_p0_tile_smoke/pipeline_smoke_report.json,False,historical artifact; may be directory or dynamic path
+code/scripts/audit_rect_intermediate_features.py,datasets/imagenette,False,external dataset/weight prerequisite
+code/scripts/benchmark_phase21a.py,experiments/phase21a_unified_efficiency_complexity,True,historical artifact; may be directory or dynamic path
+code/scripts/benchmark_phase21a.py,datasets/MVTec_AD_2/sheet_metal,False,external dataset/weight prerequisite
+code/scripts/benchmark_phase21a.py,weights/hub,False,external dataset/weight prerequisite
+code/scripts/benchmark_phase21a.py,datasets/derived/sheet_metal_tile4/manifest.csv,False,external dataset/weight prerequisite
+code/scripts/benchmark_phase21a.py,datasets/derived/sheet_metal_tile4/validation/images,False,external dataset/weight prerequisite
+code/scripts/benchmark_phase21a.py,experiments/phase07c_baseline256_public/predictions.csv,False,historical artifact; may be directory or dynamic path
+code/scripts/benchmark_phase21a.py,datasets/derived/sheet_metal_tile4/manifest.csv,False,external dataset/weight prerequisite
+code/scripts/calibrate_resolution.py,experiments/phase08a_resolution_calibration,False,historical artifact; may be directory or dynamic path
+code/scripts/calibrate_resolution.py,datasets/MVTec_AD_2/sheet_metal,False,external dataset/weight prerequisite
+code/scripts/diagnose_p1_strict_fpr.py,experiments/phase10c_strict_fpr_diagnostic,False,historical artifact; may be directory or dynamic path
+code/scripts/diagnose_p1_strict_fpr.py,experiments/phase07c_baseline256_public,True,historical artifact; may be directory or dynamic path
+code/scripts/diagnose_p1_strict_fpr.py,experiments/phase10b_p1_halo96_public,False,historical artifact; may be directory or dynamic path
+code/scripts/diagnose_p1_strict_fpr.py,experiments/phase07d_b0_failure_analysis,False,historical artifact; may be directory or dynamic path
+code/scripts/diagnose_p1_strict_fpr.py,experiments/phase09a_tile_geometry,False,historical artifact; may be directory or dynamic path
+code/scripts/diagnose_p1_strict_fpr.py,experiments/phase07c_r1_aupro_exact/aupro_report.json,True,historical artifact; may be directory or dynamic path
+code/scripts/diagnose_p1_strict_fpr.py,datasets/MVTec_AD_2/sheet_metal/test_public/ground_truth/bad,False,external dataset/weight prerequisite
+code/scripts/evaluate_baseline256_public.py,experiments/phase07b_baseline256_seed42/checkpoints/final.ckpt,False,historical artifact; may be directory or dynamic path
+code/scripts/evaluate_baseline256_public.py,datasets/MVTec_AD_2/sheet_metal,False,external dataset/weight prerequisite
+code/scripts/evaluate_baseline384_public.py,experiments/phase07c_baseline256_public,True,historical artifact; may be directory or dynamic path
+code/scripts/evaluate_baseline384_public.py,experiments/phase07d_b0_failure_analysis,False,historical artifact; may be directory or dynamic path
+code/scripts/evaluate_baseline384_public.py,experiments/phase07c_r1_aupro_exact,True,historical artifact; may be directory or dynamic path
+code/scripts/evaluate_baseline384_public.py,experiments/phase08b_baseline384_seed42/checkpoints/final.ckpt,False,historical artifact; may be directory or dynamic path
+code/scripts/evaluate_baseline384_public.py,datasets/MVTec_AD_2/sheet_metal,False,external dataset/weight prerequisite
+code/scripts/evaluate_baseline512_public.py,experiments/phase07c_baseline256_public,True,historical artifact; may be directory or dynamic path
+code/scripts/evaluate_baseline512_public.py,experiments/phase07d_b0_failure_analysis,False,historical artifact; may be directory or dynamic path
+code/scripts/evaluate_baseline512_public.py,experiments/phase07c_r1_aupro_exact,True,historical artifact; may be directory or dynamic path
+code/scripts/evaluate_baseline512_public.py,experiments/phase18b_sheet_metal_square512_70k_formal/checkpoints/final.ckpt,False,historical artifact; may be directory or dynamic path
+code/scripts/evaluate_baseline512_public.py,datasets/MVTec_AD_2/sheet_metal,False,external dataset/weight prerequisite
+code/scripts/evaluate_p1_halo96_public.py,experiments/phase10b_p1_halo96_public,False,historical artifact; may be directory or dynamic path
+code/scripts/evaluate_p1_halo96_public.py,experiments/phase10a_p1_halo96_seed42/checkpoints/final.ckpt,False,historical artifact; may be directory or dynamic path
+code/scripts/evaluate_p1_halo96_public.py,experiments/phase09d_p1_halo_audit/p1_halo_audit.json,False,historical artifact; may be directory or dynamic path
+code/scripts/evaluate_p1_halo96_public.py,experiments/phase10a_p1_halo96_seed42/training_report.json,False,historical artifact; may be directory or dynamic path
+code/scripts/fastflow_p2_evaluation.py,experiments/phase07c_baseline256_public/predictions.csv,False,historical artifact; may be directory or dynamic path
+code/scripts/fastflow_p2_evaluation.py,experiments/phase07c_r1_aupro_exact/aupro_report.json,True,historical artifact; may be directory or dynamic path
+code/scripts/fastflow_p2_evaluation.py,experiments/phase13c_rectangular_256x1024_public/combined_metrics.json,True,historical artifact; may be directory or dynamic path
+code/scripts/fastflow_p2_evaluation.py,experiments/phase20b_p2_patchcore_formal/completion_verification.json,True,historical artifact; may be directory or dynamic path
+code/scripts/fastflow_p2_evaluation.py,experiments/phase20b_p2_patchcore_formal/15_external_comparison_table.json,False,historical artifact; may be directory or dynamic path
+code/scripts/fastflow_p2_evaluation.py,experiments/phase07c_baseline256_public/evaluation_report.json,True,historical artifact; may be directory or dynamic path
+code/scripts/patchcore_p2_evaluation.py,experiments/phase07c_baseline256_public/predictions.csv,False,historical artifact; may be directory or dynamic path
+code/scripts/patchcore_p2_evaluation.py,experiments/phase07c_r1_aupro_exact/aupro_report.json,True,historical artifact; may be directory or dynamic path
+code/scripts/patchcore_p2_evaluation.py,experiments/phase13c_rectangular_256x1024_public/combined_metrics.json,True,historical artifact; may be directory or dynamic path
+code/scripts/patchcore_p2_evaluation.py,experiments/phase07c_baseline256_public/evaluation_report.json,True,historical artifact; may be directory or dynamic path
+code/scripts/phase24a_p2_formal.py,experiments/phase24a_p1_r1_patchcore_fulltrain_memory,False,historical artifact; may be directory or dynamic path
+code/scripts/phase24a_p2_formal.py,experiments/phase24a_p2_patchcore_geometry_formal,True,historical artifact; may be directory or dynamic path
+code/scripts/phase24a_p2_formal.py,datasets/MVTec_AD_2/sheet_metal,False,external dataset/weight prerequisite
+code/scripts/phase24a_p2_formal.py,experiments/phase20b_p2_patchcore_formal/prediction_manifest.json,False,historical artifact; may be directory or dynamic path
+code/scripts/phase24a_p2_formal.py,experiments/phase20b_p1_r3_patchcore_smoke_resume/weights/hub,False,historical artifact; may be directory or dynamic path
+code/scripts/phase24a_p2_formal.py,experiments/phase20b_p1_r3_patchcore_smoke_resume/weights/hub,False,historical artifact; may be directory or dynamic path
+code/scripts/phase24a_p2_formal.py,experiments/phase20b_p2_patchcore_formal/completion_verification.json,True,historical artifact; may be directory or dynamic path
+code/scripts/phase24a_p3_bootstrap.py,experiments/phase24a_p2_patchcore_geometry_formal,True,historical artifact; may be directory or dynamic path
+code/scripts/phase24a_p3_bootstrap.py,experiments/phase24a_p3_patchcore_geometry_bootstrap,True,historical artifact; may be directory or dynamic path
+code/scripts/phase24a_p3_bootstrap.py,datasets/MVTec_AD_2/sheet_metal,False,external dataset/weight prerequisite
+code/scripts/phase24b_evaluate.py,experiments/phase24b_sheetmetal_5seed_geometry,True,historical artifact; may be directory or dynamic path
+code/scripts/phase24b_evaluate.py,datasets/MVTec_AD_2/sheet_metal,False,external dataset/weight prerequisite
+code/scripts/phase24b_evaluate.py,experiments/phase18b_sheet_metal_square512_70k_formal/evaluation/predictions.csv,False,historical artifact; may be directory or dynamic path
+code/scripts/phase24b_evaluate.py,experiments/phase18b_sheet_metal_square512_70k_formal,True,historical artifact; may be directory or dynamic path
+code/scripts/phase24b_evaluate.py,experiments/phase13b_rectangular_256x1024_seed42,True,historical artifact; may be directory or dynamic path
+code/scripts/phase24b_evaluate.py,experiments/phase18b_sheet_metal_square512_70k_formal/evaluation/raw_anomaly_maps,False,historical artifact; may be directory or dynamic path
+code/scripts/phase24b_evaluate.py,experiments/phase13c_rectangular_256x1024_public/raw_native_combined,False,historical artifact; may be directory or dynamic path
+code/scripts/phase24b_evaluate.py,experiments/phase13c_rectangular_256x1024_public/predictions.csv,False,historical artifact; may be directory or dynamic path
+code/scripts/phase24b_train_rect.py,experiments/phase13a_rectangular_256x1024/calibration_report_r1_retry1.json,True,historical artifact; may be directory or dynamic path
+code/scripts/phase24b_train_rect.py,experiments/phase07b_baseline256_seed42/config.json,True,historical artifact; may be directory or dynamic path
+code/scripts/phase24b_train_rect.py,datasets/MVTec_AD_2/sheet_metal,False,external dataset/weight prerequisite
+code/scripts/phase24b_train_rect.py,experiments/phase24b_sheetmetal_5seed_geometry,True,historical artifact; may be directory or dynamic path
+code/scripts/phase24b_train_rect.py,datasets/MVTec_AD_2,False,external dataset/weight prerequisite
+code/scripts/phase24b_train_rect.py,datasets/MVTec_AD_2/sheet_metal,False,external dataset/weight prerequisite
+code/scripts/phase24b_train_square.py,datasets/MVTec_AD_2/sheet_metal,False,external dataset/weight prerequisite
+code/scripts/phase24c_r1_audit.py,experiments/phase24c_multibudget_geometry_sensitivity,False,historical artifact; may be directory or dynamic path
+code/scripts/phase24c_r1_audit.py,experiments/phase24c_r1_architecture_constrained_budget,True,historical artifact; may be directory or dynamic path
+code/scripts/phase24c_r1_eval_mid.py,experiments/phase24c_r1_architecture_constrained_budget,True,historical artifact; may be directory or dynamic path
+code/scripts/phase24c_r1_eval_mid.py,datasets/MVTec_AD_2/sheet_metal,False,external dataset/weight prerequisite
+code/scripts/phase24c_r1_eval_mid.py,experiments/phase18b_sheet_metal_square512_70k_formal/evaluation/predictions.csv,False,historical artifact; may be directory or dynamic path
+code/scripts/phase24c_r1_finalize.py,experiments/phase24c_r1_architecture_constrained_budget,True,historical artifact; may be directory or dynamic path
+code/scripts/phase24c_r1_finalize.py,experiments/phase24c_multibudget_geometry_sensitivity,False,historical artifact; may be directory or dynamic path
+code/scripts/phase24c_r1_train_mid.py,experiments/phase24c_r1_architecture_constrained_budget,True,historical artifact; may be directory or dynamic path
+code/scripts/phase24c_r1_train_mid.py,datasets/MVTec_AD_2/sheet_metal,False,external dataset/weight prerequisite
+code/scripts/phase24c_r1_train_mid.py,experiments/phase24c_multibudget_geometry_sensitivity/02_reference_audit.json,False,historical artifact; may be directory or dynamic path
+code/scripts/phase24c_r1_train_mid.py,experiments/phase07b_baseline256_seed42/config.json,True,historical artifact; may be directory or dynamic path
+code/scripts/phase24c_r1_train_mid.py,datasets/imagenette,False,external dataset/weight prerequisite
+code/scripts/recover_aupro_native_exact.py,experiments/phase07c_baseline256_public,True,historical artifact; may be directory or dynamic path
+code/scripts/recover_aupro_native_exact.py,experiments/phase07c_r1_aupro_exact,True,historical artifact; may be directory or dynamic path
+code/scripts/recover_aupro_native_exact.py,datasets/MVTec_AD_2/sheet_metal/test_public,False,external dataset/weight prerequisite
+code/scripts/run_fastflow_p2.py,experiments/phase20c_p1_fastflow_smoke,False,historical artifact; may be directory or dynamic path
+code/scripts/run_fastflow_p2.py,experiments/phase20c_p2_fastflow_formal,True,historical artifact; may be directory or dynamic path
+code/scripts/run_fastflow_p2.py,datasets/MVTec_AD_2/sheet_metal,False,external dataset/weight prerequisite
+code/scripts/run_fastflow_p2.py,experiments/phase20a_external_baseline_audit,False,historical artifact; may be directory or dynamic path
+code/scripts/run_fastflow_p2.py,weights/hub,False,external dataset/weight prerequisite
+code/scripts/run_fastflow_p2.py,experiments/phase20b_p2_patchcore_formal/completion_verification.json,True,historical artifact; may be directory or dynamic path
+code/scripts/run_patchcore_p2.py,datasets/MVTec_AD_2/sheet_metal,False,external dataset/weight prerequisite
+code/scripts/run_patchcore_p2.py,experiments/phase20b_p2_patchcore_formal,True,historical artifact; may be directory or dynamic path
+code/scripts/run_patchcore_p2.py,experiments/phase20b_p1_r3_patchcore_smoke_resume,False,historical artifact; may be directory or dynamic path
+code/scripts/run_patchcore_p2.py,experiments/phase20a_external_baseline_audit,False,historical artifact; may be directory or dynamic path
+code/scripts/run_patchcore_p2.py,experiments/phase20b_p1_r2_patchcore_direct_weight,False,historical artifact; may be directory or dynamic path
+code/scripts/run_patchcore_p2.py,experiments/phase20b_p1_patchcore_smoke,False,historical artifact; may be directory or dynamic path
+code/scripts/run_patchcore_p2.py,weights/hub,False,external dataset/weight prerequisite
+code/scripts/run_phase21b_a_bootstrap.py,experiments/phase21b_a_bootstrap_preflight,False,historical artifact; may be directory or dynamic path
+code/scripts/run_phase21b_a_bootstrap.py,datasets/MVTec_AD_2/sheet_metal,False,external dataset/weight prerequisite
+code/scripts/run_phase21b_a_r1.py,experiments/phase21b_a_r1_bootstrap_optimization,False,historical artifact; may be directory or dynamic path
+code/scripts/run_phase21b_b.py,experiments/phase21b_b_bootstrap_1000,True,historical artifact; may be directory or dynamic path
+code/scripts/smoke_fastflow_p1.py,experiments/phase20c_p1_fastflow_smoke,False,historical artifact; may be directory or dynamic path
+code/scripts/smoke_fastflow_p1.py,datasets/MVTec_AD_2/sheet_metal,False,external dataset/weight prerequisite
+code/scripts/smoke_fastflow_p1.py,experiments/phase20a_external_baseline_audit,False,historical artifact; may be directory or dynamic path
+code/scripts/smoke_fastflow_p1.py,weights/hub,False,external dataset/weight prerequisite
+code/scripts/smoke_fastflow_p1.py,experiments/phase20b_p2_patchcore_formal/completion_verification.json,True,historical artifact; may be directory or dynamic path
+code/scripts/smoke_patchcore_r3.py,datasets/MVTec_AD_2/sheet_metal,False,external dataset/weight prerequisite
+code/scripts/smoke_patchcore_r3.py,experiments/phase20b_p1_r3_patchcore_smoke_resume,False,historical artifact; may be directory or dynamic path
+code/scripts/smoke_patchcore_r3.py,experiments/phase20a_external_baseline_audit,False,historical artifact; may be directory or dynamic path
+code/scripts/smoke_patchcore_r3.py,experiments/phase20b_p1_r2_patchcore_direct_weight,False,historical artifact; may be directory or dynamic path
+code/scripts/smoke_patchcore_r3.py,experiments/phase20b_p1_patchcore_smoke,False,historical artifact; may be directory or dynamic path
+code/scripts/smoke_patchcore_r3.py,weights/hub,False,external dataset/weight prerequisite
+code/scripts/train_p1_halo96.py,experiments/phase09d_p1_halo_audit/p1_halo_audit.json,False,historical artifact; may be directory or dynamic path
+code/scripts/train_p1_halo96.py,datasets/MVTec_AD_2,False,external dataset/weight prerequisite
+code/scripts/train_p1_halo96.py,datasets/MVTec_AD_2/sheet_metal,False,external dataset/weight prerequisite
+code/scripts/train_rectangular_efficientad_256x1024.py,experiments/phase13b_rectangular_256x1024_seed42,True,historical artifact; may be directory or dynamic path
+code/scripts/train_rectangular_efficientad_256x1024.py,experiments/phase13a_rectangular_256x1024/calibration_report_r1_retry1.json,True,historical artifact; may be directory or dynamic path
+code/scripts/train_rectangular_efficientad_256x1024.py,experiments/phase07b_baseline256_seed42/config.json,True,historical artifact; may be directory or dynamic path
+code/scripts/train_rectangular_efficientad_256x1024.py,datasets/MVTec_AD_2,False,external dataset/weight prerequisite
+code/scripts/train_rectangular_efficientad_256x1024.py,datasets/MVTec_AD_2/sheet_metal,False,external dataset/weight prerequisite
+code/src/data/p1_halo_builder.py,datasets/derived/sheet_metal_p1_halo96,False,external dataset/weight prerequisite
+code/src/data/p1_halo_builder.py,experiments/phase09d_p1_halo_audit,False,historical artifact; may be directory or dynamic path
+code/src/data/p1_halo_builder.py,datasets/MVTec_AD_2,False,external dataset/weight prerequisite
+code/src/data/tile4_builder.py,datasets/MVTec_AD_2/sheet_metal,False,external dataset/weight prerequisite
+code/src/data/tile4_builder.py,datasets/derived/sheet_metal_tile4,False,external dataset/weight prerequisite
+code/src/data/tile4_builder.py,experiments/phase09b_p0_tile_smoke,False,historical artifact; may be directory or dynamic path
+code/src/data/tile4_builder.py,experiments/phase09a_tile_geometry/tile_geometry_report.json,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/efficientad_branch_audit.py,experiments/phase10b_p1_halo96_public/context_predictions.csv,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/efficientad_branch_audit.py,experiments/phase10b_p1_halo96_public/predictions.csv,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/gradient_interference_audit.py,experiments/phase14c_a_gradient_interference,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/gradnorm_s1_calibration.py,experiments/phase14c_b_gradnorm_s1_calibration,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/intermediate_feature_audit.py,experiments/phase14a_intermediate_feature_audit,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/intermediate_feature_audit.py,datasets/MVTec_AD_2/sheet_metal/train/good,False,external dataset/weight prerequisite
+code/src/evaluation/intermediate_feature_audit.py,datasets/imagenette,False,external dataset/weight prerequisite
+code/src/evaluation/ksdd2_70k_protocol.py,experiments/phase15c_ksdd2_70k_formal_dev,True,historical artifact; may be directory or dynamic path
+code/src/evaluation/ksdd2_blind_test.py,experiments/phase15e_ksdd2_blind_test,True,historical artifact; may be directory or dynamic path
+code/src/evaluation/ksdd2_external_protocol.py,experiments/phase15a_ksdd2_audit,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/ksdd2_pilot_protocol.py,experiments/phase15b_ksdd2_10k_pilot,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/ksdd2_repeat_summary.py,experiments/phase15d_ksdd2_5seed_repeats,True,historical artifact; may be directory or dynamic path
+code/src/evaluation/ksdd2_training_calibration.py,datasets/imagenette,False,external dataset/weight prerequisite
+code/src/evaluation/multiscale_st_calibration.py,experiments/phase14b_a_s1_calibration,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/multiscale_st_s1_evaluation.py,experiments/phase14b_c_s1_public,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/multiscale_st_s1_evaluation.py,experiments/phase14b_b_s1_formal_seed42/checkpoints/final.ckpt,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/p1_384_evaluation.py,experiments/phase11c_p1_halo96_384_public,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/p1_384_evaluation.py,experiments/phase11b_p1_halo96_384_seed42/checkpoints/final.ckpt,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/p1_384_evaluation.py,experiments/phase10d_branch_decomposition,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/p1_384_evaluation.py,experiments/phase10e_st_feature_rootcause,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/p1_384_evaluation.py,experiments/phase10b_p1_halo96_public,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/p1_public_analysis.py,experiments/phase07d_b0_failure_analysis,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/p1_public_analysis.py,experiments/phase08c_baseline384_public,True,historical artifact; may be directory or dynamic path
+code/src/evaluation/p1_public_analysis.py,experiments/phase08d_resolution_tradeoff,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/p1_public_analysis.py,experiments/phase09a_tile_geometry,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/p1_public_analysis.py,experiments/phase07c_r1_aupro_exact/validation_report.json,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/p1_public_analysis.py,experiments/phase07c_r1_aupro_exact/aupro_report.json,True,historical artifact; may be directory or dynamic path
+code/src/evaluation/rectangular_efficientad_calibration.py,datasets/imagenette,False,external dataset/weight prerequisite
+code/src/evaluation/rectangular_efficientad_calibration.py,datasets/MVTec_AD_2,False,external dataset/weight prerequisite
+code/src/evaluation/rectangular_formal_evaluation.py,experiments/phase13c_rectangular_256x1024_public,True,historical artifact; may be directory or dynamic path
+code/src/evaluation/rectangular_formal_evaluation.py,experiments/phase13b_rectangular_256x1024_seed42/checkpoints/final.ckpt,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/rectangular_formal_evaluation.py,experiments/phase07c_baseline256_public,True,historical artifact; may be directory or dynamic path
+code/src/evaluation/rectangular_formal_evaluation.py,experiments/phase07d_b0_failure_analysis,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/rectangular_formal_evaluation.py,experiments/phase11c_p1_halo96_384_public,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/rectangular_formal_evaluation.py,experiments/phase10b_p1_halo96_public,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/rectangular_formal_evaluation.py,experiments/phase10c_strict_fpr_diagnostic,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/rectangular_formal_evaluation.py,experiments/phase12b_context_batching/benchmark_report.json,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/rectangular_formal_evaluation.py,experiments/phase09a_tile_geometry/region_tile_analysis.csv,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/severstal_70k_protocol.py,experiments/phase16c_severstal_70k_formal_dev,True,historical artifact; may be directory or dynamic path
+code/src/evaluation/severstal_70k_protocol.py,experiments/phase16a_r1_severstal_geometry_revision,True,historical artifact; may be directory or dynamic path
+code/src/evaluation/severstal_70k_protocol.py,experiments/phase16b_r1_severstal_10k_pilot,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/severstal_geometry_r1.py,experiments/phase16a_r1_severstal_geometry_revision,True,historical artifact; may be directory or dynamic path
+code/src/evaluation/severstal_geometry_r1.py,experiments/phase15a_ksdd2_audit/dataset_audit.json,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/severstal_protocol.py,experiments/phase16a_severstal_audit,True,historical artifact; may be directory or dynamic path
+code/src/evaluation/severstal_protocol.py,experiments/phase16b_severstal_10k_pilot,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/severstal_protocol.py,datasets/Severstal,False,external dataset/weight prerequisite
+code/src/evaluation/severstal_protocol.py,experiments/phase15a_ksdd2_audit/dataset_audit.json,False,historical artifact; may be directory or dynamic path
+code/src/evaluation/severstal_protocol.py,experiments/phase15a_ksdd2_audit/external_protocol.json,False,historical artifact; may be directory or dynamic path
+code/src/training/ksdd2_repeat_training.py,datasets/imagenette,False,external dataset/weight prerequisite
+code/src/training/severstal_r1_pilot.py,experiments/phase16b_r1_severstal_10k_pilot,False,historical artifact; may be directory or dynamic path
+statistics/verify_aggregates.py,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv,True,historical artifact; may be directory or dynamic path
+statistics/verify_aggregates.py,experiments/phase17_severstal_final_blind/10_metric_comparison.json,True,historical artifact; may be directory or dynamic path
+statistics/verify_aggregates.py,experiments/phase15e_ksdd2_blind_test/official_test_report.json,True,historical artifact; may be directory or dynamic path

@@ -1,0 +1,2156 @@
+{
+  "status": "PASS",
+  "timestamp_start": "2026-09-29T12:20:36.376658+08:00",
+  "timestamp_end": "2026-09-29T23:23:14.348089+08:00",
+  "target_steps": 70000,
+  "completed_steps": 70000,
+  "global_step": 70000,
+  "final_epoch": 511,
+  "training_elapsed_seconds": 39744.99518340011,
+  "training_elapsed_minutes": 662.4165863900018,
+  "training_elapsed_hours": 11.040276439833365,
+  "seconds_per_step": 0.5677856454771445,
+  "session_training_elapsed_seconds": null,
+  "peak_gpu_allocated_mib": 2044.5126953125,
+  "peak_gpu_reserved_mib": 2210.0,
+  "loss_nan_detected": false,
+  "loss_inf_detected": false,
+  "oom_detected": false,
+  "final_validation_batches": 19,
+  "final_validation_completed": true,
+  "final_quantiles": {
+    "qa_ae": 0.045124638825654984,
+    "qa_st": 0.11727981269359589,
+    "qb_ae": 0.14632512629032135,
+    "qb_st": 0.1874944269657135
+  },
+  "final_quantiles_finite": true,
+  "checkpoint_path": ".\\experiments\\phase24b_sheetmetal_5seed_geometry\\seed45\\pb_arpr\\checkpoints\\final.ckpt",
+  "checkpoint_sha256": "c99b3cd163cb22104975f8ab669b0005c96e24528c4097de24aef1a996f67152",
+  "strict_reload": "PASS",
+  "resumed": false,
+  "resume_from_step": 0,
+  "log_paths": [
+    ".\\experiments\\phase24b_sheetmetal_5seed_geometry\\seed45\\pb_arpr\\logs\\baseline\\version_0\\metrics.csv"
+  ],
+  "warnings": [],
+  "last_verified_step": 70000,
+  "timing_note": "Fit setup and periodic checkpoint validation included; final validation and reload excluded. Resume sums saved elapsed time and current session; memory peaks cover this process.",
+  "gpu_total_memory_mib": 8191.6875,
+  "data": {
+    "counts": {
+      "train": 137,
+      "validation": 19,
+      "test_public": 114
+    },
+    "test_public_normal": 24,
+    "test_public_anomaly": 90,
+    "test_data_count": 90,
+    "test_data_semantics": "anomalous public-test subset",
+    "train_paths": [
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\000_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\001_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\002_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\003_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\004_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\005_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\006_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\007_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\008_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\009_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\010_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\011_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\012_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\013_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\014_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\015_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\016_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\017_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\018_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\019_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\020_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\021_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\022_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\023_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\024_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\025_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\026_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\027_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\028_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\029_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\030_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\031_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\032_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\033_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\034_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\035_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\036_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\037_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\038_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\039_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\040_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\041_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\042_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\043_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\044_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\045_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\046_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\047_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\048_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\049_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\050_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\051_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\052_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\053_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\054_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\055_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\056_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\057_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\058_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\059_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\060_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\061_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\062_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\063_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\064_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\065_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\066_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\067_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\068_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\069_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\070_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\071_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\072_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\073_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\074_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\075_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\076_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\077_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\078_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\079_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\080_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\081_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\082_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\083_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\084_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\085_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\086_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\087_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\088_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\089_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\090_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\091_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\092_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\093_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\094_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\095_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\096_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\097_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\098_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\099_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\100_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\101_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\102_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\103_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\104_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\105_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\106_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\107_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\108_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\109_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\110_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\111_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\112_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\113_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\114_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\115_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\116_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\117_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\118_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\119_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\120_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\121_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\122_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\123_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\124_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\125_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\126_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\127_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\128_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\129_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\130_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\131_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\132_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\133_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\134_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\135_regular.png",
+      ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\136_regular.png"
+    ],
+    "data_root": ".\\datasets\\MVTec_AD_2",
+    "split_usage": "Train only; validation/test metadata counts, no validation or test iteration"
+  },
+  "total_parameters": 8058628,
+  "trainable_parameters": 8058628,
+  "input_checks": [
+    {
+      "path": ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\103_regular.png",
+      "native_shape": [
+        3,
+        1056,
+        4224
+      ],
+      "preprocessed_shape": [
+        3,
+        256,
+        1024
+      ]
+    },
+    {
+      "path": ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\059_regular.png",
+      "native_shape": [
+        3,
+        1056,
+        4224
+      ],
+      "preprocessed_shape": [
+        3,
+        256,
+        1024
+      ]
+    },
+    {
+      "path": ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\088_regular.png",
+      "native_shape": [
+        3,
+        1056,
+        4224
+      ],
+      "preprocessed_shape": [
+        3,
+        256,
+        1024
+      ]
+    },
+    {
+      "path": ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\011_regular.png",
+      "native_shape": [
+        3,
+        1056,
+        4224
+      ],
+      "preprocessed_shape": [
+        3,
+        256,
+        1024
+      ]
+    },
+    {
+      "path": ".\\datasets\\MVTec_AD_2\\sheet_metal\\train\\good\\136_regular.png",
+      "native_shape": [
+        3,
+        1056,
+        4224
+      ],
+      "preprocessed_shape": [
+        3,
+        256,
+        1024
+      ]
+    }
+  ],
+  "feature_shapes": {
+    "input_shape": [
+      1,
+      3,
+      256,
+      1024
+    ],
+    "teacher_feature_shape": [
+      1,
+      384,
+      56,
+      248
+    ],
+    "student_feature_shape": [
+      1,
+      768,
+      56,
+      248
+    ],
+    "student_st_shape": [
+      1,
+      384,
+      56,
+      248
+    ],
+    "st_discrepancy_shape": [
+      1,
+      384,
+      56,
+      248
+    ],
+    "ae_feature_shape": [
+      1,
+      384,
+      56,
+      248
+    ],
+    "student_ae_half_shape": [
+      1,
+      384,
+      56,
+      248
+    ],
+    "st_shape_match": true,
+    "ae_shape_match": true,
+    "encoder_layers": {
+      "enconv1": {
+        "input": [
+          1,
+          3,
+          256,
+          1024
+        ],
+        "output": [
+          1,
+          32,
+          128,
+          512
+        ]
+      },
+      "enconv2": {
+        "input": [
+          1,
+          32,
+          128,
+          512
+        ],
+        "output": [
+          1,
+          32,
+          64,
+          256
+        ]
+      },
+      "enconv3": {
+        "input": [
+          1,
+          32,
+          64,
+          256
+        ],
+        "output": [
+          1,
+          64,
+          32,
+          128
+        ]
+      },
+      "enconv4": {
+        "input": [
+          1,
+          64,
+          32,
+          128
+        ],
+        "output": [
+          1,
+          64,
+          16,
+          64
+        ]
+      },
+      "enconv5": {
+        "input": [
+          1,
+          64,
+          16,
+          64
+        ],
+        "output": [
+          1,
+          64,
+          8,
+          32
+        ]
+      },
+      "enconv6": {
+        "input": [
+          1,
+          64,
+          8,
+          32
+        ],
+        "output": [
+          1,
+          64,
+          1,
+          25
+        ]
+      }
+    },
+    "decoder_layers": {
+      "deconv1": {
+        "input": [
+          1,
+          64,
+          3,
+          15
+        ],
+        "output": [
+          1,
+          64,
+          4,
+          16
+        ]
+      },
+      "deconv2": {
+        "input": [
+          1,
+          64,
+          8,
+          32
+        ],
+        "output": [
+          1,
+          64,
+          9,
+          33
+        ]
+      },
+      "deconv3": {
+        "input": [
+          1,
+          64,
+          15,
+          63
+        ],
+        "output": [
+          1,
+          64,
+          16,
+          64
+        ]
+      },
+      "deconv4": {
+        "input": [
+          1,
+          64,
+          32,
+          128
+        ],
+        "output": [
+          1,
+          64,
+          33,
+          129
+        ]
+      },
+      "deconv5": {
+        "input": [
+          1,
+          64,
+          63,
+          255
+        ],
+        "output": [
+          1,
+          64,
+          64,
+          256
+        ]
+      },
+      "deconv6": {
+        "input": [
+          1,
+          64,
+          127,
+          511
+        ],
+        "output": [
+          1,
+          64,
+          128,
+          512
+        ]
+      },
+      "deconv7": {
+        "input": [
+          1,
+          64,
+          56,
+          248
+        ],
+        "output": [
+          1,
+          64,
+          56,
+          248
+        ]
+      },
+      "deconv8": {
+        "input": [
+          1,
+          64,
+          56,
+          248
+        ],
+        "output": [
+          1,
+          384,
+          56,
+          248
+        ]
+      }
+    },
+    "decoder_interpolation_targets": {
+      "deconv1": [
+        3,
+        15
+      ],
+      "deconv2": [
+        8,
+        32
+      ],
+      "deconv3": [
+        15,
+        63
+      ],
+      "deconv4": [
+        32,
+        128
+      ],
+      "deconv5": [
+        63,
+        255
+      ],
+      "deconv6": [
+        127,
+        511
+      ],
+      "deconv7": [
+        56,
+        248
+      ]
+    },
+    "decoder_target_observation": "Each deconv1..7 pre-convolution input immediately follows official F.interpolate; no patched interpolation or model code.",
+    "prepad_st_map_shape": [
+      1,
+      1,
+      56,
+      248
+    ],
+    "prepad_stae_map_shape": [
+      1,
+      1,
+      56,
+      248
+    ],
+    "padded_feature_map_shape": [
+      1,
+      1,
+      64,
+      256
+    ],
+    "feature_padding": [
+      4,
+      4,
+      4,
+      4
+    ],
+    "st_raw_map_shape": [
+      1,
+      1,
+      256,
+      1024
+    ],
+    "stae_raw_map_shape": [
+      1,
+      1,
+      256,
+      1024
+    ],
+    "final_anomaly_map_shape": [
+      1,
+      1,
+      256,
+      1024
+    ],
+    "st_reconstruction_max_error": 0.0,
+    "teacher_geometry": {
+      "input_shape": [
+        256,
+        1024
+      ],
+      "output_shape": [
+        56,
+        248
+      ],
+      "jump": [
+        4.0,
+        4.0
+      ],
+      "rf": [
+        33.0,
+        33.0
+      ],
+      "start": [
+        16.5,
+        16.5
+      ],
+      "layers": [
+        {
+          "name": "conv1",
+          "kind": "Conv2d",
+          "kernel": [
+            4,
+            4
+          ],
+          "stride": [
+            1,
+            1
+          ],
+          "padding": [
+            0,
+            0
+          ],
+          "dilation": [
+            1,
+            1
+          ],
+          "ceil_mode": false,
+          "observed_output_shape": [
+            253,
+            1021
+          ],
+          "output_shape": [
+            253,
+            1021
+          ],
+          "jump": [
+            1.0,
+            1.0
+          ],
+          "rf": [
+            4.0,
+            4.0
+          ],
+          "start": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "name": "avgpool1",
+          "kind": "AvgPool2d",
+          "kernel": [
+            2,
+            2
+          ],
+          "stride": [
+            2,
+            2
+          ],
+          "padding": [
+            0,
+            0
+          ],
+          "dilation": [
+            1,
+            1
+          ],
+          "ceil_mode": false,
+          "observed_output_shape": [
+            126,
+            510
+          ],
+          "output_shape": [
+            126,
+            510
+          ],
+          "jump": [
+            2.0,
+            2.0
+          ],
+          "rf": [
+            5.0,
+            5.0
+          ],
+          "start": [
+            2.5,
+            2.5
+          ]
+        },
+        {
+          "name": "conv2",
+          "kind": "Conv2d",
+          "kernel": [
+            4,
+            4
+          ],
+          "stride": [
+            1,
+            1
+          ],
+          "padding": [
+            0,
+            0
+          ],
+          "dilation": [
+            1,
+            1
+          ],
+          "ceil_mode": false,
+          "observed_output_shape": [
+            123,
+            507
+          ],
+          "output_shape": [
+            123,
+            507
+          ],
+          "jump": [
+            2.0,
+            2.0
+          ],
+          "rf": [
+            11.0,
+            11.0
+          ],
+          "start": [
+            5.5,
+            5.5
+          ]
+        },
+        {
+          "name": "avgpool2",
+          "kind": "AvgPool2d",
+          "kernel": [
+            2,
+            2
+          ],
+          "stride": [
+            2,
+            2
+          ],
+          "padding": [
+            0,
+            0
+          ],
+          "dilation": [
+            1,
+            1
+          ],
+          "ceil_mode": false,
+          "observed_output_shape": [
+            61,
+            253
+          ],
+          "output_shape": [
+            61,
+            253
+          ],
+          "jump": [
+            4.0,
+            4.0
+          ],
+          "rf": [
+            13.0,
+            13.0
+          ],
+          "start": [
+            6.5,
+            6.5
+          ]
+        },
+        {
+          "name": "conv3",
+          "kind": "Conv2d",
+          "kernel": [
+            3,
+            3
+          ],
+          "stride": [
+            1,
+            1
+          ],
+          "padding": [
+            0,
+            0
+          ],
+          "dilation": [
+            1,
+            1
+          ],
+          "ceil_mode": false,
+          "observed_output_shape": [
+            59,
+            251
+          ],
+          "output_shape": [
+            59,
+            251
+          ],
+          "jump": [
+            4.0,
+            4.0
+          ],
+          "rf": [
+            21.0,
+            21.0
+          ],
+          "start": [
+            10.5,
+            10.5
+          ]
+        },
+        {
+          "name": "conv4",
+          "kind": "Conv2d",
+          "kernel": [
+            4,
+            4
+          ],
+          "stride": [
+            1,
+            1
+          ],
+          "padding": [
+            0,
+            0
+          ],
+          "dilation": [
+            1,
+            1
+          ],
+          "ceil_mode": false,
+          "observed_output_shape": [
+            56,
+            248
+          ],
+          "output_shape": [
+            56,
+            248
+          ],
+          "jump": [
+            4.0,
+            4.0
+          ],
+          "rf": [
+            33.0,
+            33.0
+          ],
+          "start": [
+            16.5,
+            16.5
+          ]
+        }
+      ],
+      "coordinates": "y,x; input pixel i occupies [i,i+1), center i+0.5; RF is bounding support, clipped to actual input for denominator"
+    },
+    "student_geometry": {
+      "input_shape": [
+        256,
+        1024
+      ],
+      "output_shape": [
+        56,
+        248
+      ],
+      "jump": [
+        4.0,
+        4.0
+      ],
+      "rf": [
+        33.0,
+        33.0
+      ],
+      "start": [
+        16.5,
+        16.5
+      ],
+      "layers": [
+        {
+          "name": "conv1",
+          "kind": "Conv2d",
+          "kernel": [
+            4,
+            4
+          ],
+          "stride": [
+            1,
+            1
+          ],
+          "padding": [
+            0,
+            0
+          ],
+          "dilation": [
+            1,
+            1
+          ],
+          "ceil_mode": false,
+          "observed_output_shape": [
+            253,
+            1021
+          ],
+          "output_shape": [
+            253,
+            1021
+          ],
+          "jump": [
+            1.0,
+            1.0
+          ],
+          "rf": [
+            4.0,
+            4.0
+          ],
+          "start": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "name": "avgpool1",
+          "kind": "AvgPool2d",
+          "kernel": [
+            2,
+            2
+          ],
+          "stride": [
+            2,
+            2
+          ],
+          "padding": [
+            0,
+            0
+          ],
+          "dilation": [
+            1,
+            1
+          ],
+          "ceil_mode": false,
+          "observed_output_shape": [
+            126,
+            510
+          ],
+          "output_shape": [
+            126,
+            510
+          ],
+          "jump": [
+            2.0,
+            2.0
+          ],
+          "rf": [
+            5.0,
+            5.0
+          ],
+          "start": [
+            2.5,
+            2.5
+          ]
+        },
+        {
+          "name": "conv2",
+          "kind": "Conv2d",
+          "kernel": [
+            4,
+            4
+          ],
+          "stride": [
+            1,
+            1
+          ],
+          "padding": [
+            0,
+            0
+          ],
+          "dilation": [
+            1,
+            1
+          ],
+          "ceil_mode": false,
+          "observed_output_shape": [
+            123,
+            507
+          ],
+          "output_shape": [
+            123,
+            507
+          ],
+          "jump": [
+            2.0,
+            2.0
+          ],
+          "rf": [
+            11.0,
+            11.0
+          ],
+          "start": [
+            5.5,
+            5.5
+          ]
+        },
+        {
+          "name": "avgpool2",
+          "kind": "AvgPool2d",
+          "kernel": [
+            2,
+            2
+          ],
+          "stride": [
+            2,
+            2
+          ],
+          "padding": [
+            0,
+            0
+          ],
+          "dilation": [
+            1,
+            1
+          ],
+          "ceil_mode": false,
+          "observed_output_shape": [
+            61,
+            253
+          ],
+          "output_shape": [
+            61,
+            253
+          ],
+          "jump": [
+            4.0,
+            4.0
+          ],
+          "rf": [
+            13.0,
+            13.0
+          ],
+          "start": [
+            6.5,
+            6.5
+          ]
+        },
+        {
+          "name": "conv3",
+          "kind": "Conv2d",
+          "kernel": [
+            3,
+            3
+          ],
+          "stride": [
+            1,
+            1
+          ],
+          "padding": [
+            0,
+            0
+          ],
+          "dilation": [
+            1,
+            1
+          ],
+          "ceil_mode": false,
+          "observed_output_shape": [
+            59,
+            251
+          ],
+          "output_shape": [
+            59,
+            251
+          ],
+          "jump": [
+            4.0,
+            4.0
+          ],
+          "rf": [
+            21.0,
+            21.0
+          ],
+          "start": [
+            10.5,
+            10.5
+          ]
+        },
+        {
+          "name": "conv4",
+          "kind": "Conv2d",
+          "kernel": [
+            4,
+            4
+          ],
+          "stride": [
+            1,
+            1
+          ],
+          "padding": [
+            0,
+            0
+          ],
+          "dilation": [
+            1,
+            1
+          ],
+          "ceil_mode": false,
+          "observed_output_shape": [
+            56,
+            248
+          ],
+          "output_shape": [
+            56,
+            248
+          ],
+          "jump": [
+            4.0,
+            4.0
+          ],
+          "rf": [
+            33.0,
+            33.0
+          ],
+          "start": [
+            16.5,
+            16.5
+          ]
+        }
+      ],
+      "coordinates": "y,x; input pixel i occupies [i,i+1), center i+0.5; RF is bounding support, clipped to actual input for denominator"
+    },
+    "feature_aspect_ratio": 4.428571428571429,
+    "input_aspect_ratio": 4.0,
+    "invalid_support_border_model": {
+      "top": 14,
+      "bottom": 14,
+      "left": 14,
+      "right": 14
+    },
+    "strict_unmixed_border_model": {
+      "top": 18,
+      "bottom": 18,
+      "left": 18,
+      "right": 18
+    },
+    "native_invalid_border_equivalent": {
+      "top": 57.75,
+      "bottom": 57.75,
+      "left": 57.75,
+      "right": 57.75
+    },
+    "actual_map_borders": {
+      "st": {
+        "exact_zero": {
+          "top": 14,
+          "bottom": 14,
+          "left": 14,
+          "right": 14
+        },
+        "near_zero": {
+          "top": 14,
+          "bottom": 14,
+          "left": 14,
+          "right": 14
+        }
+      },
+      "stae": {
+        "exact_zero": {
+          "top": 14,
+          "bottom": 14,
+          "left": 14,
+          "right": 14
+        },
+        "near_zero": {
+          "top": 14,
+          "bottom": 14,
+          "left": 14,
+          "right": 14
+        }
+      },
+      "combined": {
+        "exact_zero": {
+          "top": 14,
+          "bottom": 14,
+          "left": 14,
+          "right": 14
+        },
+        "near_zero": {
+          "top": 14,
+          "bottom": 14,
+          "left": 14,
+          "right": 14
+        }
+      }
+    },
+    "parameter_hash_before": "386572a7f47e36e7e8a4b2b205dd838c662c242bb3cf225989a8e8024585d32c",
+    "parameter_hash_after": "386572a7f47e36e7e8a4b2b205dd838c662c242bb3cf225989a8e8024585d32c",
+    "state_unchanged": true
+  },
+  "shape_gate": "PASS",
+  "imagenette": {
+    "received_image_size": [
+      256,
+      1024
+    ],
+    "batch_shape": [
+      1,
+      3,
+      256,
+      1024
+    ],
+    "transform": "Compose(\n      Resize(size=[512, 2048], interpolation=InterpolationMode.BILINEAR, antialias=True)\n      RandomGrayscale(p=0.3)\n      CenterCrop(size=(256, 1024))\n      ToTensor()\n)",
+    "status": "PASS"
+  },
+  "precheck": "PASS",
+  "last_losses": {
+    "train_st": 1.087494134902954,
+    "train_ae": 0.7557108402252197,
+    "train_stae": 0.019376462325453758,
+    "train_loss": 1.862581491470337
+  },
+  "progress_timestamp": "2026-09-29T23:23:04.107720+08:00",
+  "estimated_remaining_hours": 0.0,
+  "loss_fields_present": {
+    "train_loss": true,
+    "train_st": true,
+    "train_ae": true,
+    "train_stae": true
+  },
+  "loss_health_checked": true,
+  "last_checkpoint_loadable": true,
+  "validation_elapsed_seconds": 6.252137300092727,
+  "reloaded_feature_shapes": {
+    "input_shape": [
+      1,
+      3,
+      256,
+      1024
+    ],
+    "teacher_feature_shape": [
+      1,
+      384,
+      56,
+      248
+    ],
+    "student_feature_shape": [
+      1,
+      768,
+      56,
+      248
+    ],
+    "student_st_shape": [
+      1,
+      384,
+      56,
+      248
+    ],
+    "st_discrepancy_shape": [
+      1,
+      384,
+      56,
+      248
+    ],
+    "ae_feature_shape": [
+      1,
+      384,
+      56,
+      248
+    ],
+    "student_ae_half_shape": [
+      1,
+      384,
+      56,
+      248
+    ],
+    "st_shape_match": true,
+    "ae_shape_match": true,
+    "encoder_layers": {
+      "enconv1": {
+        "input": [
+          1,
+          3,
+          256,
+          1024
+        ],
+        "output": [
+          1,
+          32,
+          128,
+          512
+        ]
+      },
+      "enconv2": {
+        "input": [
+          1,
+          32,
+          128,
+          512
+        ],
+        "output": [
+          1,
+          32,
+          64,
+          256
+        ]
+      },
+      "enconv3": {
+        "input": [
+          1,
+          32,
+          64,
+          256
+        ],
+        "output": [
+          1,
+          64,
+          32,
+          128
+        ]
+      },
+      "enconv4": {
+        "input": [
+          1,
+          64,
+          32,
+          128
+        ],
+        "output": [
+          1,
+          64,
+          16,
+          64
+        ]
+      },
+      "enconv5": {
+        "input": [
+          1,
+          64,
+          16,
+          64
+        ],
+        "output": [
+          1,
+          64,
+          8,
+          32
+        ]
+      },
+      "enconv6": {
+        "input": [
+          1,
+          64,
+          8,
+          32
+        ],
+        "output": [
+          1,
+          64,
+          1,
+          25
+        ]
+      }
+    },
+    "decoder_layers": {
+      "deconv1": {
+        "input": [
+          1,
+          64,
+          3,
+          15
+        ],
+        "output": [
+          1,
+          64,
+          4,
+          16
+        ]
+      },
+      "deconv2": {
+        "input": [
+          1,
+          64,
+          8,
+          32
+        ],
+        "output": [
+          1,
+          64,
+          9,
+          33
+        ]
+      },
+      "deconv3": {
+        "input": [
+          1,
+          64,
+          15,
+          63
+        ],
+        "output": [
+          1,
+          64,
+          16,
+          64
+        ]
+      },
+      "deconv4": {
+        "input": [
+          1,
+          64,
+          32,
+          128
+        ],
+        "output": [
+          1,
+          64,
+          33,
+          129
+        ]
+      },
+      "deconv5": {
+        "input": [
+          1,
+          64,
+          63,
+          255
+        ],
+        "output": [
+          1,
+          64,
+          64,
+          256
+        ]
+      },
+      "deconv6": {
+        "input": [
+          1,
+          64,
+          127,
+          511
+        ],
+        "output": [
+          1,
+          64,
+          128,
+          512
+        ]
+      },
+      "deconv7": {
+        "input": [
+          1,
+          64,
+          56,
+          248
+        ],
+        "output": [
+          1,
+          64,
+          56,
+          248
+        ]
+      },
+      "deconv8": {
+        "input": [
+          1,
+          64,
+          56,
+          248
+        ],
+        "output": [
+          1,
+          384,
+          56,
+          248
+        ]
+      }
+    },
+    "decoder_interpolation_targets": {
+      "deconv1": [
+        3,
+        15
+      ],
+      "deconv2": [
+        8,
+        32
+      ],
+      "deconv3": [
+        15,
+        63
+      ],
+      "deconv4": [
+        32,
+        128
+      ],
+      "deconv5": [
+        63,
+        255
+      ],
+      "deconv6": [
+        127,
+        511
+      ],
+      "deconv7": [
+        56,
+        248
+      ]
+    },
+    "decoder_target_observation": "Each deconv1..7 pre-convolution input immediately follows official F.interpolate; no patched interpolation or model code.",
+    "prepad_st_map_shape": [
+      1,
+      1,
+      56,
+      248
+    ],
+    "prepad_stae_map_shape": [
+      1,
+      1,
+      56,
+      248
+    ],
+    "padded_feature_map_shape": [
+      1,
+      1,
+      64,
+      256
+    ],
+    "feature_padding": [
+      4,
+      4,
+      4,
+      4
+    ],
+    "st_raw_map_shape": [
+      1,
+      1,
+      256,
+      1024
+    ],
+    "stae_raw_map_shape": [
+      1,
+      1,
+      256,
+      1024
+    ],
+    "final_anomaly_map_shape": [
+      1,
+      1,
+      256,
+      1024
+    ],
+    "st_reconstruction_max_error": 0.0,
+    "teacher_geometry": {
+      "input_shape": [
+        256,
+        1024
+      ],
+      "output_shape": [
+        56,
+        248
+      ],
+      "jump": [
+        4.0,
+        4.0
+      ],
+      "rf": [
+        33.0,
+        33.0
+      ],
+      "start": [
+        16.5,
+        16.5
+      ],
+      "layers": [
+        {
+          "name": "conv1",
+          "kind": "Conv2d",
+          "kernel": [
+            4,
+            4
+          ],
+          "stride": [
+            1,
+            1
+          ],
+          "padding": [
+            0,
+            0
+          ],
+          "dilation": [
+            1,
+            1
+          ],
+          "ceil_mode": false,
+          "observed_output_shape": [
+            253,
+            1021
+          ],
+          "output_shape": [
+            253,
+            1021
+          ],
+          "jump": [
+            1.0,
+            1.0
+          ],
+          "rf": [
+            4.0,
+            4.0
+          ],
+          "start": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "name": "avgpool1",
+          "kind": "AvgPool2d",
+          "kernel": [
+            2,
+            2
+          ],
+          "stride": [
+            2,
+            2
+          ],
+          "padding": [
+            0,
+            0
+          ],
+          "dilation": [
+            1,
+            1
+          ],
+          "ceil_mode": false,
+          "observed_output_shape": [
+            126,
+            510
+          ],
+          "output_shape": [
+            126,
+            510
+          ],
+          "jump": [
+            2.0,
+            2.0
+          ],
+          "rf": [
+            5.0,
+            5.0
+          ],
+          "start": [
+            2.5,
+            2.5
+          ]
+        },
+        {
+          "name": "conv2",
+          "kind": "Conv2d",
+          "kernel": [
+            4,
+            4
+          ],
+          "stride": [
+            1,
+            1
+          ],
+          "padding": [
+            0,
+            0
+          ],
+          "dilation": [
+            1,
+            1
+          ],
+          "ceil_mode": false,
+          "observed_output_shape": [
+            123,
+            507
+          ],
+          "output_shape": [
+            123,
+            507
+          ],
+          "jump": [
+            2.0,
+            2.0
+          ],
+          "rf": [
+            11.0,
+            11.0
+          ],
+          "start": [
+            5.5,
+            5.5
+          ]
+        },
+        {
+          "name": "avgpool2",
+          "kind": "AvgPool2d",
+          "kernel": [
+            2,
+            2
+          ],
+          "stride": [
+            2,
+            2
+          ],
+          "padding": [
+            0,
+            0
+          ],
+          "dilation": [
+            1,
+            1
+          ],
+          "ceil_mode": false,
+          "observed_output_shape": [
+            61,
+            253
+          ],
+          "output_shape": [
+            61,
+            253
+          ],
+          "jump": [
+            4.0,
+            4.0
+          ],
+          "rf": [
+            13.0,
+            13.0
+          ],
+          "start": [
+            6.5,
+            6.5
+          ]
+        },
+        {
+          "name": "conv3",
+          "kind": "Conv2d",
+          "kernel": [
+            3,
+            3
+          ],
+          "stride": [
+            1,
+            1
+          ],
+          "padding": [
+            0,
+            0
+          ],
+          "dilation": [
+            1,
+            1
+          ],
+          "ceil_mode": false,
+          "observed_output_shape": [
+            59,
+            251
+          ],
+          "output_shape": [
+            59,
+            251
+          ],
+          "jump": [
+            4.0,
+            4.0
+          ],
+          "rf": [
+            21.0,
+            21.0
+          ],
+          "start": [
+            10.5,
+            10.5
+          ]
+        },
+        {
+          "name": "conv4",
+          "kind": "Conv2d",
+          "kernel": [
+            4,
+            4
+          ],
+          "stride": [
+            1,
+            1
+          ],
+          "padding": [
+            0,
+            0
+          ],
+          "dilation": [
+            1,
+            1
+          ],
+          "ceil_mode": false,
+          "observed_output_shape": [
+            56,
+            248
+          ],
+          "output_shape": [
+            56,
+            248
+          ],
+          "jump": [
+            4.0,
+            4.0
+          ],
+          "rf": [
+            33.0,
+            33.0
+          ],
+          "start": [
+            16.5,
+            16.5
+          ]
+        }
+      ],
+      "coordinates": "y,x; input pixel i occupies [i,i+1), center i+0.5; RF is bounding support, clipped to actual input for denominator"
+    },
+    "student_geometry": {
+      "input_shape": [
+        256,
+        1024
+      ],
+      "output_shape": [
+        56,
+        248
+      ],
+      "jump": [
+        4.0,
+        4.0
+      ],
+      "rf": [
+        33.0,
+        33.0
+      ],
+      "start": [
+        16.5,
+        16.5
+      ],
+      "layers": [
+        {
+          "name": "conv1",
+          "kind": "Conv2d",
+          "kernel": [
+            4,
+            4
+          ],
+          "stride": [
+            1,
+            1
+          ],
+          "padding": [
+            0,
+            0
+          ],
+          "dilation": [
+            1,
+            1
+          ],
+          "ceil_mode": false,
+          "observed_output_shape": [
+            253,
+            1021
+          ],
+          "output_shape": [
+            253,
+            1021
+          ],
+          "jump": [
+            1.0,
+            1.0
+          ],
+          "rf": [
+            4.0,
+            4.0
+          ],
+          "start": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "name": "avgpool1",
+          "kind": "AvgPool2d",
+          "kernel": [
+            2,
+            2
+          ],
+          "stride": [
+            2,
+            2
+          ],
+          "padding": [
+            0,
+            0
+          ],
+          "dilation": [
+            1,
+            1
+          ],
+          "ceil_mode": false,
+          "observed_output_shape": [
+            126,
+            510
+          ],
+          "output_shape": [
+            126,
+            510
+          ],
+          "jump": [
+            2.0,
+            2.0
+          ],
+          "rf": [
+            5.0,
+            5.0
+          ],
+          "start": [
+            2.5,
+            2.5
+          ]
+        },
+        {
+          "name": "conv2",
+          "kind": "Conv2d",
+          "kernel": [
+            4,
+            4
+          ],
+          "stride": [
+            1,
+            1
+          ],
+          "padding": [
+            0,
+            0
+          ],
+          "dilation": [
+            1,
+            1
+          ],
+          "ceil_mode": false,
+          "observed_output_shape": [
+            123,
+            507
+          ],
+          "output_shape": [
+            123,
+            507
+          ],
+          "jump": [
+            2.0,
+            2.0
+          ],
+          "rf": [
+            11.0,
+            11.0
+          ],
+          "start": [
+            5.5,
+            5.5
+          ]
+        },
+        {
+          "name": "avgpool2",
+          "kind": "AvgPool2d",
+          "kernel": [
+            2,
+            2
+          ],
+          "stride": [
+            2,
+            2
+          ],
+          "padding": [
+            0,
+            0
+          ],
+          "dilation": [
+            1,
+            1
+          ],
+          "ceil_mode": false,
+          "observed_output_shape": [
+            61,
+            253
+          ],
+          "output_shape": [
+            61,
+            253
+          ],
+          "jump": [
+            4.0,
+            4.0
+          ],
+          "rf": [
+            13.0,
+            13.0
+          ],
+          "start": [
+            6.5,
+            6.5
+          ]
+        },
+        {
+          "name": "conv3",
+          "kind": "Conv2d",
+          "kernel": [
+            3,
+            3
+          ],
+          "stride": [
+            1,
+            1
+          ],
+          "padding": [
+            0,
+            0
+          ],
+          "dilation": [
+            1,
+            1
+          ],
+          "ceil_mode": false,
+          "observed_output_shape": [
+            59,
+            251
+          ],
+          "output_shape": [
+            59,
+            251
+          ],
+          "jump": [
+            4.0,
+            4.0
+          ],
+          "rf": [
+            21.0,
+            21.0
+          ],
+          "start": [
+            10.5,
+            10.5
+          ]
+        },
+        {
+          "name": "conv4",
+          "kind": "Conv2d",
+          "kernel": [
+            4,
+            4
+          ],
+          "stride": [
+            1,
+            1
+          ],
+          "padding": [
+            0,
+            0
+          ],
+          "dilation": [
+            1,
+            1
+          ],
+          "ceil_mode": false,
+          "observed_output_shape": [
+            56,
+            248
+          ],
+          "output_shape": [
+            56,
+            248
+          ],
+          "jump": [
+            4.0,
+            4.0
+          ],
+          "rf": [
+            33.0,
+            33.0
+          ],
+          "start": [
+            16.5,
+            16.5
+          ]
+        }
+      ],
+      "coordinates": "y,x; input pixel i occupies [i,i+1), center i+0.5; RF is bounding support, clipped to actual input for denominator"
+    },
+    "feature_aspect_ratio": 4.428571428571429,
+    "input_aspect_ratio": 4.0,
+    "invalid_support_border_model": {
+      "top": 14,
+      "bottom": 14,
+      "left": 14,
+      "right": 14
+    },
+    "strict_unmixed_border_model": {
+      "top": 18,
+      "bottom": 18,
+      "left": 18,
+      "right": 18
+    },
+    "native_invalid_border_equivalent": {
+      "top": 57.75,
+      "bottom": 57.75,
+      "left": 57.75,
+      "right": 57.75
+    },
+    "actual_map_borders": {
+      "st": {
+        "exact_zero": {
+          "top": 14,
+          "bottom": 14,
+          "left": 14,
+          "right": 14
+        },
+        "near_zero": {
+          "top": 14,
+          "bottom": 14,
+          "left": 14,
+          "right": 14
+        }
+      },
+      "stae": {
+        "exact_zero": {
+          "top": 14,
+          "bottom": 14,
+          "left": 14,
+          "right": 14
+        },
+        "near_zero": {
+          "top": 14,
+          "bottom": 14,
+          "left": 14,
+          "right": 14
+        }
+      },
+      "combined": {
+        "exact_zero": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "near_zero": {
+          "top": 0,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        }
+      }
+    },
+    "parameter_hash_before": "b625dc10c99e67e3de992cfb034835a623d07b48ae6b3618888012d3e2225bab",
+    "parameter_hash_after": "b625dc10c99e67e3de992cfb034835a623d07b48ae6b3618888012d3e2225bab",
+    "state_unchanged": true
+  },
+  "checkpoint_size_bytes": 77130145,
+  "actual_vs_projected_ratio_steady": 1.013436550714929,
+  "actual_vs_projected_ratio_total": 0.941537160776524,
+  "fraction_allocated": 0.24958382449434258
+}

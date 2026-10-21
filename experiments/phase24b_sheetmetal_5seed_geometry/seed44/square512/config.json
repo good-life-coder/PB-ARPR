@@ -1,0 +1,112 @@
+{
+  "name": "B1_resolution512",
+  "baseline_reference": "B0",
+  "training_steps": 70000,
+  "difference_from_B0": "input resolution 256x256 -> 512x512 and requested random seed",
+  "dataset": "MVTec AD 2",
+  "dataset_root": ".\\datasets\\MVTec_AD_2",
+  "category": "sheet_metal",
+  "train_count": 137,
+  "validation_count": 19,
+  "test_public_count": 114,
+  "test_type": "public",
+  "model": "EfficientAD-S",
+  "model_size": "small",
+  "input_size": [
+    512,
+    512
+  ],
+  "batch_size": 1,
+  "num_workers": 0,
+  "seed": 44,
+  "max_steps": 70000,
+  "max_epochs": 1000,
+  "accelerator": "gpu",
+  "devices": 1,
+  "gpu_index": 0,
+  "precision": "32-true",
+  "optimizer": "Adam",
+  "learning_rate": 0.0001,
+  "weight_decay": 1e-05,
+  "scheduler": "StepLR",
+  "scheduler_step_size": 66500,
+  "scheduler_gamma": 0.1,
+  "validation_during_fit": false,
+  "final_full_validation": true,
+  "evaluator": false,
+  "visualizer": false,
+  "post_processor": false,
+  "pre_processor": "Official EfficientAD configure_pre_processor(image_size=(512, 512))",
+  "early_stopping": false,
+  "checkpoint_selection": "final step plus final validation",
+  "python_version": "3.10.21",
+  "torch_version": "2.9.1+cu126",
+  "torchvision_version": "0.24.1+cu126",
+  "cuda_runtime": "12.6",
+  "anomalib_version": "2.6.1",
+  "lightning_version": "2.6.6",
+  "cudnn_deterministic": false,
+  "cudnn_benchmark": false,
+  "cuda_available": true,
+  "b0_consistency_check": {
+    "status": "PASS",
+    "protocol_differences": {
+      "input_size": {
+        "b0": [
+          256,
+          256
+        ],
+        "b1": [
+          512,
+          512
+        ]
+      },
+      "seed": {
+        "b0": 42,
+        "b1": 44
+      },
+      "pre_processor": {
+        "b0": "EfficientAD default 256x256; no custom PreProcessor",
+        "b1": "Official EfficientAD configure_pre_processor(image_size=(512, 512))"
+      }
+    },
+    "framework_versions_match": true,
+    "gpu_match": true,
+    "nvidia_driver_version": "596.71",
+    "nvidia_driver_match": true,
+    "b0_config_sha256": "387a6d0e00ed94784b48277ae569689915d609902f6d76f04f63af3f8fa49222"
+  },
+  "preprocessor_configuration": {
+    "api": "EfficientAd.configure_pre_processor(image_size=(resolution, resolution))",
+    "signature": "(image_size: tuple[int, int] | None = None) -> anomalib.pre_processing.pre_processor.PreProcessor",
+    "source": "    @classmethod\n    def configure_pre_processor(cls, image_size: tuple[int, int] | None = None) -> PreProcessor:\n        \"\"\"Configure default pre-processor for EfficientAd.\n\n        Note that ImageNet normalization is applied in the forward pass, not here.\n\n        Args:\n            image_size (tuple[int, int] | None, optional): Target image size.\n                Defaults to ``(256, 256)``.\n\n        Returns:\n            PreProcessor: Configured pre-processor with resize transform.\n        \"\"\"\n        image_size = image_size or (256, 256)\n        transform = Compose([Resize(image_size, antialias=True)])\n        return PreProcessor(transform=transform)\n",
+    "default_transform": "Compose(    Resize(size=[256, 256], interpolation=InterpolationMode.BILINEAR, antialias=True))",
+    "selected_transform": "Compose(    Resize(size=[512, 512], interpolation=InterpolationMode.BILINEAR, antialias=True))",
+    "non_size_attributes": {
+      "training": "True",
+      "_parameters": "{}",
+      "_buffers": "{}",
+      "_non_persistent_buffers_set": "set()",
+      "_backward_pre_hooks": "OrderedDict()",
+      "_backward_hooks": "OrderedDict()",
+      "_is_full_backward_hook": "None",
+      "_forward_hooks": "OrderedDict()",
+      "_forward_hooks_with_kwargs": "OrderedDict()",
+      "_forward_hooks_always_called": "OrderedDict()",
+      "_forward_pre_hooks": "OrderedDict()",
+      "_forward_pre_hooks_with_kwargs": "OrderedDict()",
+      "_state_dict_hooks": "OrderedDict()",
+      "_state_dict_pre_hooks": "OrderedDict()",
+      "_load_state_dict_pre_hooks": "OrderedDict()",
+      "_load_state_dict_post_hooks": "OrderedDict()",
+      "_modules": "{}",
+      "interpolation": "<InterpolationMode.BILINEAR: 'bilinear'>",
+      "max_size": "None",
+      "antialias": "True"
+    },
+    "only_resize_changed": true
+  },
+  "parameter_count_total": 8058628,
+  "parameter_count_requires_grad": 8058628,
+  "optimizer_parameter_count": 5363712
+}

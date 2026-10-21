@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "geometry": [
+    256,
+    576
+  ],
+  "seed": 42,
+  "pixel_budget": 147456,
+  "test_public_count": 114,
+  "normal_count": 24,
+  "anomaly_count": 90,
+  "gt_region_count": 450,
+  "image_auroc": 0.6949074074074074,
+  "pixel_auroc": 0.8286492124180941,
+  "exact_aupro005": 0.13489315080326458,
+  "exact_aupro030": 0.37765485913717445,
+  "nan_count": 0,
+  "inf_count": 0,
+  "checkpoint_sha256": "419abf66cf60501aa8d70d82d768792b93d60bdfbc686fb04a6bf3929f9af246",
+  "checkpoint_path": ".\\experiments\\phase24c_r1_architecture_constrained_budget\\08_mid_training\\checkpoints\\final.ckpt",
+  "exact_source_sha256": "3e6ebc80d400419cf3aaf00950e954ea165df2419c6ea895f4296013c67e11a1",
+  "test_private_files_accessed": 0,
+  "test_private_mixed_files_accessed": 0,
+  "protocol_violation_count": 0,
+  "prediction_count": 114,
+  "native_shape": [
+    1056,
+    4224
+  ],
+  "map_restore": "bilinear_align_corners_false",
+  "image_score": "native_combined_anomaly_map_max",
+  "evaluation_elapsed_sec": 205.76727190008387
+}

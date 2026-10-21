@@ -1,0 +1,27 @@
+{
+  "image_auroc": 0.8791666666666668,
+  "pixel_auroc": 0.8409314808755626,
+  "aupro005": 0.19652151141718371,
+  "aupro030": 0.4480723426914776,
+  "approximation": false,
+  "percent": {
+    "image_auroc": 87.91666666666667,
+    "pixel_auroc": 84.09314808755626,
+    "aupro005": 19.65215114171837,
+    "aupro030": 44.80723426914776
+  },
+  "exact_metadata": {
+    "background_pixels": 506180190,
+    "positive_pixels": 2321826,
+    "connected_regions": 450,
+    "weight_sum": 1.0000000000000007,
+    "sorting_elapsed_seconds": 20.120032700011507,
+    "background_min": -0.10387429594993591,
+    "background_max": 2.017063856124878,
+    "sort_verified": "full chunked monotonicity",
+    "aupro_0.05": 0.19652151141718371,
+    "aupro_0.05_percent": 19.65215114171837,
+    "aupro_0.30": 0.4480723426914776,
+    "aupro_0.30_percent": 44.80723426914776
+  }
+}

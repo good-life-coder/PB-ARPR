@@ -1,0 +1,221 @@
+aspect_ratio: 4.0
+batch: 1
+batch_size: 1
+calibration_report: .\experiments\phase13a_rectangular_256x1024\calibration_report_r1_retry1.json
+calibration_sha256: ecb614e8cde959f5fc45cbb886a298dd534e65e4dea4d252edf9b31ef740e1d9
+category: sheet_metal
+data_fingerprint: 1e61b7b62c780d99cdad32d6e9231957dfc07b48f99ab6a857358659f27118c9
+dataset: MVTec AD 2
+dataset_root: .\datasets\MVTec_AD_2
+difference_from_B0: aspect-ratio-preserving rectangular input only
+early_stopping: false
+evaluator: false
+experiment: Rectangular_EfficientAD_256x1024
+final_full_validation: true
+framework_versions:
+  anomalib: 2.6.1
+  cuda: '12.6'
+  gpu: Quadro RTX 4000
+  lightning: 2.6.6
+  python: 3.10.21
+  torch: 2.9.1+cu126
+  torchvision: 0.24.1+cu126
+imagenet_dir: ./datasets/imagenette
+input_size_hw:
+- 256
+- 1024
+learning_rate: 0.0001
+lr: 0.0001
+max_epochs: 1000
+max_steps: 70000
+model: EfficientAD-S
+model_size: small
+native_size_hw:
+- 1056
+- 4224
+no_halo: true
+no_tile: true
+num_workers: 0
+optimizer: Adam
+optimizer_parameter_count: 5363712
+pad_maps: true
+padding: false
+parameter_count_requires_grad: 8058628
+parameter_count_total: 8058628
+post_processor: false
+pre_processor: !!python/object:anomalib.pre_processing.pre_processor.PreProcessor
+  _backward_hooks: !!python/object/apply:collections.OrderedDict
+  - []
+  _backward_pre_hooks: !!python/object/apply:collections.OrderedDict
+  - []
+  _buffers: {}
+  _forward_hooks: !!python/object/apply:collections.OrderedDict
+  - []
+  _forward_hooks_always_called: !!python/object/apply:collections.OrderedDict
+  - []
+  _forward_hooks_with_kwargs: !!python/object/apply:collections.OrderedDict
+  - []
+  _forward_pre_hooks: !!python/object/apply:collections.OrderedDict
+  - []
+  _forward_pre_hooks_with_kwargs: !!python/object/apply:collections.OrderedDict
+  - []
+  _is_full_backward_hook: null
+  _load_state_dict_post_hooks: !!python/object/apply:collections.OrderedDict
+  - []
+  _load_state_dict_pre_hooks: !!python/object/apply:collections.OrderedDict
+  - []
+  _modules:
+    export_transform: !!python/object:torchvision.transforms.v2._container.Compose
+      _backward_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      _backward_pre_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      _buffers: {}
+      _forward_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      _forward_hooks_always_called: !!python/object/apply:collections.OrderedDict
+      - []
+      _forward_hooks_with_kwargs: !!python/object/apply:collections.OrderedDict
+      - []
+      _forward_pre_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      _forward_pre_hooks_with_kwargs: !!python/object/apply:collections.OrderedDict
+      - []
+      _is_full_backward_hook: null
+      _load_state_dict_post_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      _load_state_dict_pre_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      _modules: {}
+      _non_persistent_buffers_set: !!set {}
+      _parameters: {}
+      _state_dict_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      _state_dict_pre_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      training: true
+      transforms:
+      - !!python/object:torchvision.transforms.v2._geometry.Resize
+        _backward_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        _backward_pre_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        _buffers: {}
+        _forward_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        _forward_hooks_always_called: !!python/object/apply:collections.OrderedDict
+        - []
+        _forward_hooks_with_kwargs: !!python/object/apply:collections.OrderedDict
+        - []
+        _forward_pre_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        _forward_pre_hooks_with_kwargs: !!python/object/apply:collections.OrderedDict
+        - []
+        _is_full_backward_hook: null
+        _load_state_dict_post_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        _load_state_dict_pre_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        _modules: {}
+        _non_persistent_buffers_set: !!set {}
+        _parameters: {}
+        _state_dict_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        _state_dict_pre_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        antialias: false
+        interpolation: &id001 !!python/object/apply:torchvision.transforms.functional.InterpolationMode
+        - bilinear
+        max_size: null
+        size:
+        - 256
+        - 1024
+        training: true
+    transform: !!python/object:torchvision.transforms.v2._container.Compose
+      _backward_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      _backward_pre_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      _buffers: {}
+      _forward_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      _forward_hooks_always_called: !!python/object/apply:collections.OrderedDict
+      - []
+      _forward_hooks_with_kwargs: !!python/object/apply:collections.OrderedDict
+      - []
+      _forward_pre_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      _forward_pre_hooks_with_kwargs: !!python/object/apply:collections.OrderedDict
+      - []
+      _is_full_backward_hook: null
+      _load_state_dict_post_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      _load_state_dict_pre_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      _modules: {}
+      _non_persistent_buffers_set: !!set {}
+      _parameters: {}
+      _state_dict_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      _state_dict_pre_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      training: true
+      transforms:
+      - !!python/object:torchvision.transforms.v2._geometry.Resize
+        _backward_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        _backward_pre_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        _buffers: {}
+        _forward_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        _forward_hooks_always_called: !!python/object/apply:collections.OrderedDict
+        - []
+        _forward_hooks_with_kwargs: !!python/object/apply:collections.OrderedDict
+        - []
+        _forward_pre_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        _forward_pre_hooks_with_kwargs: !!python/object/apply:collections.OrderedDict
+        - []
+        _is_full_backward_hook: null
+        _load_state_dict_post_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        _load_state_dict_pre_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        _modules: {}
+        _non_persistent_buffers_set: !!set {}
+        _parameters: {}
+        _state_dict_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        _state_dict_pre_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        antialias: true
+        interpolation: *id001
+        max_size: null
+        size:
+        - 256
+        - 1024
+        training: true
+  _non_persistent_buffers_set: !!set {}
+  _parameters: {}
+  _state_dict_hooks: !!python/object/apply:collections.OrderedDict
+  - []
+  _state_dict_pre_hooks: !!python/object/apply:collections.OrderedDict
+  - []
+  training: true
+precision: FP32
+predicted_training_hours_steady: 10.8939
+predicted_training_hours_total: 11.7258
+preprocessor_configuration: Compose(    Resize(size=[256, 1024], interpolation=InterpolationMode.BILINEAR,
+  antialias=True))
+scheduler: StepLR
+scheduler_gamma: 0.1
+scheduler_step_size: 66500
+seed: 44
+steps: 70000
+teacher_out_channels: 384
+total_parameters: 8058628
+trainer_precision: 32-true
+validation_during_fit: false
+visualizer: false
+weight_decay: 1.0e-05

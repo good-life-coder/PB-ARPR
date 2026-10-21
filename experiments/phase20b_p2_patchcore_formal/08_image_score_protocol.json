@@ -1,0 +1,5 @@
+{
+  "definition": "OFFICIAL_PATCHCORE_WEIGHTED_NN_SCORE",
+  "detail": "Maximum anomalous patch nearest-neighbor distance with 9-neighbor support weighting; official pred_score retained",
+  "map_max_substituted": false
+}

@@ -1,0 +1,116 @@
+{
+  "PROTOCOL": "Development verification before blind test",
+  "REPEAT_COUNT": 1,
+  "PAPER_FINAL_REQUIRES_REPEAT_ANALYSIS": true,
+  "DEV_NORMAL_REUSED_FOR_QUANTILE": true,
+  "PILOT_CHECKPOINT_ALLOWED_FOR_FINAL": false,
+  "FINAL_KSDD2_TEST_UNTOUCHED": true,
+  "OFFICIAL_TEST_FORWARD_COUNT": 0,
+  "OFFICIAL_TEST_PREDICTIONS_CREATED": 0,
+  "DGNB_DISABLED": true,
+  "DEVELOPMENT_ONLY": true,
+  "DO_NOT_REPORT_AS_FINAL_KSDD2_TEST_RESULT": true,
+  "status": "PRECHECK_PASS",
+  "canonical_hash": "6ebea6a7a2628697627a31e45489904fa7ec61762ef06eef8ec54c77c3a1b3b7",
+  "fresh_hashes": {
+    "STD": {
+      "teacher": "2c4c745226a0dcf0b220d6ca9b2e75cc7adb6d942ed45c5d563fa46d3f7d5151",
+      "student": "bef3163addea8492b23394993bead7eca74db471889459bb9a0cf3f9a9443e48",
+      "ae": "f85a234c8c30fe8440a0c7ae2777fe3beadec32af8dd7bd1a17e988d92709690"
+    },
+    "RECT": {
+      "teacher": "2c4c745226a0dcf0b220d6ca9b2e75cc7adb6d942ed45c5d563fa46d3f7d5151",
+      "student": "bef3163addea8492b23394993bead7eca74db471889459bb9a0cf3f9a9443e48",
+      "ae": "f85a234c8c30fe8440a0c7ae2777fe3beadec32af8dd7bd1a17e988d92709690"
+    }
+  },
+  "shapes": {
+    "STD": {
+      "input": [
+        1,
+        3,
+        256,
+        256
+      ],
+      "teacher_s1": [
+        128,
+        253,
+        253
+      ],
+      "student_s1": [
+        128,
+        253,
+        253
+      ],
+      "final_st": [
+        384,
+        56,
+        56
+      ],
+      "natural_match": true,
+      "projector": false,
+      "params": 8058628
+    },
+    "RECT": {
+      "input": [
+        1,
+        3,
+        864,
+        320
+      ],
+      "teacher_s1": [
+        128,
+        861,
+        317
+      ],
+      "student_s1": [
+        128,
+        861,
+        317
+      ],
+      "final_st": [
+        384,
+        208,
+        72
+      ],
+      "natural_match": true,
+      "projector": false,
+      "params": 8058628
+    }
+  },
+  "resume_continuity": {
+    "STD": {
+      "status": "PASS",
+      "saved_step": 5,
+      "restored_step": 5,
+      "continued_step": 6,
+      "restored_model_optimizer_scheduler_exact": true,
+      "continuation_max_abs_error": 7.450580596923828e-09,
+      "continuation_atol": 1.1920928955078125e-07,
+      "teacher_unchanged": true
+    },
+    "RECT": {
+      "status": "PASS",
+      "saved_step": 5,
+      "restored_step": 5,
+      "continued_step": 6,
+      "restored_model_optimizer_scheduler_exact": true,
+      "continuation_max_abs_error": 1.862645149230957e-09,
+      "continuation_atol": 1.1920928955078125e-07,
+      "teacher_unchanged": true
+    }
+  },
+  "train_normal": 1876,
+  "validation_normal": 209,
+  "dev_defect": 246,
+  "official_test": 1004,
+  "access": {
+    "allowed_reads": {
+      "train": 16
+    },
+    "blocked_test_access_attempts": 0,
+    "OFFICIAL_TEST_FORWARD_COUNT": 0,
+    "OFFICIAL_TEST_PREDICTIONS_CREATED": 0,
+    "FINAL_KSDD2_TEST_UNTOUCHED": true
+  }
+}

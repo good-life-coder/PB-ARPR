@@ -1,0 +1,15 @@
+{
+  "src/evaluation/severstal_70k_protocol.py": "6c65dbcdc1005b3dd637b4ebceef61e9329ead08495c2a67fabdc4678cf4c1d0",
+  "src/training/severstal_formal_training.py": "7e68235daca2bbbfa503f3ac9867e2c4ce2b265a370e7fb653543e6f548a3522",
+  "scripts/train_severstal_70k_std_rect.py": "38d0dfdeb04c3563ffe2a4a560d49d2c03f0548bb308be4f28c3c10fb3b5d75d",
+  "src/training/severstal_r1_pilot.py": "993ec4a0b500bcd9c62ad996578be11d94b25c30794ffda71338c28215c69188",
+  "src/training/severstal_pilot.py": "8f698601e493d085ab0936305a086846a51af55a67b899a680c9921c1e67c41c",
+  "src/evaluation/severstal_protocol.py": "49d328eb81d9a99b3505f61fa4fe335246a04c79f3e009c2c688b4f3ff280421",
+  "src/evaluation/severstal_dev_evaluation.py": "60516b3091c176f7cfc7172235237df1d76062aeb07b7f03a7029323a47b7664",
+  "src/training/ksdd2_pilot_training.py": "b5415aa51bb5998032e578a6c8ddca75bfecb23019a1fb43fe1d44d50154398a",
+  "src/training/ksdd2_formal_training.py": "f2af212059854c62874bcd17f79507a4805f16e5ab10e3b8f951d399e509cfc1",
+  "src/evaluation/ksdd2_training_calibration.py": "5a877e886b1c970a63ec5bae94de813b2a0b72942ef93312292a270c8a4ac1b0",
+  "src/evaluation/ksdd2_dev_evaluation.py": "8274a9e55e8f9f74dee0e831213b6ddebd9f352a5178f328d608d83075357cc0",
+  "src/evaluation/exact_aupro.py": "3e6ebc80d400419cf3aaf00950e954ea165df2419c6ea895f4296013c67e11a1",
+  "src/evaluation/ksdd2_70k_protocol.py": "87197508dd372aedc0a79f59495b308fb36c66763ca0715e371dbfaaa6831c0f"
+}

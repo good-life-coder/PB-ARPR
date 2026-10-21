@@ -1,0 +1,38 @@
+{
+  "phase": "Phase20B-P2",
+  "status": "HOLD_PATCHCORE_PROTOCOL",
+  "dataset": "MVTec AD 2",
+  "class_name": "sheet_metal",
+  "backbone": "wide_resnet50_2.racm_in1k",
+  "layers": [
+    "layer2",
+    "layer3"
+  ],
+  "pre_trained": true,
+  "coreset_sampling_ratio": 0.1,
+  "num_neighbors": 9,
+  "precision": "float32",
+  "input_height": 256,
+  "input_width": 256,
+  "center_crop": null,
+  "seed": 42,
+  "optimizer_created": false,
+  "backward_count": 0,
+  "optimizer_step_count": 0,
+  "val_forward_count": 0,
+  "test_public_files_accessed": 0,
+  "test_mask_files_accessed": 0,
+  "phase20b_p2_patchcore_formal_authorized": false,
+  "protocol_violation_count": 0,
+  "anomalib_version": "2.6.1",
+  "patchcore_source": "<LOCAL_EXTERNAL_PATH>",
+  "post_processor": false,
+  "evaluator": false,
+  "visualizer": false,
+  "preprocessor": "official configure_pre_processor(image_size=(256,256), center_crop_size=None)",
+  "source_sha256": {
+    "<LOCAL_EXTERNAL_PATH>": "4b62602a560a28027d24e3a3fcec9c1916af1805a45d31cc8b5dc0be4deee548",
+    ".\\src\\evaluation\\exact_aupro.py": "3e6ebc80d400419cf3aaf00950e954ea165df2419c6ea895f4296013c67e11a1",
+    ".\\experiments\\phase20a_external_baseline_audit\\completion_verification.json": "0909650b4736b2ebf840415164bb7142459081b17baee25913dd43fc35778d70"
+  }
+}

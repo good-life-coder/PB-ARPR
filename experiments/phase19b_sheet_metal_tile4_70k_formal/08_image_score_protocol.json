@@ -1,0 +1,6 @@
+{
+  "protocol": "RECONSTRUCT_THEN_NATIVE_SPATIAL_MAX",
+  "common_math_operator": true,
+  "full_image_score_pipeline_identical": false,
+  "caveat": "Same reduction operator does not mean identical full scoring pipeline: square baselines take max before native interpolation; PB-ARPR takes max after it. Interpolation can change maxima/ranking. Historical values are not recomputed or relabeled as identical-grid scores."
+}

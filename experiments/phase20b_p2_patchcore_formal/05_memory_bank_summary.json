@@ -1,0 +1,20 @@
+{
+  "raw_embedding_shape": [
+    140288,
+    1536
+  ],
+  "memory_bank_shape": [
+    14028,
+    1536
+  ],
+  "raw_embedding_count": 140288,
+  "memory_bank_count": 14028,
+  "finite": true,
+  "coreset_ratio": 0.1,
+  "actual_coreset_ratio": 0.09999429744525548,
+  "embedding_cache_device": "cuda:0",
+  "memory_bank_device": "cuda:0",
+  "optimizer_created": false,
+  "backward_count": 0,
+  "optimizer_step_count": 0
+}

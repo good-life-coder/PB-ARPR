@@ -1,0 +1,4 @@
+﻿Dataset,Native H×W,Train normal,Validation normal,DEV,Test / final blind,Evaluation normal,Evaluation anomaly,Mask availability,Paper role
+MVTec AD 2 / sheet_metal,1056×4224,137,19,Not separate,114,24,90,90 anomaly masks,Main / equal-budget / external comparison
+KSDD2,Variable; median 637×229,1876,209,455,1004,894,110,GT files for all images (normal masks zero),Five-seed generalization
+Severstal,256×1600,4131,590,1923,6514,1181,5333,Official annotated-train RLE union masks,Single-seed FINAL_BLIND transfer

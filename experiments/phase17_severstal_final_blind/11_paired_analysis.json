@@ -1,0 +1,17 @@
+{
+  "improved": 4797,
+  "worsened": 193,
+  "unchanged": 343,
+  "mean_delta_pp": 19.41143726244897,
+  "median_delta_pp": 14.445607940516448,
+  "wilcoxon": {
+    "statistic": 265257.5,
+    "pvalue": 0.0
+  },
+  "N_total": 5333,
+  "proportions": {
+    "improved": 0.8994937183573973,
+    "worsened": 0.03618976186011626,
+    "unchanged": 0.06431651978248641
+  }
+}

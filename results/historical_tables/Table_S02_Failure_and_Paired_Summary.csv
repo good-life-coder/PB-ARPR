@@ -1,0 +1,9 @@
+﻿Dataset,Scope,Seed,Improved,Worsened,Unchanged,Note
+sheet_metal,Phase22 curated recommended failures (not paired population),42,Not reported,Not reported,Not reported,Two selected failure cases; no population rate inferred
+KSDD2,Official blind test anomalies,42,61,36,13,Frozen point PRO005 comparison
+KSDD2,Official blind test anomalies,43,63,35,12,Frozen point PRO005 comparison
+KSDD2,Official blind test anomalies,44,65,31,14,Frozen point PRO005 comparison
+KSDD2,Official blind test anomalies,45,58,36,16,Frozen point PRO005 comparison
+KSDD2,Official blind test anomalies,46,61,34,15,Frozen point PRO005 comparison
+Severstal,DEV,42,1171,71,91,Frozen point PRO005 comparison
+Severstal,FINAL_BLIND,42,4797,193,343,Frozen point PRO005 comparison

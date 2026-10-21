@@ -1,0 +1,53 @@
+{
+  "phase": "Phase24C-R1",
+  "purpose": "Audit corrections before the clean frozen-input formal run",
+  "candidate_probe_correction": {
+    "initial_error": "AE forward was given feature-map size rather than original image size",
+    "basis": "Official AutoEncoder.forward(x, image_size) requires original input H,W",
+    "invalid_probe_copies": [
+      "03_low_feasibility_results_initial_invalid.json",
+      "06_mid_feasibility_results_initial_invalid.json"
+    ],
+    "formal_selection_basis": [
+      "03_low_feasibility_results.json",
+      "06_mid_feasibility_results.json",
+      "04_low_selection.json",
+      "07_mid_selection.json"
+    ]
+  },
+  "aborted_launches": [
+    {
+      "reason": "Custom datamodule lacked Engine workspace metadata",
+      "optimizer_steps": 0,
+      "checkpoint_created": false
+    },
+    {
+      "reason": "Sandbox denied existing ImageNette auxiliary data",
+      "optimizer_steps": 0,
+      "checkpoint_created": false
+    },
+    {
+      "reason": "Custom datamodule omitted official model resize; native input observed",
+      "optimizer_steps": "5; stopped before any checkpoint",
+      "checkpoint_created": false,
+      "discarded_from_formal_results": true
+    }
+  ],
+  "preformal_dataset_probe": {
+    "blocked_test_directory_operations": 16,
+    "test_image_files_opened": 0,
+    "test_mask_files_opened": 0
+  },
+  "clean_formal_run": {
+    "input_shape_verified": [
+      1,
+      3,
+      256,
+      576
+    ],
+    "train_normal_count": 137,
+    "validation_normal_count": 19,
+    "test_file_access_during_training": 0,
+    "checkpoint_policy": "final 70000 steps only"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "FROZEN": true,
+  "parent_has_explicit_frozen_field": false,
+  "protocol": {
+    "dataset": "KSDD2",
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "baseline": "Official EfficientAD-S baseline",
+    "baseline_input_hw": [
+      256,
+      256
+    ],
+    "ours": "User-proposed Pixel-Budgeted Aspect-Ratio-Preserving EfficientAD-S",
+    "ours_input_hw": [
+      864,
+      320
+    ],
+    "steps": 70000,
+    "batch": 1,
+    "precision": "FP32",
+    "image_score_protocol": "official EfficientAD Combined",
+    "image_reduction": "native Combined map maximum",
+    "pixel_map_protocol": "official EfficientAD Combined",
+    "metrics": [
+      "Image AUROC",
+      "Pixel AUROC",
+      "AUPRO005",
+      "AUPRO030"
+    ],
+    "official_test_tuning_allowed": false,
+    "post_test_method_change_allowed": false,
+    "split_sha": "6ebea6a7a2628697627a31e45489904fa7ec61762ef06eef8ec54c77c3a1b3b7",
+    "DGNB_ENABLED": false
+  },
+  "parent_sha": "244a04ad59c1c1c8feaf6917e1ad6c676fec137bf3df9bb737d24a5ab3bc53e0"
+}

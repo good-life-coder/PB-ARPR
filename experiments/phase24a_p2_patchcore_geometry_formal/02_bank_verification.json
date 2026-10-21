@@ -1,0 +1,16 @@
+{
+  "square": {
+    "path": ".\\experiments\\phase24a_p1_r1_patchcore_fulltrain_memory\\square_full_memory_bank.pt",
+    "sha256": "00092b9231034e777823733e0616efaf7612c0736496550e88157beeab39d332",
+    "expected_sha256": "00092b9231034e777823733e0616efaf7612c0736496550e88157beeab39d332",
+    "sha_match": true,
+    "size_bytes": 344772313
+  },
+  "rect": {
+    "path": ".\\experiments\\phase24a_p1_r1_patchcore_fulltrain_memory\\rect_full_memory_bank.pt",
+    "sha256": "9feadc0e921a8ee16de074ad856ed466b1f7e95484d1c23a2d69cf7dfdf86f33",
+    "expected_sha256": "9feadc0e921a8ee16de074ad856ed466b1f7e95484d1c23a2d69cf7dfdf86f33",
+    "sha_match": true,
+    "size_bytes": 344772235
+  }
+}

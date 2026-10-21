@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "created": "2026-10-14T21:59:54.161826+08:00",
+  "checks": [
+    {
+      "seed": "42",
+      "geometry": "square512",
+      "n": 114,
+      "sklearn_image_auroc": 0.610648148148148,
+      "status": "VERIFIED"
+    },
+    {
+      "seed": "42",
+      "geometry": "pb_arpr",
+      "n": 114,
+      "sklearn_image_auroc": 0.8791666666666667,
+      "status": "VERIFIED"
+    },
+    {
+      "seed": "43",
+      "geometry": "square512",
+      "n": 114,
+      "sklearn_image_auroc": 0.6300925925925926,
+      "status": "VERIFIED"
+    },
+    {
+      "seed": "43",
+      "geometry": "pb_arpr",
+      "n": 114,
+      "sklearn_image_auroc": 0.8097222222222221,
+      "status": "VERIFIED"
+    },
+    {
+      "seed": "44",
+      "geometry": "square512",
+      "n": 114,
+      "sklearn_image_auroc": 0.6310185185185185,
+      "status": "VERIFIED"
+    },
+    {
+      "seed": "44",
+      "geometry": "pb_arpr",
+      "n": 114,
+      "sklearn_image_auroc": 0.799074074074074,
+      "status": "VERIFIED"
+    },
+    {
+      "seed": "45",
+      "geometry": "square512",
+      "n": 114,
+      "sklearn_image_auroc": 0.6375,
+      "status": "VERIFIED"
+    },
+    {
+      "seed": "45",
+      "geometry": "pb_arpr",
+      "n": 114,
+      "sklearn_image_auroc": 0.8046296296296297,
+      "status": "VERIFIED"
+    },
+    {
+      "seed": "46",
+      "geometry": "square512",
+      "n": 114,
+      "sklearn_image_auroc": 0.6199074074074075,
+      "status": "VERIFIED"
+    },
+    {
+      "seed": "46",
+      "geometry": "pb_arpr",
+      "n": 114,
+      "sklearn_image_auroc": 0.8125000000000001,
+      "status": "VERIFIED"
+    }
+  ],
+  "saved_maps_rechecked": 456,
+  "max_native_score_error": 0.0,
+  "checkpoint_hashes_rechecked": 22,
+  "source_integrity": "All inventoried configs/reports/sources/checkpoints unchanged",
+  "seconds": 14.486998699954711,
+  "resources": {
+    "cpu_peak_working_set_mib": 619.69140625,
+    "cpu_peak_pagefile_mib": 1878.078125,
+    "output_bytes": 479706178
+  }
+}

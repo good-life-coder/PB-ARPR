@@ -1,0 +1,110 @@
+{
+  "status": "FAIL_AUPRO",
+  "timestamp": "2026-09-12T17:54:30.913383+08:00",
+  "checkpoint_path": ".\\experiments\\phase07b_baseline256_seed42\\checkpoints\\final.ckpt",
+  "expected_checkpoint_sha256": "37080cefb4619e1577a168a2000772b695ab89b20dacae890ef2ca371a3afb3a",
+  "checkpoint_sha256": "37080cefb4619e1577a168a2000772b695ab89b20dacae890ef2ca371a3afb3a",
+  "dataset": "MVTec AD 2",
+  "category": "sheet_metal",
+  "test_split": "test_public",
+  "model": "EfficientAD-S",
+  "model_size": "small",
+  "input_size": [
+    256,
+    256
+  ],
+  "seed": 42,
+  "resize_policy": "Default EfficientAD preprocessing; native map resize bilinear, align_corners=False",
+  "native_gt_shape": [
+    1056,
+    4224
+  ],
+  "native_shape_order": "height,width (PIL width,height is 4224,1056)",
+  "model_output_shape": [
+    256,
+    256
+  ],
+  "interpolation_method": "bilinear; align_corners=False",
+  "postprocessing": "Disabled in frozen Phase 07B checkpoint; kept disabled",
+  "aupro_fpr_limits": [
+    0.05,
+    0.3
+  ],
+  "metrics": {
+    "image_auroc": 0.6157407407407407,
+    "pixel_auroc": 0.7954308858628969,
+    "aupro_0.05": null,
+    "aupro_0.30": null,
+    "test_count": 114,
+    "normal_count": 24,
+    "anomaly_count": 90,
+    "percent": {
+      "image_auroc": 61.57407407407407,
+      "pixel_auroc": 79.54308858628968
+    }
+  },
+  "predictions_saved": 114,
+  "visualizations_saved": 15,
+  "inference_timing": {
+    "model_only": {
+      "count": 104,
+      "mean_ms": 43.136902884515834,
+      "median_ms": 43.93114999948011,
+      "std_ms": 4.84565799675365,
+      "fps": 23.182007356373145
+    },
+    "end_to_end": {
+      "count": 104,
+      "mean_ms": 145.31273749987753,
+      "median_ms": 145.0921499999822,
+      "std_ms": 9.912570509483677,
+      "fps": 6.881709182588641
+    }
+  },
+  "peak_inference_allocated_mib": 873.240234375,
+  "peak_inference_reserved_mib": 970.0,
+  "warnings": [],
+  "error_message": "MemoryError: AUPRO exact native metric requires conservatively 47.5 GiB RAM; available 43.0 GiB. Predictions retained; no downsampling/approximation.",
+  "traceback": "Traceback (most recent call last):\n  File \".\\scripts\\evaluate_baseline256_public.py\", line 401, in main\n    guard_ram(pixels, 96, report, \"AUPRO\")\n  File \".\\scripts\\evaluate_baseline256_public.py\", line 128, in guard_ram\n    raise MemoryError(f\"{name} exact native metric requires conservatively {needed / 1024**3:.1f} GiB RAM; \"\nMemoryError: AUPRO exact native metric requires conservatively 47.5 GiB RAM; available 43.0 GiB. Predictions retained; no downsampling/approximation.\n",
+  "metric_memory_policy": "Native-resolution exact CPU metrics; disk-backed native arrays. Official AUPRO still needs global CPU sorting; RAM guard rejects unsafe allocation.",
+  "timing_policy": "First 10 samples excluded. Forward hooks time model.model only with CUDA synchronization. End-to-end starts before dataset read and ends after prediction, before CSV/NPY/PNG writes.",
+  "python_version": "3.10.21",
+  "torch_version": "2.9.1+cu126",
+  "torchvision_version": "0.24.1+cu126",
+  "cuda_runtime": "12.6",
+  "anomalib_version": "2.6.1",
+  "aupro_signature": "(fields: collections.abc.Sequence[str] | None = None, prefix: str = '', strict: bool = True, **kwargs) -> None",
+  "aupro_implementation_signature": "(dist_sync_on_step: bool = False, process_group: Optional[Any] = None, dist_sync_fn: collections.abc.Callable | None = None, fpr_limit: float = 0.3) -> None",
+  "predict_batch_fields": [
+    "image",
+    "gt_label",
+    "gt_mask",
+    "mask_path",
+    "anomaly_map",
+    "pred_score",
+    "pred_mask",
+    "pred_label",
+    "explanation",
+    "image_path"
+  ],
+  "gpu_name": "Quadro RTX 4000",
+  "gpu_total_memory_mib": 8191.6875,
+  "nvidia_driver_info": "index, name, driver_version\n0, Quadro RTX 4000, 596.71",
+  "train_count": 137,
+  "validation_count": 19,
+  "test_count": 114,
+  "normal_count": 24,
+  "anomaly_count": 90,
+  "max_score_absolute_difference": 0,
+  "ram_checks": {
+    "Pixel AUROC": {
+      "estimated_required_bytes": 22487564288,
+      "available_bytes": 45816016896
+    },
+    "AUPRO": {
+      "estimated_required_bytes": 50963677184,
+      "available_bytes": 46174490624
+    }
+  },
+  "elapsed_seconds": 214.67105639999863
+}

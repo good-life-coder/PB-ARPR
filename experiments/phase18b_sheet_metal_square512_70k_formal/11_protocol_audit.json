@@ -1,0 +1,13 @@
+{
+  "protocol_violation_count": 0,
+  "historical_sources_unchanged": true,
+  "input_only_change": true,
+  "source_substitutions": "384 -> 512 and experiment path/metadata labels only",
+  "preregistration_sha256": "b8acbc113a1a0013ad847eb63a6cc83f422dd166c7b53d2ae9c1e9fd6b7b96b7",
+  "new_files": [
+    "scripts/train_baseline512.py",
+    "scripts/evaluate_baseline512_public.py",
+    "scripts/run_phase18b_square512.py",
+    "tests/test_phase18b_square512.py"
+  ]
+}

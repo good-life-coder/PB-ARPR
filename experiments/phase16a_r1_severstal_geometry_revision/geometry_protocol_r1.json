@@ -1,0 +1,98 @@
+{
+  "FROZEN": true,
+  "architecture_constrained": true,
+  "native_hw": [
+    256,
+    1600
+  ],
+  "raw_candidate_hw": [
+    192,
+    1280
+  ],
+  "raw_candidate_feasible": false,
+  "failure": "AE geometry",
+  "selected_hw": [
+    256,
+    1152
+  ],
+  "selected_pixels": 294912,
+  "pixel_budget": {
+    "maximum_pixels": 300000,
+    "target_pixels": 262144,
+    "multiple": 32
+  },
+  "ratio_error": 0.32850406697203605,
+  "anisotropy": 1.3888888888888888,
+  "architecture_feasibility": true,
+  "selected_forward": {
+    "H": 256,
+    "W": 1152,
+    "pixels": 294912,
+    "feasible": true,
+    "full_forward_attempted": true,
+    "data_source": "synthetic_zero",
+    "failure_stage": null,
+    "failure_reason": null,
+    "teacher_shape": [
+      1,
+      384,
+      56,
+      280
+    ],
+    "student_shape": [
+      1,
+      768,
+      56,
+      280
+    ],
+    "ae_latent_shape": [
+      1,
+      64,
+      1,
+      29
+    ],
+    "ae_encoder_input_shape": [
+      1,
+      64,
+      8,
+      36
+    ],
+    "ae_output_shape": [
+      1,
+      384,
+      56,
+      280
+    ],
+    "anomaly_map_shape": [
+      1,
+      1,
+      256,
+      1152
+    ],
+    "parameters": 8058628,
+    "aspect_ratio": 0.2222222222222222,
+    "ratio_error": 0.32850406697203605,
+    "anisotropy": 1.3888888888888888,
+    "pixel_budget_deviation": 0.125
+  },
+  "selection_used_model_performance": false,
+  "dev_used_for_selection": false,
+  "blind_used_for_selection": false,
+  "split_sha": "e38c69fa5287a619472b0afb97e5f33e32a95503369e065c096ffc1b44124594",
+  "old_geometry_sha": "586d5fa1772ff28d5cbec713bacd2a789b319dab733cbccf2d1535cead00dde6",
+  "original_protocol_status": "FAIL_RECT_AE_GEOMETRY",
+  "R1_CHANGE_REASON": "architecture feasibility only",
+  "METHOD_DEFINITION_UPDATED": true,
+  "selection_rule": "retain feasible raw; else minimum ratio error, ties<=1e-9 budget gap, larger pixels, H/W ascending",
+  "candidate_count": 1707,
+  "feasible_count": 246,
+  "inventory_sha": "ddc77445aab39b306d8cf62c97725b05509ea87568191bdce0d295db93e1d85f",
+  "size_boundaries": [
+    0.008976562500000002,
+    0.017969726562500003,
+    0.036846679687499995,
+    0.09029687500000001
+  ],
+  "FINAL_BLIND_FORWARD_COUNT": 0,
+  "DEV_ANOMALY_FORWARD_COUNT": 0
+}

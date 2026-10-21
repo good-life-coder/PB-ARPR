@@ -1,0 +1,14 @@
+{
+  "default_transform": "Compose(    Resize(size=[256, 256], interpolation=InterpolationMode.BILINEAR, antialias=True))",
+  "rectangular_transform": "Compose(    Resize(size=[256, 1024], interpolation=InterpolationMode.BILINEAR, antialias=True))",
+  "only_resize_geometry_changed": true,
+  "tuple_order": "H,W",
+  "actual_image_size": [
+    256,
+    1024
+  ],
+  "normalization": "Official ImageNet normalization inside PDN/AE; no extra transform",
+  "preprocessor_signature": "(image_size: tuple[int, int] | None = None) -> anomalib.pre_processing.pre_processor.PreProcessor",
+  "preprocessor_source": "    @classmethod\n    def configure_pre_processor(cls, image_size: tuple[int, int] | None = None) -> PreProcessor:\n        \"\"\"Configure default pre-processor for EfficientAd.\n\n        Note that ImageNet normalization is applied in the forward pass, not here.\n\n        Args:\n            image_size (tuple[int, int] | None, optional): Target image size.\n                Defaults to ``(256, 256)``.\n\n        Returns:\n            PreProcessor: Configured pre-processor with resize transform.\n        \"\"\"\n        image_size = image_size or (256, 256)\n        transform = Compose([Resize(image_size, antialias=True)])\n        return PreProcessor(transform=transform)\n",
+  "teacher_path": "<LOCAL_EXTERNAL_PATH>"
+}

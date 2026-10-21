@@ -1,0 +1,518 @@
+{
+  "dataset": "MVTec AD 2",
+  "category": "sheet_metal",
+  "split": "test_public",
+  "status": "PASS",
+  "algorithm": "exact rank-based native-resolution PRO integration",
+  "approximation": false,
+  "test_count": 114,
+  "normal_count": 24,
+  "anomaly_count": 90,
+  "raw_map_shape": [
+    [
+      256,
+      256
+    ]
+  ],
+  "native_resolution": [
+    [
+      1056,
+      4224
+    ]
+  ],
+  "shape_order": "height,width",
+  "interpolation_method": "bilinear; align_corners=False; only if needed",
+  "background_pixels": 506180190,
+  "positive_pixels": 2321826,
+  "connected_regions": 450,
+  "weight_sum": 1.0000000000000007,
+  "aupro_0.05": 0.06405739440859998,
+  "aupro_0.30": 0.2232777445949409,
+  "aupro_0.05_percent": 6.405739440859998,
+  "aupro_0.30_percent": 22.32777445949409,
+  "image_auroc_percent": 61.57,
+  "pixel_auroc_percent": 79.54,
+  "existing_metrics_source": "phase07c_baseline256_public",
+  "existing_metrics_recomputed": false,
+  "background_dtype": "float32",
+  "sorting_method": "numpy.memmap.sort(kind='quicksort'), ascending in-place",
+  "error_message": null,
+  "warnings": [],
+  "timestamp": "2026-09-12T18:08:20.007582+08:00",
+  "anomalib_version": "2.6.1",
+  "input_csv_sha256": "db16e634158c5923088142446d995d1bfd77bc2c83892413f36e0335db67abd5",
+  "input_raw_map_hashes": [
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\000_000_overexposed.npy",
+      "sha256": "24f02710cbb5b2bb18a7164e7090ccdefb5ee9925788599a7adaf31ea5a08428"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\001_000_regular.npy",
+      "sha256": "ec47a5fe7c245c34925a20760c5a1c1c45bd64a7686ee5dbf08eafc28fa8cf58"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\002_000_shift_1.npy",
+      "sha256": "1bbd8e17d8f61b42fdf2c49faefd0b39a3c078d5d3a47de277c046f91def3171"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\003_000_shift_2.npy",
+      "sha256": "260a81a47b87c87c91620e1547e20dc8646cc467feef106f8be440f28694c32f"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\004_000_shift_3.npy",
+      "sha256": "ed94be0bdab68d8033da1984b8f0cbb943bc8cd048cdabd0de3473051375c730"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\005_000_underexposed.npy",
+      "sha256": "7c19d9aa4c3a2a96f63cf87e6c0b798148a82a9314838110a9d2a11cf1827a35"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\006_001_overexposed.npy",
+      "sha256": "776d0dc50cf8e59c27bd591193a120afeaebeede068fbbb9ea5db5734f14ade2"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\007_001_regular.npy",
+      "sha256": "13da467347784463c7aa73f461169a81c814a7fbeba54f8e6ac929ca0fd17020"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\008_001_shift_1.npy",
+      "sha256": "b5dd013867347448af5e1004b9e26ffdcbd7fc633a8dfc547c827c12b6e87302"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\009_001_shift_2.npy",
+      "sha256": "a3d92afbe4ab2135792223c60d9e6744937a64f03a0afa970d2cd75a77006462"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\010_001_shift_3.npy",
+      "sha256": "0a3e4ae4609f385803377fb833167a0e75a992960f77e4549af7b1a3d7dbfd0f"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\011_001_underexposed.npy",
+      "sha256": "76dafecd2784a81be4a95fd5eeb0d035320315fec90d7c33752ba2a474d5c6a2"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\012_002_overexposed.npy",
+      "sha256": "a0b79192de8ed51270088c2f38ab8a170b4d20af2d4763d248d44d8f708a54ef"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\013_002_regular.npy",
+      "sha256": "ba84072277926bbd1168cbce520ab9430b8cd9b6d3937eebf145338600f105fa"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\014_002_shift_1.npy",
+      "sha256": "67e4ad9fee62b1a2d30a8e7cdf64a61e3953aa6a31d4907a03eb07d480380845"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\015_002_shift_2.npy",
+      "sha256": "44dea89d456512cc7ee5b1389a8b7ae77a2f26d1d1d129d72fe94a0ac50b3c62"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\016_002_shift_3.npy",
+      "sha256": "e69b5a8fe1c61011d49a3de3fcd1210237f855faa630d7a5859932cf98896c95"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\017_002_underexposed.npy",
+      "sha256": "a630550d3da16a1ab60c2eba5ba8e844350ae8ef6e17c82ddcd0476c2ed2290e"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\018_003_overexposed.npy",
+      "sha256": "c39b2ebda5999aeccd7c38fd03c2e7c7c0e09ffbe7ae49f3606c4836126b510b"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\019_003_regular.npy",
+      "sha256": "b5e8f2a885824ef0e9d78bd0ffef88ee7705303e816629b210a5c0a76686314c"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\020_003_shift_1.npy",
+      "sha256": "25528a0cbf842549e11d77eef0c6486021dbb201bac36c0de775f416b195a7cd"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\021_003_shift_2.npy",
+      "sha256": "c888b80cc6b93f4c597f28902bb9f88dce5edec938a910af3feee60a892057ba"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\022_003_shift_3.npy",
+      "sha256": "2f97e84211cd824ce6d824171f1cebc1e8e2a3fc87363f6e4a8dcfaee28ed86a"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\023_003_underexposed.npy",
+      "sha256": "94cfe4fadb3ba613f2eaf9fdb53cda596f396b93a0d119e73e7bd35333d9c500"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\024_004_overexposed.npy",
+      "sha256": "81678f3d91459bea23d976c57a337cd58d34979b67fd42faa832be6b5ae3c31b"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\025_004_regular.npy",
+      "sha256": "16914787b0d214ac3321e3c79fb6636cf939fd88495e66b7de3d038df38da216"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\026_004_shift_1.npy",
+      "sha256": "adfd8de5070b01aa87deb19cdecd438e453eebafc591f34fcfedc2948afe1d58"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\027_004_shift_2.npy",
+      "sha256": "48db5bc2829ce09a6d7486089db9be03eed3f300e4ab1c861afb385ec84b33d9"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\028_004_shift_3.npy",
+      "sha256": "b3acb96331a3289518567808c44d385438811c40ff1740824abcf4fee92166cf"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\029_004_underexposed.npy",
+      "sha256": "d2c5d5d242493aaad25248f31fd222769839464d33c8bcc111ff8fc43cf04390"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\030_005_overexposed.npy",
+      "sha256": "e2a27c61c46204ee3896befd37a348c4a9aff123d418bbe9267f5588967d8cbf"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\031_005_regular.npy",
+      "sha256": "a2306878ef3fce7d013ef6e6b5ac93909ecaa7ae96aa40fe8c3e8fae294b11a5"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\032_005_shift_1.npy",
+      "sha256": "71139098f7489bb33ee25cc9a6ed37fb0344a1c576345b30231eda05cf1412c9"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\033_005_shift_2.npy",
+      "sha256": "bee609a58cc679801c2fb38f1768980a30f9314d61f81ca21ee60af1a36d4967"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\034_005_shift_3.npy",
+      "sha256": "921499b8ca97e2c747513af730e6a18f7d112f3bf9ec4041d2a693199816666f"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\035_005_underexposed.npy",
+      "sha256": "58ede3c3daf76603f0a8f035697c6b1f38e9fd5f4a21656dde002c5ca2e9a9cd"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\036_006_overexposed.npy",
+      "sha256": "0b59cbfeb09cab3c8157cb33f8fb2b90741aeec6ed947aaa8f3e66335a2bbfa8"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\037_006_regular.npy",
+      "sha256": "7fc97837470683ad54037f233f5786bed08525a1cd5cb3f0a072b9e04f9aec80"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\038_006_shift_1.npy",
+      "sha256": "0f62a2e954b46ff14b051e85cb6858872d652f8b8326cd8ad6a5a78a022ac23b"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\039_006_shift_2.npy",
+      "sha256": "82ad5cd26ebab51e2b56e2b8a4f45977a30924eb34458708a4d0deee224e6aee"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\040_006_shift_3.npy",
+      "sha256": "c644d423ce9cd2546665ac0c1a3baefaa40c2d3592f02ae5b0708c09a2a00399"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\041_006_underexposed.npy",
+      "sha256": "525f7d6c0b61aec8ffb78a1aa82b2b89cb114552d41a86c0d0242ccd90ed4800"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\042_007_overexposed.npy",
+      "sha256": "350f96f44d62adbc078f24f7b48ae4200d3b2fe74c239c275242462f6a2b6c38"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\043_007_regular.npy",
+      "sha256": "7f84f9ad055055e21b178e703bd92e05938dfa0563066cebdf418556e8ae0d7b"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\044_007_shift_1.npy",
+      "sha256": "0af19d816b99e02d0668e273a54c15a07351820843dff9b8b10e7c1aecbe5df2"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\045_007_shift_2.npy",
+      "sha256": "b0d91cee4b3fe35432179a44d67d84524546d4618f8aa4e6e1e11bf6010cb148"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\046_007_shift_3.npy",
+      "sha256": "f756346260b9b3b54319575cd6ca88992935ac11add5a82bec50cd4109986235"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\047_007_underexposed.npy",
+      "sha256": "cf1e82d97fc05a0a6c74155cc5560da74e421688246a834dd4799e3e0372f49c"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\048_008_overexposed.npy",
+      "sha256": "9d95311cc3cedb469220529433c5d3b0d9f5cf836be13479a304cb34ddf61f39"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\049_008_regular.npy",
+      "sha256": "0c0e176d9b5e0132b0be2b0aed5b6d8bb5cffebbcfd645b74393efe303cd5f5c"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\050_008_shift_1.npy",
+      "sha256": "dbed3e85cdb82b61a79e889326f6d3bbc98229d5f05154bfcef98d1fbbda187e"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\051_008_shift_2.npy",
+      "sha256": "ca0443cb5065e87d5a74a8445a7b56f82495e302d30c0eb57cd99bfeb3c58ea0"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\052_008_shift_3.npy",
+      "sha256": "ceaf44deb8a9471608d6c073ac6a3ae0e9f533bf2883877e15c48f40aa62b9d6"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\053_008_underexposed.npy",
+      "sha256": "536d80b09dd9fe734b71e94d2a6777711565972188718055bb60af3aaf3d2612"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\054_009_overexposed.npy",
+      "sha256": "697bb2572d81a0a0d70aa39a18b412cc798888a3e142dfb7fc4c4cc2788316f5"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\055_009_regular.npy",
+      "sha256": "3aba36141844ac7a1f40b761e5f9ee0e27d636af7773a967297b241324940407"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\056_009_shift_1.npy",
+      "sha256": "866be7ca847ebf5dcbc783e668cc603c048894778f6790b223267592b7a3ca5b"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\057_009_shift_2.npy",
+      "sha256": "05033e844e3315db73a7b50ea5430c8a9a8d09665a49f50f2538d2bfdca7de65"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\058_009_shift_3.npy",
+      "sha256": "bb89a8aa025b52350c61bcb7338989388d49122ff052349714f1e8a4dca9754c"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\059_009_underexposed.npy",
+      "sha256": "405c038cf5f41b27f989100119831a076ff50068fe4f155ef24bf88ac6fe8d2b"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\060_010_overexposed.npy",
+      "sha256": "4beaab7dbc0d47c80802eee674d591bea46f5caa34998a3b730036d473217263"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\061_010_regular.npy",
+      "sha256": "38308969bf01690642c8b5188a62b01df1559aabe86d29ac99fdbc18b5c8a188"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\062_010_shift_1.npy",
+      "sha256": "4fbd10bea14d39bb9ee5060cdd6f53e5bdcc67f528cdb678199b09393b3cf2e7"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\063_010_shift_2.npy",
+      "sha256": "b92925ae9f5aa0ddbfec0aebc69423e6464928a590c644287e882da7a7493b2a"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\064_010_shift_3.npy",
+      "sha256": "34bbe332c38b5e902d81b72090ad5a8407064ffc8999785c08e2d615ba71c18d"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\065_010_underexposed.npy",
+      "sha256": "27a3412b6f82ba522f7123d964902121e167025aace23d59569c07079b59e6ed"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\066_011_overexposed.npy",
+      "sha256": "84a64aa1ff53a8ef0727f14b28e6c8da9aa4734dd60ee58d764ac657bd6ce61a"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\067_011_regular.npy",
+      "sha256": "3ec9e9bf51e5af2c3ad40f3c663959956ff1a7025ec4efed9d6e4d72eda85763"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\068_011_shift_1.npy",
+      "sha256": "94cf60cef823f437a13ae5f12ff46be3fd68fc71ddf872d16c82c152a31a0880"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\069_011_shift_2.npy",
+      "sha256": "bae1d0ea794ba3220067f5e3e45820c37904189b80d442d1bcaf8aeaf89deaf5"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\070_011_shift_3.npy",
+      "sha256": "ee51a936e8e02bb28e227375884da66d366e3194d11342ff8a8e499d69ef9ed4"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\071_011_underexposed.npy",
+      "sha256": "9ea845c707f5484582bf9abe38be0480891d3082c39b3ce1b1ccf2a16d1f1243"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\072_012_overexposed.npy",
+      "sha256": "aed2785cf11221b6956dc0260d4bf76fb476b5c7949e06b67db6b866ffa7f2da"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\073_012_regular.npy",
+      "sha256": "9cceff64174a20043e1d0d6ed90ab5fcd13a7e80cdc4563e18cbebe7c655c8c7"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\074_012_shift_1.npy",
+      "sha256": "34fd8725caf0b0a916f7c12dbe0fed3a5f4102afba499e6c17279d8ed87926cf"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\075_012_shift_2.npy",
+      "sha256": "9fa866483efcace2456835845560b7c037bf42f04cd34b34ae01a9ce9e2f724f"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\076_012_shift_3.npy",
+      "sha256": "8954393a124aab09db5d1131f8b9f83d444263195d92dc43bec4158981a03d2d"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\077_012_underexposed.npy",
+      "sha256": "5451822e993b6a2ca72e232574a1eed45807272816c4a92d3719da25c383d547"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\078_013_overexposed.npy",
+      "sha256": "b367cb2fd9192a9c87e8a2a0fee7ac4695e345e0694796ef4b716b79e32e8a65"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\079_013_regular.npy",
+      "sha256": "970a5121bcc83b36e9581339cf9efa061ecd32746bd0860b8692e7a7a1e17311"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\080_013_shift_1.npy",
+      "sha256": "b879aa1d28ae96e65919c26bf0f3d43b60b18a3d33fec2f63c5b5474edc12f67"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\081_013_shift_2.npy",
+      "sha256": "167a854c7541e07a9bd860f37fa38634ddd2d24c20e59affcd65629074b48f22"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\082_013_shift_3.npy",
+      "sha256": "74e1278aeab4611211036f9ae7fdb0ab0364e02f708a57f0eb7c9f11586586b6"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\083_013_underexposed.npy",
+      "sha256": "5c3e1b4b4eb456cb243a0c600a8ea1c48b302fd61a583936a31730bce89f02cb"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\084_014_overexposed.npy",
+      "sha256": "f1f2cc0fb3b4cccc9db38cc6f3938a74d637ef2e3efe2da7c05fce8f8f1f69c1"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\085_014_regular.npy",
+      "sha256": "0a164e97fc3205dcf690556d4345956b47ee8255d3d226ebc21a6ca5fbe0f144"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\086_014_shift_1.npy",
+      "sha256": "29c946c79d5f9c04c964a847756e6d56053c4743b29964fd25ee04cbb6a1a4a3"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\087_014_shift_2.npy",
+      "sha256": "36e31c516393c4c99ef3eb840a20ddcd93dcbfed1e8c6cac01c2a670d43d158d"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\088_014_shift_3.npy",
+      "sha256": "504ec45ab9c8d306f399c88534ab799af180be6803ca90175f8a8ea6e0c12031"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\089_014_underexposed.npy",
+      "sha256": "973fcf04dd6932a6105217ebba792323dfc2cf690e4020843823fed1c4d55107"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\090_000_overexposed.npy",
+      "sha256": "f499cbd37028010d3f8aa34ab6eb1cdb7bf4824580b0ce523a762052b58c703e"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\091_000_regular.npy",
+      "sha256": "8ca003436e522f71e1e6fbb7f57423ba45e2c1bd4a1627c44cce55d750464608"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\092_000_shift_1.npy",
+      "sha256": "473f6e53e62771e48c8b311f4f469dcae63c5526a76a3fae3ff0777e2edd9217"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\093_000_shift_2.npy",
+      "sha256": "bb175762d602ac5561dbae6dce7e516ead649343baf7f6f26532b8fa986a31f9"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\094_000_shift_3.npy",
+      "sha256": "fb860031ce57f600e85e6cec72e732ab9ca1ae36c4ea4406e573544f18cd5ad3"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\095_000_underexposed.npy",
+      "sha256": "c90fcd15c99c7e1763724d83f61674cb74ae405e0c66928a2c9b10cd461e0286"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\096_001_overexposed.npy",
+      "sha256": "75187040a330994992e618ec77070ee399e558b6acd316cfdfa60b2f3e043501"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\097_001_regular.npy",
+      "sha256": "fd9963e81dd104e58a8f94ef2175047b255bf57245ed90cc6f35891c72d576b7"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\098_001_shift_1.npy",
+      "sha256": "d7df62c925ef8486e67fa270140ed0ff610c659d57c67220a52de5cc422f0d4e"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\099_001_shift_2.npy",
+      "sha256": "b3eafc95c46376947b895fd8d4b3a20c4ea59ff329cedb705599666969dbf989"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\100_001_shift_3.npy",
+      "sha256": "54d819ec28ee7e2034b2d49c76e137b1b95c43dae00e78de257db65fe20f845c"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\101_001_underexposed.npy",
+      "sha256": "dabeabce4d36b71a6b2732eb0f19096557f0127a246f3e0cfaef5159aaa2374e"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\102_002_overexposed.npy",
+      "sha256": "4d0c2f208d592bf37cfb677184d024813526edaaeb814189bc78ca7724c4fb48"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\103_002_regular.npy",
+      "sha256": "172d44a71fb9ae9dfd727d6764766e71874e7820bf4d8a1b3266acce2152ce0e"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\104_002_shift_1.npy",
+      "sha256": "32ddd2bdb75e54da96c444739a3bfbb318ced7908db5c2c6f892c8430ba778e6"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\105_002_shift_2.npy",
+      "sha256": "621a82adaa494c4d9556a4034930814518fcdff0e819cbb6a0536beb3410f5b9"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\106_002_shift_3.npy",
+      "sha256": "90d660762f44079b96844a884473d487d4704342d0c8369cc510aa517593f938"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\107_002_underexposed.npy",
+      "sha256": "ac7050fcf7d00fc19727c0450b86984e1e2c5cf354c3ee74860ed345708045a6"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\108_003_overexposed.npy",
+      "sha256": "5e2c6674169eb4091978488c7bda898aa3bebeb08467ae3ecd5d8f0411feb001"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\109_003_regular.npy",
+      "sha256": "878556895ae35a07eb2262aa5a27921d656bad46452de6455ddef49a3c841efe"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\110_003_shift_1.npy",
+      "sha256": "156996a3db824c6784d6307c4e9edf7f6fb7578999da48114303c14a423988db"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\111_003_shift_2.npy",
+      "sha256": "a80441509b66b7fb391ee16c18ce85dc352c0cafa58e7d8cfddb420cc973ffc6"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\112_003_shift_3.npy",
+      "sha256": "a98e642de6225da10aa0ddb2c742d8219cac81bbe3ae5ecc4fd741abc2ae9999"
+    },
+    {
+      "path": ".\\experiments\\phase07c_baseline256_public\\raw_anomaly_maps\\113_003_underexposed.npy",
+      "sha256": "9c44ae173ef1c8b17c96fa55630411a3bb555648a484484c477702af70906a46"
+    }
+  ],
+  "existing_metrics_reference": {
+    "image_auroc": 0.6157407407407407,
+    "pixel_auroc": 0.7954308858628969
+  },
+  "lowres_control_anomalib_005": 0.02377632074058056,
+  "lowres_control_custom_005": 0.023776319910695277,
+  "lowres_difference_005": 8.298852820221025e-10,
+  "lowres_control_anomalib_030": 0.1325560361146927,
+  "lowres_control_custom_030": 0.13255601410357656,
+  "lowres_difference_030": 2.2011116124209806e-08,
+  "sorting_elapsed_seconds": 18.968706499999826,
+  "background_min": -0.12043176591396332,
+  "background_max": 1.7279841899871826,
+  "sort_verified": "full chunked monotonicity",
+  "temporary_files_retained": true,
+  "elapsed_seconds": 60.431600799998705
+}

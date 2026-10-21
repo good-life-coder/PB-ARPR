@@ -1,0 +1,33 @@
+{
+  "FROZEN": true,
+  "split_seed": 42,
+  "canonical_split_sha256": "e38c69fa5287a619472b0afb97e5f33e32a95503369e065c096ffc1b44124594",
+  "counts": {
+    "final_blind_anomaly": 5333,
+    "validation_normal": 590,
+    "train_normal": 4131,
+    "final_blind_normal": 1181,
+    "dev_anomaly": 1333
+  },
+  "normal_rule": "floor70% train/floor10% validation/remainder blind",
+  "defect_rule": "floor20% total dev, largest-remainder allocation by signature stratum; count<10 pooled; seed42 shuffle",
+  "size_boundaries": [
+    0.008976562500000002,
+    0.017969726562500003,
+    0.036846679687499995,
+    0.09029687500000001
+  ],
+  "size_boundaries_source": "DEV_ANOMALY only",
+  "size_groups_used_for_decision": false,
+  "geometry_sha256": "586d5fa1772ff28d5cbec713bacd2a789b319dab733cbccf2d1535cead00dde6",
+  "csv_sha256": "653e98583cdcacc71c74924e40baa6edd24b3710581742c1ddfddc0037c41c4e",
+  "KAGGLE_COMPETITION_TEST_USED": false,
+  "FINAL_BLIND_FORWARD_COUNT": 0,
+  "FINAL_BLIND_PREDICTIONS_CREATED": 0,
+  "SEVERSTAL_FINAL_BLIND_UNTOUCHED": true,
+  "DEV_NORMAL_REUSED_FOR_QUANTILE": true,
+  "PILOT_FOR_METHOD_DEVELOPMENT": true,
+  "DO_NOT_REPORT_AS_FINAL_SEVERSTAL_RESULT": true,
+  "DGNB_ENABLED": false,
+  "manifest_file_sha256": "c04f520499b06b14bee95e9acf6d18d94ae4d5de243f8a11fb131979eccbb418"
+}

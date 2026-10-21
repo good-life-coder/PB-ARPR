@@ -1,0 +1,38 @@
+{
+  "square512": {
+    "seed": 42,
+    "geometry": "square512",
+    "training_steps": 70000,
+    "batch_size": 1,
+    "training_wall_time_sec": 43349.32380370004,
+    "checkpoint_path": ".\\experiments\\phase18b_sheet_metal_square512_70k_formal\\checkpoints\\final.ckpt",
+    "checkpoint_sha256": "0e060a3b60741bda339850666050bf90bd7b348309ca4395cbc7b065f6356cb5",
+    "peak_cuda_allocated_mib": 972.30224609375,
+    "peak_cuda_reserved_mib": 1306.0,
+    "nan_count": 0,
+    "inf_count": 0,
+    "protocol_violation_count": 0,
+    "image_auroc": 0.6101851851851852,
+    "pixel_auroc": 0.8375377242439666,
+    "exact_aupro005": 0.0531919071671678,
+    "exact_aupro030": 0.28729813153469613
+  },
+  "pb_arpr": {
+    "seed": 42,
+    "geometry": "pb_arpr",
+    "training_steps": 70000,
+    "batch_size": 1,
+    "training_wall_time_sec": 41009.95989289999,
+    "checkpoint_path": ".\\experiments\\phase13b_rectangular_256x1024_seed42\\checkpoints\\final.ckpt",
+    "checkpoint_sha256": "35bc0bb101b97a2cda9e8ab4a97f358c0a8a0447445db640735a1029112415ee",
+    "peak_cuda_allocated_mib": 2057.7041015625,
+    "peak_cuda_reserved_mib": 2210.0,
+    "nan_count": 0,
+    "inf_count": 0,
+    "protocol_violation_count": 0,
+    "image_auroc": 0.8791666666666668,
+    "pixel_auroc": 0.8409314808755626,
+    "exact_aupro005": 0.19652151141718371,
+    "exact_aupro030": 0.4480723426914776
+  }
+}

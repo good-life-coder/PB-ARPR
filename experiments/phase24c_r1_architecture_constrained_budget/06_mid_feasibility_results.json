@@ -1,0 +1,226 @@
+{
+  "budget": "mid",
+  "pixels": 147456,
+  "status": "COMPLETE",
+  "results": [
+    {
+      "geometry": [
+        96,
+        1536
+      ],
+      "pixels": 147456,
+      "seed": 42,
+      "batch_size": 1,
+      "precision": "FP32",
+      "synthetic_input": "all_zero",
+      "feasible": false,
+      "failure_stage": "AE",
+      "exception": "RuntimeError: Calculated padded input size per channel: (3 x 48). Kernel size: (8 x 8). Kernel size can't be greater than actual input size",
+      "teacher_shape": [
+        1,
+        384,
+        16,
+        376
+      ],
+      "student_shape": [
+        1,
+        768,
+        16,
+        376
+      ],
+      "ae_shape": null,
+      "combined_map_shape": null,
+      "nan_count": 0,
+      "inf_count": 0,
+      "traceback": "Traceback (most recent call last):\n  File \".\\scripts\\phase24c_r1_audit.py\", line 39, in probe\n    r['failure_stage']='AE';a=model.model.ae(x,(h,w));r['ae_shape']=list(a.shape)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 1775, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 1786, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 428, in forward\n    x = self.encoder(x)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 1775, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 1786, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 294, in forward\n    return self.enconv6(x)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 1775, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 1786, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 548, in forward\n    return self._conv_forward(input, self.weight, self.bias)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 543, in _conv_forward\n    return F.conv2d(\nRuntimeError: Calculated padded input size per channel: (3 x 48). Kernel size: (8 x 8). Kernel size can't be greater than actual input size\n",
+      "aspect_deviation": 1.3862943611198906
+    },
+    {
+      "geometry": [
+        128,
+        1152
+      ],
+      "pixels": 147456,
+      "seed": 42,
+      "batch_size": 1,
+      "precision": "FP32",
+      "synthetic_input": "all_zero",
+      "feasible": false,
+      "failure_stage": "AE",
+      "exception": "RuntimeError: Calculated padded input size per channel: (4 x 36). Kernel size: (8 x 8). Kernel size can't be greater than actual input size",
+      "teacher_shape": [
+        1,
+        384,
+        24,
+        280
+      ],
+      "student_shape": [
+        1,
+        768,
+        24,
+        280
+      ],
+      "ae_shape": null,
+      "combined_map_shape": null,
+      "nan_count": 0,
+      "inf_count": 0,
+      "traceback": "Traceback (most recent call last):\n  File \".\\scripts\\phase24c_r1_audit.py\", line 39, in probe\n    r['failure_stage']='AE';a=model.model.ae(x,(h,w));r['ae_shape']=list(a.shape)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 1775, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 1786, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 428, in forward\n    x = self.encoder(x)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 1775, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 1786, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 294, in forward\n    return self.enconv6(x)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 1775, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 1786, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 548, in forward\n    return self._conv_forward(input, self.weight, self.bias)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 543, in _conv_forward\n    return F.conv2d(\nRuntimeError: Calculated padded input size per channel: (4 x 36). Kernel size: (8 x 8). Kernel size can't be greater than actual input size\n",
+      "aspect_deviation": 0.8109302162163288
+    },
+    {
+      "geometry": [
+        192,
+        768
+      ],
+      "pixels": 147456,
+      "seed": 42,
+      "batch_size": 1,
+      "precision": "FP32",
+      "synthetic_input": "all_zero",
+      "feasible": false,
+      "failure_stage": "AE",
+      "exception": "RuntimeError: Calculated padded input size per channel: (6 x 24). Kernel size: (8 x 8). Kernel size can't be greater than actual input size",
+      "teacher_shape": [
+        1,
+        384,
+        40,
+        184
+      ],
+      "student_shape": [
+        1,
+        768,
+        40,
+        184
+      ],
+      "ae_shape": null,
+      "combined_map_shape": null,
+      "nan_count": 0,
+      "inf_count": 0,
+      "traceback": "Traceback (most recent call last):\n  File \".\\scripts\\phase24c_r1_audit.py\", line 39, in probe\n    r['failure_stage']='AE';a=model.model.ae(x,(h,w));r['ae_shape']=list(a.shape)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 1775, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 1786, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 428, in forward\n    x = self.encoder(x)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 1775, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 1786, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 294, in forward\n    return self.enconv6(x)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 1775, in _wrapped_call_impl\n    return self._call_impl(*args, **kwargs)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 1786, in _call_impl\n    return forward_call(*args, **kwargs)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 548, in forward\n    return self._conv_forward(input, self.weight, self.bias)\n  File \"<LOCAL_EXTERNAL_PATH>\", line 543, in _conv_forward\n    return F.conv2d(\nRuntimeError: Calculated padded input size per channel: (6 x 24). Kernel size: (8 x 8). Kernel size can't be greater than actual input size\n",
+      "aspect_deviation": 0.0
+    },
+    {
+      "geometry": [
+        256,
+        576
+      ],
+      "pixels": 147456,
+      "seed": 42,
+      "batch_size": 1,
+      "precision": "FP32",
+      "synthetic_input": "all_zero",
+      "feasible": true,
+      "failure_stage": null,
+      "exception": null,
+      "teacher_shape": [
+        1,
+        384,
+        56,
+        136
+      ],
+      "student_shape": [
+        1,
+        768,
+        56,
+        136
+      ],
+      "ae_shape": [
+        1,
+        384,
+        56,
+        136
+      ],
+      "combined_map_shape": [
+        1,
+        1,
+        256,
+        576
+      ],
+      "nan_count": 0,
+      "inf_count": 0,
+      "aspect_deviation": 0.5753641449035618
+    },
+    {
+      "geometry": [
+        288,
+        512
+      ],
+      "pixels": 147456,
+      "seed": 42,
+      "batch_size": 1,
+      "precision": "FP32",
+      "synthetic_input": "all_zero",
+      "feasible": true,
+      "failure_stage": null,
+      "exception": null,
+      "teacher_shape": [
+        1,
+        384,
+        64,
+        120
+      ],
+      "student_shape": [
+        1,
+        768,
+        64,
+        120
+      ],
+      "ae_shape": [
+        1,
+        384,
+        64,
+        120
+      ],
+      "combined_map_shape": [
+        1,
+        1,
+        288,
+        512
+      ],
+      "nan_count": 0,
+      "inf_count": 0,
+      "aspect_deviation": 0.8109302162163288
+    },
+    {
+      "geometry": [
+        384,
+        384
+      ],
+      "pixels": 147456,
+      "seed": 42,
+      "batch_size": 1,
+      "precision": "FP32",
+      "synthetic_input": "all_zero",
+      "feasible": true,
+      "failure_stage": null,
+      "exception": null,
+      "teacher_shape": [
+        1,
+        384,
+        88,
+        88
+      ],
+      "student_shape": [
+        1,
+        768,
+        88,
+        88
+      ],
+      "ae_shape": [
+        1,
+        384,
+        88,
+        88
+      ],
+      "combined_map_shape": [
+        1,
+        1,
+        384,
+        384
+      ],
+      "nan_count": 0,
+      "inf_count": 0,
+      "aspect_deviation": 1.3862943611198906
+    }
+  ]
+}

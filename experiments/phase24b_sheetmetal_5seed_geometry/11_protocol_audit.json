@@ -1,0 +1,8 @@
+{
+  "protocol_violation_count": 0,
+  "test_private_files_accessed": 0,
+  "test_private_mixed_files_accessed": 0,
+  "test_guided_tuning": false,
+  "bootstrap_run": false,
+  "patchcore_run": false
+}

@@ -1,0 +1,36 @@
+{
+  "task": "PB-ARPR SIVP Submission Audit R1",
+  "created": "2026-10-14T21:44:28.021023+08:00",
+  "root": ".",
+  "python": "<LOCAL_EXTERNAL_PATH>",
+  "estimate_minutes": [
+    40,
+    100
+  ],
+  "training_hours": 0,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "image_score": "max(F.interpolate(frozen calibrated model map, native H/W, bilinear, align_corners=False))",
+  "normalization": "Frozen checkpoint quantiles only; no per-image normalization; no fitting",
+  "preprocessing": "Preserve historical evaluation entrypoints: square transform, rectangular PreProcessor.forward; audit their actual antialias semantics",
+  "population": "All 114 sheet_metal public images, 24 normal/90 anomalous",
+  "std": "sample standard deviation, ddof=1",
+  "missing_maps": "Seeds43-46 full maps deleted with TemporaryDirectory; square raw maxima require frozen re-inference; PB saved native maxima may be reused only with source/hash/identity checks",
+  "geometry_recheck": "Median H/W of actual normal training image headers; execute existing raw selector by AST extraction; fallback reuse frozen feasibility inventory",
+  "writes": "Only this independent directory; exclusive creation",
+  "prohibited": [
+    "training",
+    "backprop",
+    "calibration",
+    "Phase17 execution",
+    "manuscript edits",
+    "existing artifact writes",
+    "private/blind data access",
+    "network/downloads"
+  ]
+}

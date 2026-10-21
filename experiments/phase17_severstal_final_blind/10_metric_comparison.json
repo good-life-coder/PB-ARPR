@@ -1,0 +1,25 @@
+{
+  "metrics": {
+    "STD": {
+      "image_auroc": 0.5878848852693429,
+      "pixel_auroc": 0.6761283463779953,
+      "aupro005": 0.050218023415359206,
+      "aupro030": 0.22347094268089096,
+      "approximation": false
+    },
+    "RECT": {
+      "image_auroc": 0.5313975751765603,
+      "pixel_auroc": 0.7789809577416226,
+      "aupro005": 0.14435576179594,
+      "aupro030": 0.47009829368845063,
+      "approximation": false
+    }
+  },
+  "delta_pp": {
+    "image_auroc": -5.648731009278263,
+    "pixel_auroc": 10.285261136362722,
+    "aupro005": 9.41377383805808,
+    "aupro030": 24.662735100755967
+  },
+  "FINAL_LABELS_NOT_PREDEFINED": true
+}

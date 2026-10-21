@@ -1,0 +1,25 @@
+{
+  "phase": "Phase17",
+  "status": "PASS",
+  "protocol_violation_count": 0,
+  "model_state_unchanged": true,
+  "metric_implementation_match": true,
+  "calibration_refit": false,
+  "method_changed": false,
+  "training_started": false,
+  "post_test_tuning": false,
+  "FINAL_LABELS_NOT_PREDEFINED": true,
+  "FINAL_BLIND_FORWARD_COUNT": 13028,
+  "FINAL_BLIND_PREDICTIONS_CREATED": 13028,
+  "unique_sources": 6514,
+  "models": 2,
+  "forwards_per_model_per_source": 1,
+  "predictions_frozen_before_metrics": true,
+  "new_files": [
+    "src/evaluation/severstal_final_blind.py",
+    "scripts/evaluate_severstal_final_blind.py",
+    "tests/test_severstal_phase17.py"
+  ],
+  "figures": "Not generated; no manual image selection or galleries used",
+  "dev_reference_sha256": "d2680fdcc5f39994bf7f46e9634c379fb5e6b36d897e6bf6a20ec9e265575920"
+}

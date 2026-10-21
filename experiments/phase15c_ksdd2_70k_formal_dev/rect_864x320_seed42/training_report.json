@@ -1,0 +1,121 @@
+{
+  "PROTOCOL": "Development verification before blind test",
+  "REPEAT_COUNT": 1,
+  "PAPER_FINAL_REQUIRES_REPEAT_ANALYSIS": true,
+  "DEV_NORMAL_REUSED_FOR_QUANTILE": true,
+  "PILOT_CHECKPOINT_ALLOWED_FOR_FINAL": false,
+  "FINAL_KSDD2_TEST_UNTOUCHED": true,
+  "OFFICIAL_TEST_FORWARD_COUNT": 0,
+  "OFFICIAL_TEST_PREDICTIONS_CREATED": 0,
+  "DGNB_DISABLED": true,
+  "DEVELOPMENT_ONLY": true,
+  "DO_NOT_REPORT_AS_FINAL_KSDD2_TEST_RESULT": true,
+  "stage": "PHASE15C",
+  "method": "RECT",
+  "method_description": "User-proposed aspect-ratio-preserving EfficientAD-S",
+  "input_hw": [
+    864,
+    320
+  ],
+  "steps": 70000,
+  "max_epochs": 1000,
+  "batch": 1,
+  "precision": "32-true",
+  "seed": 42,
+  "parameters": 8058628,
+  "new_parameters": 0,
+  "model_size": "small",
+  "fresh_student": true,
+  "fresh_ae": true,
+  "teacher": "official pretrained",
+  "checkpoint_initialization": null,
+  "early_stopping": false,
+  "amp": false,
+  "torch_compile": false,
+  "optimizer": "official Adam",
+  "lr": 0.0001,
+  "weight_decay": 1e-05,
+  "scheduler_step": 66500,
+  "scheduler_gamma": 0.1,
+  "loss": "unchanged official EfficientAD ST + AE + STAE including one ImageNette penalty",
+  "image_head": "official Combined native max",
+  "pixel_head": "official Combined",
+  "official_test_forward_allowed": false,
+  "status": "PASS",
+  "completed": 70000,
+  "quantiles": {
+    "qa_ae": 0.0038143335841596127,
+    "qa_st": 0.10823587328195572,
+    "qb_ae": 0.012234137393534184,
+    "qb_st": 0.15996749699115753
+  },
+  "quantiles_frozen": true,
+  "validation_count": 209,
+  "training_hours": 10.62274414308332,
+  "seconds_per_step": 0.5452827586532468,
+  "peak_allocated_mib": 1638.10205078125,
+  "peak_reserved_mib": 2230.0,
+  "fresh_hashes": {
+    "teacher": "2c4c745226a0dcf0b220d6ca9b2e75cc7adb6d942ed45c5d563fa46d3f7d5151",
+    "student": "bef3163addea8492b23394993bead7eca74db471889459bb9a0cf3f9a9443e48",
+    "ae": "f85a234c8c30fe8440a0c7ae2777fe3beadec32af8dd7bd1a17e988d92709690"
+  },
+  "final_hashes": {
+    "teacher": "2c4c745226a0dcf0b220d6ca9b2e75cc7adb6d942ed45c5d563fa46d3f7d5151",
+    "student": "2e5074f98107f7266388a646adaa9f925d322e1ffc63c400284fa6cffbe69c0a",
+    "ae": "02611234782fcc366cbc37cec4bb53ab062fa28b6581fa2efd104619ec312fa8"
+  },
+  "teacher_unchanged": true,
+  "student_updated": true,
+  "ae_updated": true,
+  "NaN": false,
+  "Inf": false,
+  "OOM": false,
+  "resume_used": false,
+  "resume_from_steps": [],
+  "resume_from_step": 0,
+  "loss_final50": {
+    "st": 1.3822364807128906,
+    "ae": 0.9877085387706757,
+    "stae": 0.001868014456704259,
+    "official": 2.4064619541168213,
+    "total_loss": 2.4064619541168213
+  },
+  "bindings": {
+    "train_sequence_sha": "0b55e13468dc04c8a6e3a6b78c209e0df47bd5b53203b0bed54b565c5b8a03aa",
+    "imagenette_sequence_sha": "dff3cf13506e1f10ebc10c3fac26bf83f69da3931c4f0723448cde83adca9229",
+    "pilot_report_sha": "7a172f7c727d2289499eefa9e23e0fc4b5cb72f0053edbde1ae7aded2bb593fb",
+    "implementation": {
+      "src/evaluation/ksdd2_70k_protocol.py": "87197508dd372aedc0a79f59495b308fb36c66763ca0715e371dbfaaa6831c0f",
+      "src/training/ksdd2_formal_training.py": "f2af212059854c62874bcd17f79507a4805f16e5ab10e3b8f951d399e509cfc1",
+      "src/evaluation/ksdd2_70k_dev_evaluation.py": "bbc3e41f11d16175c859046371e59a4865018de966fa0df8e6673deb4c8d5273",
+      "scripts/train_ksdd2_70k_std_rect.py": "bda4adeb20d5c3650858aa1ef4889c0d6eb87bf02c16e4a69e3361b97d505fac",
+      "scripts/evaluate_ksdd2_70k_dev.py": "06302358fc39cd0a3351924a7fb8a8094632213c1100c299acadb3cf813507ab",
+      "src/training/ksdd2_pilot_training.py": "b5415aa51bb5998032e578a6c8ddca75bfecb23019a1fb43fe1d44d50154398a",
+      "src/evaluation/ksdd2_training_calibration.py": "5a877e886b1c970a63ec5bae94de813b2a0b72942ef93312292a270c8a4ac1b0",
+      "src/evaluation/ksdd2_pilot_protocol.py": "ab898edcb790665d7e89e09fe88a7546bb96cc713748053326dc928c05d86a15",
+      "src/evaluation/ksdd2_external_protocol.py": "4f687b4ffe61253b0a3e12257c644ada101009aaba81c8e12cb017eb4cd30c97",
+      "src/evaluation/ksdd2_dev_evaluation.py": "8274a9e55e8f9f74dee0e831213b6ddebd9f352a5178f328d608d83075357cc0",
+      "src/evaluation/exact_aupro.py": "3e6ebc80d400419cf3aaf00950e954ea165df2419c6ea895f4296013c67e11a1"
+    }
+  },
+  "scheduler_final": {
+    "step_size": 66500,
+    "gamma": 0.1,
+    "base_lrs": [
+      0.0001
+    ],
+    "last_epoch": 70000,
+    "_step_count": 70001,
+    "_is_initial": false,
+    "_get_lr_called_within_step": false,
+    "_last_lr": [
+      1e-05
+    ]
+  },
+  "checkpoint": ".\\experiments\\phase15c_ksdd2_70k_formal_dev\\rect_864x320_seed42\\final.ckpt",
+  "checkpoint_size": 75212977,
+  "checkpoint_sha256": "b4428814ddbf83fde150353b1477ac9342e30962b7e56c6a1f12cf20bf371c41",
+  "strict_reload": true,
+  "quantiles_reload": true
+}

@@ -1,0 +1,74 @@
+{
+  "phase": "Phase24B",
+  "status": "PASS_SHEETMETAL_5SEED_GEOMETRY_COMPLETE",
+  "completed_new_runs": 8,
+  "checkpoint_sha_complete": true,
+  "protocol_violation_count": 0,
+  "square_summary": {
+    "image_auroc": {
+      "mean": 0.6256481481481482,
+      "sample_std": 0.01080103606014558
+    },
+    "pixel_auroc": {
+      "mean": 0.8387157657593193,
+      "sample_std": 0.0042057926867818925
+    },
+    "exact_aupro005": {
+      "mean": 0.05574777197794698,
+      "sample_std": 0.010128092924265962
+    },
+    "exact_aupro030": {
+      "mean": 0.2904296881259707,
+      "sample_std": 0.010381075413726347
+    }
+  },
+  "pb_arpr_summary": {
+    "image_auroc": {
+      "mean": 0.8210185185185186,
+      "sample_std": 0.03290719116625844
+    },
+    "pixel_auroc": {
+      "mean": 0.8400645007331152,
+      "sample_std": 0.0028188072440745635
+    },
+    "exact_aupro005": {
+      "mean": 0.18942276537539868,
+      "sample_std": 0.010860158528325036
+    },
+    "exact_aupro030": {
+      "mean": 0.4400468117439951,
+      "sample_std": 0.004896044006780126
+    }
+  },
+  "paired_delta_summary": {
+    "image_auroc": {
+      "mean": 19.537037037037038,
+      "sample_std": 4.24716479302953,
+      "min": 16.712962962962973,
+      "max": 26.89814814814816,
+      "positive_seeds": 5
+    },
+    "pixel_auroc": {
+      "mean": 0.13487349737959065,
+      "sample_std": 0.5766177293428991,
+      "min": -0.4635502283174775,
+      "max": 1.0291904089672732,
+      "positive_seeds": 2
+    },
+    "exact_aupro005": {
+      "mean": 13.367499339745171,
+      "sample_std": 1.0970844122329988,
+      "min": 12.2105993023452,
+      "max": 14.502460704824996,
+      "positive_seeds": 5
+    },
+    "exact_aupro030": {
+      "mean": 14.961712361802444,
+      "sample_std": 1.2283506983188437,
+      "min": 13.76505410846584,
+      "max": 16.475320286368216,
+      "positive_seeds": 5
+    }
+  },
+  "total_new_training_seconds": 332705.3551838
+}

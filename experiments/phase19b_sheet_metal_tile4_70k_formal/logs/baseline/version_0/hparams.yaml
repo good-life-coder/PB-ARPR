@@ -1,0 +1,274 @@
+accelerator: gpu
+anomalib_version: 2.6.1
+b0_consistency_check:
+  b0_config_sha256: 387a6d0e00ed94784b48277ae569689915d609902f6d76f04f63af3f8fa49222
+  framework_versions_match: true
+  gpu_match: true
+  nvidia_driver_match: true
+  nvidia_driver_version: '596.71'
+  protocol_differences:
+    pre_processor:
+      b0: EfficientAD default 256x256; no custom PreProcessor
+      b1: Official EfficientAD configure_pre_processor(image_size=(256, 256))
+    test_public_count:
+      b0: 114
+      b1: 456
+    train_count:
+      b0: 137
+      b1: 548
+    validation_count:
+      b0: 19
+      b1: 76
+  status: PASS
+baseline_reference: B0
+batch_size: 1
+category: sheet_metal
+checkpoint_selection: final step plus final validation
+cuda_available: true
+cuda_runtime: '12.6'
+cudnn_benchmark: false
+cudnn_deterministic: false
+dataset: MVTec AD 2
+dataset_root: .\datasets\MVTec_AD_2
+devices: 1
+difference_from_B0: frozen four non-overlap tiles per native; official model/loss
+  unchanged
+early_stopping: false
+evaluator: false
+final_full_validation: true
+gpu_index: 0
+imagenet_dir: ./datasets/imagenette
+input_size:
+- 256
+- 256
+learning_rate: 0.0001
+lightning_version: 2.6.6
+lr: 0.0001
+max_epochs: 1000
+max_steps: 70000
+model: EfficientAD-S
+model_size: small
+name: Tile4_256
+num_workers: 0
+optimizer: Adam
+optimizer_parameter_count: 5363712
+pad_maps: true
+padding: false
+parameter_count_requires_grad: 8058628
+parameter_count_total: 8058628
+post_processor: false
+pre_processor: !!python/object:anomalib.pre_processing.pre_processor.PreProcessor
+  _backward_hooks: !!python/object/apply:collections.OrderedDict
+  - []
+  _backward_pre_hooks: !!python/object/apply:collections.OrderedDict
+  - []
+  _buffers: {}
+  _forward_hooks: !!python/object/apply:collections.OrderedDict
+  - []
+  _forward_hooks_always_called: !!python/object/apply:collections.OrderedDict
+  - []
+  _forward_hooks_with_kwargs: !!python/object/apply:collections.OrderedDict
+  - []
+  _forward_pre_hooks: !!python/object/apply:collections.OrderedDict
+  - []
+  _forward_pre_hooks_with_kwargs: !!python/object/apply:collections.OrderedDict
+  - []
+  _is_full_backward_hook: null
+  _load_state_dict_post_hooks: !!python/object/apply:collections.OrderedDict
+  - []
+  _load_state_dict_pre_hooks: !!python/object/apply:collections.OrderedDict
+  - []
+  _modules:
+    export_transform: !!python/object:torchvision.transforms.v2._container.Compose
+      _backward_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      _backward_pre_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      _buffers: {}
+      _forward_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      _forward_hooks_always_called: !!python/object/apply:collections.OrderedDict
+      - []
+      _forward_hooks_with_kwargs: !!python/object/apply:collections.OrderedDict
+      - []
+      _forward_pre_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      _forward_pre_hooks_with_kwargs: !!python/object/apply:collections.OrderedDict
+      - []
+      _is_full_backward_hook: null
+      _load_state_dict_post_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      _load_state_dict_pre_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      _modules: {}
+      _non_persistent_buffers_set: !!set {}
+      _parameters: {}
+      _state_dict_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      _state_dict_pre_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      training: true
+      transforms:
+      - !!python/object:torchvision.transforms.v2._geometry.Resize
+        _backward_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        _backward_pre_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        _buffers: {}
+        _forward_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        _forward_hooks_always_called: !!python/object/apply:collections.OrderedDict
+        - []
+        _forward_hooks_with_kwargs: !!python/object/apply:collections.OrderedDict
+        - []
+        _forward_pre_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        _forward_pre_hooks_with_kwargs: !!python/object/apply:collections.OrderedDict
+        - []
+        _is_full_backward_hook: null
+        _load_state_dict_post_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        _load_state_dict_pre_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        _modules: {}
+        _non_persistent_buffers_set: !!set {}
+        _parameters: {}
+        _state_dict_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        _state_dict_pre_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        antialias: false
+        interpolation: &id001 !!python/object/apply:torchvision.transforms.functional.InterpolationMode
+        - bilinear
+        max_size: null
+        size:
+        - 256
+        - 256
+        training: true
+    transform: !!python/object:torchvision.transforms.v2._container.Compose
+      _backward_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      _backward_pre_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      _buffers: {}
+      _forward_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      _forward_hooks_always_called: !!python/object/apply:collections.OrderedDict
+      - []
+      _forward_hooks_with_kwargs: !!python/object/apply:collections.OrderedDict
+      - []
+      _forward_pre_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      _forward_pre_hooks_with_kwargs: !!python/object/apply:collections.OrderedDict
+      - []
+      _is_full_backward_hook: null
+      _load_state_dict_post_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      _load_state_dict_pre_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      _modules: {}
+      _non_persistent_buffers_set: !!set {}
+      _parameters: {}
+      _state_dict_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      _state_dict_pre_hooks: !!python/object/apply:collections.OrderedDict
+      - []
+      training: true
+      transforms:
+      - !!python/object:torchvision.transforms.v2._geometry.Resize
+        _backward_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        _backward_pre_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        _buffers: {}
+        _forward_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        _forward_hooks_always_called: !!python/object/apply:collections.OrderedDict
+        - []
+        _forward_hooks_with_kwargs: !!python/object/apply:collections.OrderedDict
+        - []
+        _forward_pre_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        _forward_pre_hooks_with_kwargs: !!python/object/apply:collections.OrderedDict
+        - []
+        _is_full_backward_hook: null
+        _load_state_dict_post_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        _load_state_dict_pre_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        _modules: {}
+        _non_persistent_buffers_set: !!set {}
+        _parameters: {}
+        _state_dict_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        _state_dict_pre_hooks: !!python/object/apply:collections.OrderedDict
+        - []
+        antialias: true
+        interpolation: *id001
+        max_size: null
+        size:
+        - 256
+        - 256
+        training: true
+  _non_persistent_buffers_set: !!set {}
+  _parameters: {}
+  _state_dict_hooks: !!python/object/apply:collections.OrderedDict
+  - []
+  _state_dict_pre_hooks: !!python/object/apply:collections.OrderedDict
+  - []
+  training: true
+precision: 32-true
+preprocessor_configuration:
+  api: EfficientAd.configure_pre_processor(image_size=(resolution, resolution))
+  default_transform: Compose(    Resize(size=[256, 256], interpolation=InterpolationMode.BILINEAR,
+    antialias=True))
+  non_size_attributes:
+    _backward_hooks: OrderedDict()
+    _backward_pre_hooks: OrderedDict()
+    _buffers: '{}'
+    _forward_hooks: OrderedDict()
+    _forward_hooks_always_called: OrderedDict()
+    _forward_hooks_with_kwargs: OrderedDict()
+    _forward_pre_hooks: OrderedDict()
+    _forward_pre_hooks_with_kwargs: OrderedDict()
+    _is_full_backward_hook: None
+    _load_state_dict_post_hooks: OrderedDict()
+    _load_state_dict_pre_hooks: OrderedDict()
+    _modules: '{}'
+    _non_persistent_buffers_set: set()
+    _parameters: '{}'
+    _state_dict_hooks: OrderedDict()
+    _state_dict_pre_hooks: OrderedDict()
+    antialias: 'True'
+    interpolation: '<InterpolationMode.BILINEAR: ''bilinear''>'
+    max_size: None
+    training: 'True'
+  only_resize_changed: true
+  selected_transform: Compose(    Resize(size=[256, 256], interpolation=InterpolationMode.BILINEAR,
+    antialias=True))
+  signature: '(image_size: tuple[int, int] | None = None) -> anomalib.pre_processing.pre_processor.PreProcessor'
+  source: "    @classmethod\n    def configure_pre_processor(cls, image_size: tuple[int,\
+    \ int] | None = None) -> PreProcessor:\n        \"\"\"Configure default pre-processor\
+    \ for EfficientAd.\n\n        Note that ImageNet normalization is applied in the\
+    \ forward pass, not here.\n\n        Args:\n            image_size (tuple[int,\
+    \ int] | None, optional): Target image size.\n                Defaults to ``(256,\
+    \ 256)``.\n\n        Returns:\n            PreProcessor: Configured pre-processor\
+    \ with resize transform.\n        \"\"\"\n        image_size = image_size or (256,\
+    \ 256)\n        transform = Compose([Resize(image_size, antialias=True)])\n  \
+    \      return PreProcessor(transform=transform)\n"
+python_version: 3.10.21
+scheduler: StepLR
+scheduler_gamma: 0.1
+scheduler_step_size: 66500
+seed: 42
+teacher_out_channels: 384
+test_public_count: 456
+test_type: public
+torch_version: 2.9.1+cu126
+torchvision_version: 0.24.1+cu126
+train_count: 548
+training_steps: 70000
+validation_count: 76
+validation_during_fit: false
+visualizer: false
+weight_decay: 1.0e-05

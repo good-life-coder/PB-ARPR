@@ -1,0 +1,38 @@
+phase: Phase24C-R1
+geometry:
+- 256
+- 576
+pixel_budget: 147456
+seed: 42
+dataset: MVTec AD 2
+category: sheet_metal
+train_normal_count: 137
+validation_normal_count: 19
+model: EfficientAD-S
+model_size: small
+training_steps: 70000
+batch_size: 1
+num_workers: 0
+precision: 32-true
+optimizer: Adam
+learning_rate: 0.0001
+weight_decay: 1.0e-05
+scheduler: StepLR
+scheduler_step_size: 66500
+scheduler_gamma: 0.1
+max_epochs: 1000
+validation_during_fit: false
+final_full_validation: true
+early_stopping: false
+imagenette_dir: ./datasets/imagenette
+teacher_frozen: true
+padding: false
+pad_maps: true
+checkpoint_selection: final_70000_only
+test_access_during_training: 0
+reference: Phase24B frozen EfficientAD-S
+preprocessor: Compose(    Resize(size=[256, 576], interpolation=InterpolationMode.BILINEAR,
+  antialias=True))
+total_parameters: 8058628
+teacher_sha256: a16ded54719674435576aee641152616a640dfc6dc2b83115dab6e226610ae7d
+selection_sha256: e417a863886c5457be358b5fd9c3fb0a50bc02157aab409725587b7733dbb691

@@ -1,0 +1,8 @@
+group,statistic,value,unit,source
+square512,mean,0.6258333333333334,fraction,experiments_new/pbarpr_submission_audit_r1/evaluation_summary.json
+square512,std,0.01056935420379702,fraction,experiments_new/pbarpr_submission_audit_r1/evaluation_summary.json
+pb_arpr,mean,0.8210185185185185,fraction,experiments_new/pbarpr_submission_audit_r1/evaluation_summary.json
+pb_arpr,std,0.032907191166258405,fraction,experiments_new/pbarpr_submission_audit_r1/evaluation_summary.json
+paired_delta_pp,mean,19.518518518518515,pp,experiments_new/pbarpr_submission_audit_r1/evaluation_summary.json
+paired_delta_pp,std,4.227767030047498,pp,experiments_new/pbarpr_submission_audit_r1/evaluation_summary.json
+paired_delta_pp,positive_seeds,5,count,experiments_new/pbarpr_submission_audit_r1/evaluation_summary.json

@@ -1,0 +1,16 @@
+{
+  "image_auroc": 0.6342592592592593,
+  "pixel_auroc": 0.862060804513104,
+  "exact_aupro005": 0.13495946701792313,
+  "exact_aupro030": 0.32461139853027215,
+  "gt_region_count": 450,
+  "background_pixels": 506180190,
+  "exact_implementation_sha256": "3e6ebc80d400419cf3aaf00950e954ea165df2419c6ea895f4296013c67e11a1",
+  "image_score_definition": "OFFICIAL_PATCHCORE_WEIGHTED_NN_SCORE",
+  "native_restore": {
+    "interpolation": "bilinear",
+    "align_corners": false,
+    "smoothing": false,
+    "morphology": false
+  }
+}

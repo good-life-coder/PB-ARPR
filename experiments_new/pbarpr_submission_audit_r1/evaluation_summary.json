@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "summary": {
+    "square512": {
+      "mean": 0.6258333333333334,
+      "std": 0.01056935420379702
+    },
+    "pb_arpr": {
+      "mean": 0.8210185185185185,
+      "std": 0.032907191166258405
+    },
+    "paired_delta_pp": {
+      "mean": 19.518518518518515,
+      "std": 4.227767030047498,
+      "positive_seeds": 5
+    }
+  },
+  "timings": [
+    {
+      "seed": 42,
+      "geometry": "square512",
+      "wall_seconds": 7.570750100014266,
+      "inference_decode_preprocess_model_seconds": 0.0,
+      "max_old_score_reproduction_error": 0.0
+    },
+    {
+      "seed": 42,
+      "geometry": "pb_arpr",
+      "wall_seconds": 16.591062399966177,
+      "inference_decode_preprocess_model_seconds": 0.0,
+      "max_old_score_reproduction_error": 0.0
+    },
+    {
+      "seed": 43,
+      "geometry": "square512",
+      "wall_seconds": 27.01008630002616,
+      "inference_decode_preprocess_model_seconds": 19.99279850034509,
+      "max_old_score_reproduction_error": 0.0
+    },
+    {
+      "seed": 43,
+      "geometry": "pb_arpr",
+      "wall_seconds": 0.0006828000186942518,
+      "inference_decode_preprocess_model_seconds": 0.0,
+      "max_old_score_reproduction_error": 0.0
+    },
+    {
+      "seed": 44,
+      "geometry": "square512",
+      "wall_seconds": 25.988210599985905,
+      "inference_decode_preprocess_model_seconds": 19.429499999794643,
+      "max_old_score_reproduction_error": 0.0
+    },
+    {
+      "seed": 44,
+      "geometry": "pb_arpr",
+      "wall_seconds": 0.000722500029951334,
+      "inference_decode_preprocess_model_seconds": 0.0,
+      "max_old_score_reproduction_error": 0.0
+    },
+    {
+      "seed": 45,
+      "geometry": "square512",
+      "wall_seconds": 27.47569160000421,
+      "inference_decode_preprocess_model_seconds": 20.172897700278554,
+      "max_old_score_reproduction_error": 0.0
+    },
+    {
+      "seed": 45,
+      "geometry": "pb_arpr",
+      "wall_seconds": 0.0006828999612480402,
+      "inference_decode_preprocess_model_seconds": 0.0,
+      "max_old_score_reproduction_error": 0.0
+    },
+    {
+      "seed": 46,
+      "geometry": "square512",
+      "wall_seconds": 27.39811250002822,
+      "inference_decode_preprocess_model_seconds": 20.276002899860032,
+      "max_old_score_reproduction_error": 0.0
+    },
+    {
+      "seed": 46,
+      "geometry": "pb_arpr",
+      "wall_seconds": 0.0007501000072807074,
+      "inference_decode_preprocess_model_seconds": 0.0,
+      "max_old_score_reproduction_error": 0.0
+    }
+  ],
+  "seconds": 143.92869949998567,
+  "gpu_peak_allocated_mib": 936.30224609375,
+  "gpu_peak_reserved_mib": 1272.0,
+  "resources": {
+    "cpu_peak_working_set_mib": 2464.953125,
+    "cpu_peak_pagefile_mib": 5386.65625,
+    "output_bytes": 478539430
+  },
+  "created": "2026-10-14T21:52:30.943325+08:00",
+  "native_map_hash_note": "seed42 PB hash includes npy header; recomputed maps hash raw float32 bytes; PB43-46 native arrays not retained, exact original score reused with frozen evaluator SHA proof"
+}

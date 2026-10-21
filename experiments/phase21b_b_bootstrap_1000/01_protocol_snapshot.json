@@ -1,0 +1,39 @@
+{
+  "phase": "Phase21B-B",
+  "bootstrap_replicates": 1000,
+  "bootstrap_seed": 20260924,
+  "bootstrap_unit": "native_image",
+  "stratified": true,
+  "paired": true,
+  "normal_count": 24,
+  "anomaly_count": 90,
+  "methods": [
+    "PB-ARPR",
+    "EfficientAD-S",
+    "Square512",
+    "Tile4",
+    "PatchCore",
+    "FastFlow"
+  ],
+  "baseline_count": 5,
+  "ci_method": "percentile",
+  "percentiles": [
+    2.5,
+    97.5
+  ],
+  "percentile_interpolation": "linear",
+  "indices_sha256": "9e0db319c8b87dc1ca24dbbdf077e529b9087fbab062dbfa7547c8fa2406d8d2",
+  "predictions_read_only": true,
+  "bootstrap_duplicates_materialized": false,
+  "exact_pixel_auroc": true,
+  "exact_aupro005": true,
+  "exact_aupro030": true,
+  "gt_region_cache_created": true,
+  "total_gt_region_count": 450,
+  "pixel_subsampling_used": false,
+  "threshold_approximation_used": false,
+  "gt_region_modified": false,
+  "image_score_scope": "Method-level pipeline comparison; scoring grids/operators differ",
+  "fraction_delta_gt_zero_is_p_value": false,
+  "GPU_NOT_USED_FOR_BOOTSTRAP": true
+}

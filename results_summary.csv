@@ -1,0 +1,775 @@
+result_set,row,metric_or_field,value,evidence_status,source
+Table_01_Dataset_Statistics,0,Dataset,MVTec AD 2 / sheet_metal,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,0,Native H×W,1056×4224,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,0,Train normal,137,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,0,Validation normal,19,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,0,DEV,Not separate,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,0,Test / final blind,114,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,0,Evaluation normal,24,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,0,Evaluation anomaly,90,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,0,Mask availability,90 anomaly masks,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,0,Paper role,Main / equal-budget / external comparison,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,1,Dataset,KSDD2,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,1,Native H×W,Variable; median 637×229,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,1,Train normal,1876,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,1,Validation normal,209,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,1,DEV,455,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,1,Test / final blind,1004,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,1,Evaluation normal,894,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,1,Evaluation anomaly,110,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,1,Mask availability,GT files for all images (normal masks zero),HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,1,Paper role,Five-seed generalization,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,2,Dataset,Severstal,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,2,Native H×W,256×1600,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,2,Train normal,4131,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,2,Validation normal,590,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,2,DEV,1923,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,2,Test / final blind,6514,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,2,Evaluation normal,1181,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,2,Evaluation anomaly,5333,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,2,Mask availability,Official annotated-train RLE union masks,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_01_Dataset_Statistics,2,Paper role,Single-seed FINAL_BLIND transfer,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_01_Dataset_Statistics.csv
+Table_02_SheetMetal_Main_Comparison,0,Method,EfficientAD-S,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,0,Backbone,EfficientAD-S PDN small,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,0,Training strategy,70000 optimizer steps,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,0,Input (H×W),256×256,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,0,Image AUROC (%),61.57407407407407,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,0,Pixel AUROC (%),79.54308858628968,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,0,AUPRO@0.05 (%),6.405739440859998,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,0,AUPRO@0.30 (%),22.32777445949409,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,1,Method,PatchCore,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,1,Backbone,wide_resnet50_2.racm_in1k,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,1,Training strategy,"normal feature extraction +0.1coreset, no gradient training",HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,1,Input (H×W),256×256,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,1,Image AUROC (%),71.75925925925927,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,1,Pixel AUROC (%),83.57929189165463,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,1,AUPRO@0.05 (%),6.609417563153705,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,1,AUPRO@0.30 (%),21.420678256217712,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,2,Method,FastFlow,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,2,Backbone,ResNet18 a1_in1k,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,2,Training strategy,500epochs /2500 optimizer steps,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,2,Input (H×W),256×256,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,2,Image AUROC (%),48.61111111111111,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,2,Pixel AUROC (%),77.21238135589475,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,2,AUPRO@0.05 (%),1.04851920861626,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,2,AUPRO@0.30 (%),17.71766916142861,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,3,Method,PB-ARPR,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,3,Backbone,EfficientAD-S PDN small,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,3,Training strategy,70000 optimizer steps,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,3,Input (H×W),256×1024,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,3,Image AUROC (%),87.91666666666667,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,3,Pixel AUROC (%),84.09314808755626,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,3,AUPRO@0.05 (%),19.65215114171837,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_02_SheetMetal_Main_Comparison,3,AUPRO@0.30 (%),44.80723426914776,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_02_SheetMetal_Main_Comparison.csv
+Table_03_Geometry_Ablation,0,Strategy,EfficientAD-S,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,0,Input (H×W),256×256,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,0,Forwards/native,1,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,0,Pixels/native,65536,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,0,Image AUROC (%),61.57407407407407,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,0,Pixel AUROC (%),79.54308858628968,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,0,AUPRO@0.05 (%),6.405739440859998,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,0,AUPRO@0.30 (%),22.32777445949409,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,1,Strategy,Square384,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,1,Input (H×W),384×384,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,1,Forwards/native,1,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,1,Pixels/native,147456,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,1,Image AUROC (%),56.851851851851855,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,1,Pixel AUROC (%),81.35388138552024,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,1,AUPRO@0.05 (%),5.270407401461206,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,1,AUPRO@0.30 (%),24.860098278293247,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,2,Strategy,Square512,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,2,Input (H×W),512×512,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,2,Forwards/native,1,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,2,Pixels/native,262144,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,2,Image AUROC (%),61.01851851851852,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,2,Pixel AUROC (%),83.75377242439666,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,2,AUPRO@0.05 (%),5.31919071671678,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,2,AUPRO@0.30 (%),28.729813153469614,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,3,Strategy,Tile4,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,3,Input (H×W),4 × 256×256,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,3,Forwards/native,4,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,3,Pixels/native,262144,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,3,Image AUROC (%),70.69444444444444,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,3,Pixel AUROC (%),81.02055347207067,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,3,AUPRO@0.05 (%),10.956522417595485,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,3,AUPRO@0.30 (%),38.866832287446584,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,4,Strategy,PB-ARPR,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,4,Input (H×W),256×1024,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,4,Forwards/native,1,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,4,Pixels/native,262144,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,4,Image AUROC (%),87.91666666666667,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,4,Pixel AUROC (%),84.09314808755626,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,4,AUPRO@0.05 (%),19.65215114171837,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_03_Geometry_Ablation,4,AUPRO@0.30 (%),44.80723426914776,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_03_Geometry_Ablation.csv
+Table_04_Three_Dataset_Generalization,0,Dataset,sheet_metal,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,0,Method,EfficientAD-S,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,0,Estimate scope,Single seed42,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,0,Metric unit,%,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,0,Image AUROC,61.57407407407407,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,0,Pixel AUROC,79.54308858628968,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,0,AUPRO@0.05,6.405739440859998,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,0,AUPRO@0.30,22.32777445949409,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,1,Dataset,sheet_metal,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,1,Method,PB-ARPR,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,1,Estimate scope,Single seed42,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,1,Metric unit,%,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,1,Image AUROC,87.91666666666667,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,1,Pixel AUROC,84.09314808755626,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,1,AUPRO@0.05,19.65215114171837,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,1,AUPRO@0.30,44.80723426914776,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,2,Dataset,sheet_metal,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,2,Method,PB-ARPR minus baseline,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,2,Estimate scope,Single seed42; metric columns in pp,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,2,Metric unit,pp,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,2,Image AUROC,26.342592592592606,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,2,Pixel AUROC,4.550059501266568,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,2,AUPRO@0.05,13.246411700858374,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,2,AUPRO@0.30,22.479459809653672,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,3,Dataset,KSDD2,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,3,Method,EfficientAD-S,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,3,Estimate scope,Five seeds42–46; sample SD,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,3,Metric unit,%,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,3,Image AUROC,94.523897 ± 0.444447,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,3,Pixel AUROC,84.029593 ± 0.509973,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,3,AUPRO@0.05,65.226878 ± 0.063289,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,3,AUPRO@0.30,72.405385 ± 0.256840,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,4,Dataset,KSDD2,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,4,Method,PB-ARPR,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,4,Estimate scope,Five seeds42–46; sample SD,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,4,Metric unit,%,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,4,Image AUROC,95.619483 ± 0.262833,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,4,Pixel AUROC,85.439362 ± 0.173972,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,4,AUPRO@0.05,70.561533 ± 0.137623,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,4,AUPRO@0.30,79.685724 ± 0.083551,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,5,Dataset,KSDD2,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,5,Method,PB-ARPR minus baseline,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,5,Estimate scope,Five seeds42–46; sample SD; metric columns in pp,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,5,Metric unit,pp,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,5,Image AUROC,1.095587 ± 0.426497,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,5,Pixel AUROC,1.409769 ± 0.540898,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,5,AUPRO@0.05,5.334655 ± 0.180069,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,5,AUPRO@0.30,7.280339 ± 0.229759,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,6,Dataset,Severstal FINAL_BLIND,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,6,Method,EfficientAD-S,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,6,Estimate scope,Single seed42,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,6,Metric unit,%,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,6,Image AUROC,58.78848852693429,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,6,Pixel AUROC,67.61283463779954,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,6,AUPRO@0.05,5.0218023415359205,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,6,AUPRO@0.30,22.347094268089094,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,7,Dataset,Severstal FINAL_BLIND,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,7,Method,PB-ARPR,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,7,Estimate scope,Single seed42,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,7,Metric unit,%,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,7,Image AUROC,53.13975751765603,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,7,Pixel AUROC,77.89809577416226,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,7,AUPRO@0.05,14.435576179594001,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,7,AUPRO@0.30,47.00982936884506,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,8,Dataset,Severstal FINAL_BLIND,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,8,Method,PB-ARPR minus baseline,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,8,Estimate scope,Single seed42; metric columns in pp,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,8,Metric unit,pp,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,8,Image AUROC,-5.648731009278263,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,8,Pixel AUROC,10.285261136362722,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,8,AUPRO@0.05,9.41377383805808,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_04_Three_Dataset_Generalization,8,AUPRO@0.30,24.662735100755967,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_04_Three_Dataset_Generalization.csv
+Table_05_Efficiency_Complexity,0,Method,EfficientAD-S,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,0,Input (H×W),256×256,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,0,Forwards/native,1,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,0,Pixels/native,65536,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,0,Total Params,8058628,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,0,Trainable Params,5363712,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,0,Model FPS/native,28.52985976620111,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,0,E2E FPS/native,8.477335931833009,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,0,Peak allocated (MiB),873.17724609375,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,0,Peak reserved (MiB),984.0,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,0,Train/build time (s),15410.3594554,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,0,Model latency (ms) Mean±Std,35.052201 ± 0.252141,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,0,E2E latency (ms) Mean±Std,117.971975 ± 1.359751,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,0,Memory bank (MiB),Not applicable,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,0,GFLOPs/native,N/A,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,1,Method,Square384,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,1,Input (H×W),384×384,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,1,Forwards/native,1,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,1,Pixels/native,147456,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,1,Total Params,8058628,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,1,Trainable Params,5363712,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,1,Model FPS/native,13.130841986769141,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,1,E2E FPS/native,6.238160037380418,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,1,Peak allocated (MiB),899.05224609375,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,1,Peak reserved (MiB),1062.0,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,1,Train/build time (s),28965.5675835,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,1,Model latency (ms) Mean±Std,76.156771 ± 0.148366,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,1,E2E latency (ms) Mean±Std,160.306394 ± 0.809192,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,1,Memory bank (MiB),Not applicable,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,1,GFLOPs/native,N/A,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,2,Method,Square512,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,2,Input (H×W),512×512,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,2,Forwards/native,1,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,2,Pixels/native,262144,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,2,Total Params,8058628,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,2,Trainable Params,5363712,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,2,Model FPS/native,8.098656346243041,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,2,E2E FPS/native,4.828285327413279,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,2,Peak allocated (MiB),936.30224609375,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,2,Peak reserved (MiB),1304.0,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,2,Train/build time (s),43349.32380370004,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,2,Model latency (ms) Mean±Std,123.477363 ± 0.129102,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,2,E2E latency (ms) Mean±Std,207.115249 ± 0.860525,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,2,Memory bank (MiB),Not applicable,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,2,GFLOPs/native,N/A,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,3,Method,Tile4,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,3,Input (H×W),256×256,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,3,Forwards/native,4,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,3,Pixels/native,262144,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,3,Total Params,8058628,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,3,Trainable Params,5363712,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,3,Model FPS/native,7.7971628694115225,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,3,E2E FPS/native,4.113032633969767,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,3,Peak allocated (MiB),873.427734375,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,3,Peak reserved (MiB),960.0,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,3,Train/build time (s),11316.116466699983,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,3,Model latency (ms) Mean±Std,128.251857 ± 0.123185,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,3,E2E latency (ms) Mean±Std,243.129642 ± 0.115755,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,3,Memory bank (MiB),Not applicable,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,3,GFLOPs/native,N/A,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,4,Method,PatchCore,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,4,Input (H×W),256×256,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,4,Forwards/native,1,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,4,Pixels/native,65536,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,4,Total Params,24862528,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,4,Trainable Params,0,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,4,Model FPS/native,32.52676764916287,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,4,E2E FPS/native,9.123573907799377,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,4,Peak allocated (MiB),280.24072265625,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,4,Peak reserved (MiB),326.0,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,4,Train/build time (s),33.77150989999063,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,4,Model latency (ms) Mean±Std,30.745151 ± 0.239756,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,4,E2E latency (ms) Mean±Std,109.607970 ± 0.543923,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,4,Memory bank (MiB),82.1953125,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,4,GFLOPs/native,N/A,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,5,Method,FastFlow,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,5,Input (H×W),256×256,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,5,Forwards/native,1,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,5,Pixels/native,65536,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,5,Total Params,7669568,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,5,Trainable Params,3510528,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,5,Model FPS/native,40.13977667533999,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,5,E2E FPS/native,9.66347066441522,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,5,Peak allocated (MiB),57.9228515625,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,5,Peak reserved (MiB),66.0,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,5,Train/build time (s),4697.756039100001,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,5,Model latency (ms) Mean±Std,24.915630 ± 0.315770,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,5,E2E latency (ms) Mean±Std,103.490044 ± 1.085454,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,5,Memory bank (MiB),Not applicable,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,5,GFLOPs/native,N/A,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,6,Method,PB-ARPR,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,6,Input (H×W),256×1024,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,6,Forwards/native,1,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,6,Pixels/native,262144,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,6,Total Params,8058628,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,6,Trainable Params,5363712,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,6,Model FPS/native,9.501487840939783,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,6,E2E FPS/native,5.170442279912102,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,6,Peak allocated (MiB),933.73974609375,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,6,Peak reserved (MiB),1304.0,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,6,Train/build time (s),41009.95989289999,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,6,Model latency (ms) Mean±Std,105.246820 ± 0.151661,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,6,E2E latency (ms) Mean±Std,193.408018 ± 0.529056,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,6,Memory bank (MiB),Not applicable,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_05_Efficiency_Complexity,6,GFLOPs/native,N/A,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_05_Efficiency_Complexity.csv
+Table_06_Bootstrap_CI,0,Comparison,PB-ARPR vs EfficientAD-S,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,0,Delta Pixel AUROC (pp),4.550059501266568,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,0,Pixel AUROC 95% CI (pp),"[2.755247, 7.282442]",HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,0,Delta AUPRO@0.05 (pp),13.246411700858374,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,0,AUPRO@0.05 95% CI (pp),"[10.375930, 16.461540]",HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,0,Delta AUPRO@0.30 (pp),22.479459809653672,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,0,AUPRO@0.30 95% CI (pp),"[17.678982, 27.103444]",HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,1,Comparison,PB-ARPR vs Square512,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,1,Delta Pixel AUROC (pp),0.3393756631596023,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,1,Pixel AUROC 95% CI (pp),"[-2.082636, 3.814417]",HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,1,Delta AUPRO@0.05 (pp),14.332960425001593,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,1,AUPRO@0.05 95% CI (pp),"[11.421543, 17.714946]",HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,1,Delta AUPRO@0.30 (pp),16.07742111567815,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,1,AUPRO@0.30 95% CI (pp),"[11.422520, 20.702149]",HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,2,Comparison,PB-ARPR vs Tile4,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,2,Delta Pixel AUROC (pp),3.07259461548558,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,2,Pixel AUROC 95% CI (pp),"[2.013075, 4.654582]",HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,2,Delta AUPRO@0.05 (pp),8.695628724122887,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,2,AUPRO@0.05 95% CI (pp),"[6.369357, 11.357648]",HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,2,Delta AUPRO@0.30 (pp),5.940401981701177,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,2,AUPRO@0.30 95% CI (pp),"[4.197649, 7.920719]",HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,3,Comparison,PB-ARPR vs PatchCore,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,3,Delta Pixel AUROC (pp),0.5138561959016297,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,3,Pixel AUROC 95% CI (pp),"[-5.306936, 8.775771]",HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,3,Delta AUPRO@0.05 (pp),13.042733578564667,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,3,AUPRO@0.05 95% CI (pp),"[10.120779, 16.318751]",HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,3,Delta AUPRO@0.30 (pp),23.38655601293005,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,3,AUPRO@0.30 95% CI (pp),"[17.584618, 28.882996]",HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,4,Comparison,PB-ARPR vs FastFlow,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,4,Delta Pixel AUROC (pp),6.880766731661502,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,4,Pixel AUROC 95% CI (pp),"[2.528148, 13.096289]",HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,4,Delta AUPRO@0.05 (pp),18.60363193310211,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,4,AUPRO@0.05 95% CI (pp),"[14.940346, 22.397691]",HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,4,Delta AUPRO@0.30 (pp),27.08956510771915,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_06_Bootstrap_CI,4,AUPRO@0.30 95% CI (pp),"[19.959633, 33.646197]",HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_06_Bootstrap_CI.csv
+Table_S01_Severstal_DEV_to_BLIND,0,Scope,DEV,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S01_Severstal_DEV_to_BLIND.csv
+Table_S01_Severstal_DEV_to_BLIND,0,image_auroc delta (pp),-2.955738934733676,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S01_Severstal_DEV_to_BLIND.csv
+Table_S01_Severstal_DEV_to_BLIND,0,pixel_auroc delta (pp),9.24234185440902,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S01_Severstal_DEV_to_BLIND.csv
+Table_S01_Severstal_DEV_to_BLIND,0,aupro005 delta (pp),9.08591505620563,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S01_Severstal_DEV_to_BLIND.csv
+Table_S01_Severstal_DEV_to_BLIND,0,aupro030 delta (pp),22.31970995518698,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S01_Severstal_DEV_to_BLIND.csv
+Table_S01_Severstal_DEV_to_BLIND,0,improved,1171,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S01_Severstal_DEV_to_BLIND.csv
+Table_S01_Severstal_DEV_to_BLIND,0,worsened,71,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S01_Severstal_DEV_to_BLIND.csv
+Table_S01_Severstal_DEV_to_BLIND,0,unchanged,91,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S01_Severstal_DEV_to_BLIND.csv
+Table_S01_Severstal_DEV_to_BLIND,1,Scope,FINAL_BLIND,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S01_Severstal_DEV_to_BLIND.csv
+Table_S01_Severstal_DEV_to_BLIND,1,image_auroc delta (pp),-5.648731009278263,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S01_Severstal_DEV_to_BLIND.csv
+Table_S01_Severstal_DEV_to_BLIND,1,pixel_auroc delta (pp),10.285261136362722,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S01_Severstal_DEV_to_BLIND.csv
+Table_S01_Severstal_DEV_to_BLIND,1,aupro005 delta (pp),9.41377383805808,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S01_Severstal_DEV_to_BLIND.csv
+Table_S01_Severstal_DEV_to_BLIND,1,aupro030 delta (pp),24.662735100755967,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S01_Severstal_DEV_to_BLIND.csv
+Table_S01_Severstal_DEV_to_BLIND,1,improved,4797,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S01_Severstal_DEV_to_BLIND.csv
+Table_S01_Severstal_DEV_to_BLIND,1,worsened,193,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S01_Severstal_DEV_to_BLIND.csv
+Table_S01_Severstal_DEV_to_BLIND,1,unchanged,343,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S01_Severstal_DEV_to_BLIND.csv
+Table_S02_Failure_and_Paired_Summary,0,Dataset,sheet_metal,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,0,Scope,Phase22 curated recommended failures (not paired population),HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,0,Seed,42,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,0,Improved,Not reported,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,0,Worsened,Not reported,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,0,Unchanged,Not reported,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,0,Note,Two selected failure cases; no population rate inferred,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,1,Dataset,KSDD2,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,1,Scope,Official blind test anomalies,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,1,Seed,42,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,1,Improved,61,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,1,Worsened,36,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,1,Unchanged,13,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,1,Note,Frozen point PRO005 comparison,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,2,Dataset,KSDD2,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,2,Scope,Official blind test anomalies,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,2,Seed,43,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,2,Improved,63,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,2,Worsened,35,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,2,Unchanged,12,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,2,Note,Frozen point PRO005 comparison,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,3,Dataset,KSDD2,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,3,Scope,Official blind test anomalies,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,3,Seed,44,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,3,Improved,65,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,3,Worsened,31,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,3,Unchanged,14,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,3,Note,Frozen point PRO005 comparison,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,4,Dataset,KSDD2,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,4,Scope,Official blind test anomalies,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,4,Seed,45,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,4,Improved,58,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,4,Worsened,36,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,4,Unchanged,16,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,4,Note,Frozen point PRO005 comparison,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,5,Dataset,KSDD2,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,5,Scope,Official blind test anomalies,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,5,Seed,46,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,5,Improved,61,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,5,Worsened,34,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,5,Unchanged,15,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,5,Note,Frozen point PRO005 comparison,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,6,Dataset,Severstal,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,6,Scope,DEV,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,6,Seed,42,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,6,Improved,1171,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,6,Worsened,71,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,6,Unchanged,91,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,6,Note,Frozen point PRO005 comparison,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,7,Dataset,Severstal,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,7,Scope,FINAL_BLIND,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,7,Seed,42,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,7,Improved,4797,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,7,Worsened,193,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,7,Unchanged,343,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+Table_S02_Failure_and_Paired_Summary,7,Note,Frozen point PRO005 comparison,HISTORICAL_SNAPSHOT; Square Image AUROC superseded by unified audit where applicable,results/historical_tables/Table_S02_Failure_and_Paired_Summary.csv
+image_auroc_unified,0,seed,42,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,0,geometry,square512,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,0,n,114,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,0,normal,24,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,0,anomaly,90,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,0,old_image_auroc,0.6101851851851852,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,0,unified_image_auroc,0.6106481481481482,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,0,change_pp,0.04629629629629983,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,0,status,VERIFIED,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,0,mode,saved_map_native_max,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,1,seed,42,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,1,geometry,pb_arpr,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,1,n,114,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,1,normal,24,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,1,anomaly,90,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,1,old_image_auroc,0.8791666666666667,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,1,unified_image_auroc,0.8791666666666667,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,1,change_pp,0.0,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,1,status,VERIFIED,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,1,mode,saved_map_native_max,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,2,seed,43,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,2,geometry,square512,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,2,n,114,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,2,normal,24,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,2,anomaly,90,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,2,old_image_auroc,0.6300925925925925,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,2,unified_image_auroc,0.6300925925925925,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,2,change_pp,0.0,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,2,status,VERIFIED,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,2,mode,frozen_inference,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,3,seed,43,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,3,geometry,pb_arpr,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,3,n,114,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,3,normal,24,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,3,anomaly,90,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,3,old_image_auroc,0.8097222222222222,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,3,unified_image_auroc,0.8097222222222222,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,3,change_pp,0.0,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,3,status,VERIFIED,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,3,mode,reuse_saved_native_max,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,4,seed,44,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,4,geometry,square512,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,4,n,114,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,4,normal,24,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,4,anomaly,90,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,4,old_image_auroc,0.6310185185185185,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,4,unified_image_auroc,0.6310185185185185,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,4,change_pp,0.0,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,4,status,VERIFIED,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,4,mode,frozen_inference,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,5,seed,44,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,5,geometry,pb_arpr,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,5,n,114,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,5,normal,24,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,5,anomaly,90,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,5,old_image_auroc,0.799074074074074,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,5,unified_image_auroc,0.799074074074074,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,5,change_pp,0.0,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,5,status,VERIFIED,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,5,mode,reuse_saved_native_max,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,6,seed,45,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,6,geometry,square512,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,6,n,114,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,6,normal,24,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,6,anomaly,90,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,6,old_image_auroc,0.6375,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,6,unified_image_auroc,0.6375,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,6,change_pp,0.0,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,6,status,VERIFIED,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,6,mode,frozen_inference,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,7,seed,45,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,7,geometry,pb_arpr,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,7,n,114,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,7,normal,24,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,7,anomaly,90,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,7,old_image_auroc,0.8046296296296296,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,7,unified_image_auroc,0.8046296296296296,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,7,change_pp,0.0,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,7,status,VERIFIED,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,7,mode,reuse_saved_native_max,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,8,seed,46,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,8,geometry,square512,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,8,n,114,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,8,normal,24,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,8,anomaly,90,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,8,old_image_auroc,0.6194444444444445,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,8,unified_image_auroc,0.6199074074074075,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,8,change_pp,0.04629629629629983,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,8,status,VERIFIED,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,8,mode,frozen_inference,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,9,seed,46,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,9,geometry,pb_arpr,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,9,n,114,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,9,normal,24,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,9,anomaly,90,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,9,old_image_auroc,0.8125,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,9,unified_image_auroc,0.8125,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,9,change_pp,0.0,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,9,status,VERIFIED,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+image_auroc_unified,9,mode,reuse_saved_native_max,UNIFIED_AUTHORITATIVE,experiments_new/pbarpr_submission_audit_r1/image_auroc_unified.csv
+all_seed_results,0,seed,42,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,0,geometry,square512,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,0,training_steps,70000,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,0,batch_size,1,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,0,training_wall_time_sec,43349.32380370004,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,0,checkpoint_path,.\experiments\phase18b_sheet_metal_square512_70k_formal\checkpoints\final.ckpt,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,0,checkpoint_sha256,0e060a3b60741bda339850666050bf90bd7b348309ca4395cbc7b065f6356cb5,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,0,peak_cuda_allocated_mib,972.30224609375,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,0,peak_cuda_reserved_mib,1306.0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,0,nan_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,0,inf_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,0,protocol_violation_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,0,image_auroc,0.6101851851851852,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,0,pixel_auroc,0.8375377242439666,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,0,exact_aupro005,0.0531919071671678,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,0,exact_aupro030,0.28729813153469613,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,1,seed,42,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,1,geometry,pb_arpr,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,1,training_steps,70000,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,1,batch_size,1,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,1,training_wall_time_sec,41009.95989289999,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,1,checkpoint_path,.\experiments\phase13b_rectangular_256x1024_seed42\checkpoints\final.ckpt,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,1,checkpoint_sha256,35bc0bb101b97a2cda9e8ab4a97f358c0a8a0447445db640735a1029112415ee,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,1,peak_cuda_allocated_mib,2057.7041015625,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,1,peak_cuda_reserved_mib,2210.0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,1,nan_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,1,inf_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,1,protocol_violation_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,1,image_auroc,0.8791666666666668,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,1,pixel_auroc,0.8409314808755626,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,1,exact_aupro005,0.19652151141718371,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,1,exact_aupro030,0.4480723426914776,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,2,seed,43,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,2,geometry,square512,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,2,training_steps,70000,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,2,batch_size,1,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,2,training_wall_time_sec,43542.42607980012,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,2,checkpoint_path,.\experiments\phase24b_sheetmetal_5seed_geometry\seed43\square512\checkpoints\final.ckpt,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,2,checkpoint_sha256,c13158ca8079fba91fa3da84f2d3c92373f455501ab433c0c8215c4864e1ecc0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,2,peak_cuda_allocated_mib,972.30224609375,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,2,peak_cuda_reserved_mib,1306.0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,2,nan_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,2,inf_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,2,protocol_violation_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,2,image_auroc,0.6300925925925926,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,2,pixel_auroc,0.8393445736546257,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,2,exact_aupro005,0.0665586964433721,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,2,exact_aupro030,0.29730050251458573,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,3,seed,43,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,3,geometry,pb_arpr,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,3,training_steps,70000,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,3,batch_size,1,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,3,training_wall_time_sec,39845.85191269987,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,3,checkpoint_path,.\experiments\phase24b_sheetmetal_5seed_geometry\seed43\pb_arpr\checkpoints\final.ckpt,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,3,checkpoint_sha256,10db2d9e4b9bcd8f2d2a603c182e4986885f046bd8e92114e19a44010b6df405,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,3,peak_cuda_allocated_mib,2044.07763671875,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,3,peak_cuda_reserved_mib,2210.0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,3,nan_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,3,inf_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,3,protocol_violation_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,3,image_auroc,0.8097222222222221,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,3,pixel_auroc,0.8386923029044533,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,3,exact_aupro005,0.1886646894668241,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,3,exact_aupro030,0.43831696274906334,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,4,seed,44,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,4,geometry,square512,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,4,training_steps,70000,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,4,batch_size,1,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,4,training_wall_time_sec,43257.212922200095,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,4,checkpoint_path,.\experiments\phase24b_sheetmetal_5seed_geometry\seed44\square512\checkpoints\final.ckpt,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,4,checkpoint_sha256,d7c0142d98b063b9624a5785f32eede3f176a035e4d9f8a8c7913288eed2323d,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,4,peak_cuda_allocated_mib,2061.3349609375,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,4,peak_cuda_reserved_mib,2210.0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,4,nan_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,4,inf_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,4,protocol_violation_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,4,image_auroc,0.6310185185185185,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,4,pixel_auroc,0.8451938408768183,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,4,exact_aupro005,0.06113226687445497,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,4,exact_aupro030,0.3018534722452388,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,5,seed,44,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,5,geometry,pb_arpr,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,5,training_steps,70000,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,5,batch_size,1,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,5,training_wall_time_sec,39956.52593480004,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,5,checkpoint_path,.\experiments\phase24b_sheetmetal_5seed_geometry\seed44\pb_arpr\checkpoints\final.ckpt,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,5,checkpoint_sha256,dcd085f126321ece372216ddae6f84b1f5db27336a9804d8c606539afd9e9c4c,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,5,peak_cuda_allocated_mib,2058.7900390625,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,5,peak_cuda_reserved_mib,2210.0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,5,nan_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,5,inf_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,5,protocol_violation_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,5,image_auroc,0.799074074074074,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,5,pixel_auroc,0.8405583385936435,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,5,exact_aupro005,0.18372337200171265,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,5,exact_aupro030,0.4395040133298972,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,6,seed,45,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,6,geometry,square512,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,6,training_steps,70000,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,6,batch_size,1,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,6,training_wall_time_sec,43240.47738449997,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,6,checkpoint_path,.\experiments\phase24b_sheetmetal_5seed_geometry\seed45\square512\checkpoints\final.ckpt,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,6,checkpoint_sha256,177c2a01a7854144cf2f6606de526e8c34392036071b43d271203f09a3bbfd93,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,6,peak_cuda_allocated_mib,2062.1455078125,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,6,peak_cuda_reserved_mib,2210.0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,6,nan_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,6,inf_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,6,protocol_violation_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,6,image_auroc,0.6375,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,6,pixel_auroc,0.8379228133314234,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,6,exact_aupro005,0.058008000840437474,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,6,exact_aupro030,0.2908665961362576,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,7,seed,45,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,7,geometry,pb_arpr,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,7,training_steps,70000,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,7,batch_size,1,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,7,training_wall_time_sec,39744.99518340011,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,7,checkpoint_path,.\experiments\phase24b_sheetmetal_5seed_geometry\seed45\pb_arpr\checkpoints\final.ckpt,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,7,checkpoint_sha256,c99b3cd163cb22104975f8ab669b0005c96e24528c4097de24aef1a996f67152,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,7,peak_cuda_allocated_mib,2044.5126953125,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,7,peak_cuda_reserved_mib,2210.0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,7,nan_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,7,inf_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,7,protocol_violation_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,7,image_auroc,0.8046296296296297,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,7,pixel_auroc,0.8362686005124813,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,7,exact_aupro005,0.20303260788868743,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,7,exact_aupro030,0.4347577988867801,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,8,seed,46,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,8,geometry,square512,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,8,training_steps,70000,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,8,batch_size,1,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,8,training_wall_time_sec,43225.28110729996,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,8,checkpoint_path,.\experiments\phase24b_sheetmetal_5seed_geometry\seed46\square512\checkpoints\final.ckpt,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,8,checkpoint_sha256,41b1717272324b3be3a9f3ed2b6bcf8d19b10111cc786a98a0270d134c64d136,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,8,peak_cuda_allocated_mib,2064.50439453125,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,8,peak_cuda_reserved_mib,2210.0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,8,nan_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,8,inf_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,8,protocol_violation_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,8,image_auroc,0.6194444444444445,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,8,pixel_auroc,0.8335798766897625,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,8,exact_aupro005,0.03984798856430255,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,8,exact_aupro030,0.27482973819907525,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,9,seed,46,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,9,geometry,pb_arpr,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,9,training_steps,70000,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,9,batch_size,1,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,9,training_wall_time_sec,39892.58465909981,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,9,checkpoint_path,.\experiments\phase24b_sheetmetal_5seed_geometry\seed46\pb_arpr\checkpoints\final.ckpt,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,9,checkpoint_sha256,cbaca23f9aedc3ebd8ec04e3c18f725f30a93cc0a538c3b1f4724d71be15171d,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,9,peak_cuda_allocated_mib,2059.00390625,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,9,peak_cuda_reserved_mib,2210.0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,9,nan_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,9,inf_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,9,protocol_violation_count,0,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,9,image_auroc,0.8125000000000001,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,9,pixel_auroc,0.8438717807794353,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,9,exact_aupro005,0.17517164610258554,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+all_seed_results,9,exact_aupro030,0.4395829410627574,FROZEN; historical Image AUROC caveat applies,experiments/phase24b_sheetmetal_5seed_geometry/all_seed_results.csv
+multibudget_results,0,budget,LOW,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,0,pixels,65536,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,0,square_geometry,256x256,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,0,rect_geometry,N/A,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,0,rect_status,NO_FEASIBLE_NONSQUARE,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,0,square_image_auroc_percent,61.57407407407407,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,0,rect_image_auroc_percent,N/A,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,0,delta_image_auroc_pp,N/A,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,0,square_pixel_auroc_percent,79.54308858628968,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,0,rect_pixel_auroc_percent,N/A,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,0,delta_pixel_auroc_pp,N/A,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,0,square_exact_aupro005_percent,6.405739440859998,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,0,rect_exact_aupro005_percent,N/A,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,0,delta_exact_aupro005_pp,N/A,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,0,square_exact_aupro030_percent,22.32777445949409,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,0,rect_exact_aupro030_percent,N/A,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,0,delta_exact_aupro030_pp,N/A,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,1,budget,MID,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,1,pixels,147456,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,1,square_geometry,384x384,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,1,rect_geometry,256x576,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,1,rect_status,FORMAL_COMPLETE,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,1,square_image_auroc_percent,56.851851851851855,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,1,rect_image_auroc_percent,69.49074074074075,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,1,delta_image_auroc_pp,12.638888888888893,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,1,square_pixel_auroc_percent,81.35388138552024,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,1,rect_pixel_auroc_percent,82.86492124180941,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,1,delta_pixel_auroc_pp,1.5110398562891731,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,1,square_exact_aupro005_percent,5.270407401461206,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,1,rect_exact_aupro005_percent,13.489315080326458,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,1,delta_exact_aupro005_pp,8.218907678865252,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,1,square_exact_aupro030_percent,24.860098278293247,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,1,rect_exact_aupro030_percent,37.76548591371744,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,1,delta_exact_aupro030_pp,12.905387635424194,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,2,budget,HIGH,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,2,pixels,262144,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,2,square_geometry,512x512,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,2,rect_geometry,256x1024,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,2,rect_status,FROZEN_REFERENCE,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,2,square_image_auroc_percent,61.01851851851852,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,2,rect_image_auroc_percent,87.91666666666667,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,2,delta_image_auroc_pp,26.898148148148152,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,2,square_pixel_auroc_percent,83.75377242439666,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,2,rect_pixel_auroc_percent,84.09314808755626,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,2,delta_pixel_auroc_pp,0.33937566315960055,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,2,square_exact_aupro005_percent,5.31919071671678,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,2,rect_exact_aupro005_percent,19.65215114171837,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,2,delta_exact_aupro005_pp,14.332960425001591,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,2,square_exact_aupro030_percent,28.729813153469614,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,2,rect_exact_aupro030_percent,44.80723426914776,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+multibudget_results,2,delta_exact_aupro030_pp,16.07742111567815,FROZEN; historical Image AUROC caveat applies,experiments/phase24c_r1_architecture_constrained_budget/multibudget_results.csv
+per_seed_metrics,0,seed,42,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,0,method,STD,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,0,image_auroc,0.9418446207036811,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,0,pixel_auroc,0.8388761824992909,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,0,aupro005,0.652455349273078,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,0,aupro030,0.7216803201587811,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,0,approximation,False,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,1,seed,42,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,1,method,RECT,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,1,image_auroc,0.9529082774049216,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,1,pixel_auroc,0.8549536334091019,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,1,aupro005,0.7034762758276591,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,1,aupro030,0.7955466469905517,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,1,approximation,False,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,2,seed,43,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,2,method,STD,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,2,image_auroc,0.9501321944274964,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,2,pixel_auroc,0.8365224671934134,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,2,aupro005,0.6517799399312827,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,2,aupro030,0.7232532969045493,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,2,approximation,False,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,3,seed,43,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,3,method,RECT,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,3,image_auroc,0.9592027659141753,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,3,pixel_auroc,0.8525270280213832,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,3,aupro005,0.7061000426719908,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,3,aupro030,0.7966255173025196,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,3,approximation,False,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,4,seed,44,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,4,method,STD,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,4,image_auroc,0.9399532235102704,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,4,pixel_auroc,0.8395045047802693,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,4,aupro005,0.6515212721444559,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,4,aupro030,0.7239718982388255,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,4,approximation,False,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,5,seed,44,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,5,method,RECT,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,5,image_auroc,0.958155379296319,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,5,pixel_auroc,0.8571003734438639,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,5,aupro005,0.7069200635432343,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,5,aupro030,0.7977580685705824,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,5,approximation,False,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,6,seed,45,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,6,method,STD,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,6,image_auroc,0.9491864958307911,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,6,pixel_auroc,0.8491721191150104,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,6,aupro005,0.6524630610939525,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,6,aupro030,0.7284025806969924,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,6,approximation,False,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,7,seed,45,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,7,method,RECT,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,7,image_auroc,0.9564775269473255,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,7,pixel_auroc,0.8536626893653583,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,7,aupro005,0.7064979804564078,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,7,aupro030,0.7971347857704069,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,7,approximation,False,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,8,seed,46,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,8,method,STD,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,8,image_auroc,0.9450782997762864,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,8,pixel_auroc,0.8374043832419289,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,8,aupro005,0.6531242964098882,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,8,aupro030,0.7229611459392503,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,8,approximation,False,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,9,seed,46,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,9,method,RECT,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,9,image_auroc,0.954230221679886,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,9,pixel_auroc,0.8537243760007444,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,9,aupro005,0.7050823056099659,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,9,aupro030,0.7972211980718673,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+per_seed_metrics,9,approximation,False,FROZEN; historical Image AUROC caveat applies,experiments/phase15e_ksdd2_blind_test/per_seed_metrics.csv
+unified_image_auroc_summary,0,square512.mean,0.6258333333333334,UNIFIED_AUTHORITATIVE; unit=fraction,experiments_new/pbarpr_submission_audit_r1/evaluation_summary.json
+unified_image_auroc_summary,1,square512.std,0.01056935420379702,UNIFIED_AUTHORITATIVE; unit=fraction,experiments_new/pbarpr_submission_audit_r1/evaluation_summary.json
+unified_image_auroc_summary,2,pb_arpr.mean,0.8210185185185185,UNIFIED_AUTHORITATIVE; unit=fraction,experiments_new/pbarpr_submission_audit_r1/evaluation_summary.json
+unified_image_auroc_summary,3,pb_arpr.std,0.032907191166258405,UNIFIED_AUTHORITATIVE; unit=fraction,experiments_new/pbarpr_submission_audit_r1/evaluation_summary.json
+unified_image_auroc_summary,4,paired_delta_pp.mean,19.518518518518515,UNIFIED_AUTHORITATIVE; unit=pp,experiments_new/pbarpr_submission_audit_r1/evaluation_summary.json
+unified_image_auroc_summary,5,paired_delta_pp.std,4.227767030047498,UNIFIED_AUTHORITATIVE; unit=pp,experiments_new/pbarpr_submission_audit_r1/evaluation_summary.json
+unified_image_auroc_summary,6,paired_delta_pp.positive_seeds,5,UNIFIED_AUTHORITATIVE; unit=count,experiments_new/pbarpr_submission_audit_r1/evaluation_summary.json

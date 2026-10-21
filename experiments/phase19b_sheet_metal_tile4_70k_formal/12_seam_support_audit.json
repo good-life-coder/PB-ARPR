@@ -1,0 +1,49 @@
+{
+  "FULL_PREDICTION_COVERAGE": true,
+  "FULL_VALID_SUPPORT_COVERAGE": false,
+  "RAW_STITCH_HAS_ALL_PIXELS": true,
+  "GT_PIXELS_ALL_EVALUABLE": true,
+  "SEAM_SUPPORT_LIMITATION": true,
+  "internal_seam_interpretation": "Finite numeric predictions exist; padding-derived support-invalid region, not missing map values",
+  "model_support_border_px": 14,
+  "native_observed_border_px": 56,
+  "internal_support_invalid_width_px": 112,
+  "pad_maps": true,
+  "feature_map_padding_each_side": 4,
+  "full_native_shape": [
+    1056,
+    4224
+  ],
+  "raw_coverage_min": 1,
+  "raw_coverage_max": 1,
+  "raw_uncovered_pixels": 0,
+  "raw_multiple_coverage_pixels": 0,
+  "raw_stitch_crops_14px": false,
+  "all_pixels_retained": true,
+  "seam_or_gt_exclusion": false,
+  "normalization_note": "Quantiles are unset as in Phase09B smoke. With fitted quantiles artificial zero borders may become constant nonzero; nonzero is not proof of valid prediction support.",
+  "validity_definition": "Non-artificial-zero support, not a guarantee of accuracy or fully uncontaminated receptive fields. Bilinear transition pixels mix padding with actual scores.",
+  "historical_smoke_maps": {
+    "normal": {
+      "path": "experiments/phase09b_p0_tile_smoke/smoke_predictions/normal_stitched.npy",
+      "sha256": "7cc3731b3d164615bc45ef898fc64f7a7622bae003d2ff558fdd6112db38e376",
+      "shape": [
+        1056,
+        4224
+      ],
+      "finite": true
+    },
+    "anomaly": {
+      "path": "experiments/phase09b_p0_tile_smoke/smoke_predictions/anomaly_stitched.npy",
+      "sha256": "addb3df4058b5c5e3bca3ac2be20c1f13af6cf09e98eed4dc9a127ad3fe20f5d",
+      "shape": [
+        1056,
+        4224
+      ],
+      "finite": true
+    }
+  },
+  "synthetic_cpu_stitch_test": "PASS",
+  "new_model_forwards": 0,
+  "geometry_changed": false
+}

@@ -1,0 +1,24 @@
+{
+  "unit": "native image",
+  "paired": true,
+  "stratified": true,
+  "replacement": true,
+  "seed": 20260926,
+  "replicates": 1000,
+  "normal_count": 24,
+  "anomaly_count": 90,
+  "normal_draws": 24,
+  "anomaly_draws": 90,
+  "shared_indices": true,
+  "native_shape": [
+    1056,
+    4224
+  ],
+  "pixel_subsampling": false,
+  "threshold_approximation": false,
+  "bootstrap_metric": "Rect minus Square",
+  "confidence_interval": "percentile 2.5% and 97.5%",
+  "success_threshold": null,
+  "weighted_module_sha256": "d28bf7957b996ac2d09c8235b19174ed8600622aae9801d592c8747f338673c9",
+  "exact_module_sha256": "3e6ebc80d400419cf3aaf00950e954ea165df2419c6ea895f4296013c67e11a1"
+}
